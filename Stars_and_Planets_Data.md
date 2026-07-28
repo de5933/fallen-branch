@@ -83,25 +83,27 @@ Units: stellar mass/radius in solar units (M☉/R☉); planetary mass/radius in 
 | Danu Mannannán | Gas giant | 253.0 M⊕ | 68,725.3 km | 21.35 m/s² (2.18× Earth) | 6.04 AU | 1 bar (by definition) | 78.6 K | TBD | ~10–16 hr (estimate) | N/A (Safford orbits it directly) | — |
 | Danu f | Ice giant | 14.24 M⊕ | 22,303.7 km | 11.41 m/s² (1.16× Earth) | 15.37 AU | 1 bar (by definition) | 49.3 K | TBD | ~14–18 hr (estimate) | N/A (uninhabited) | TBD |
  
-*Note: Boann (Mannannán's ocean moon, populated water-operations site) is a moon, not a planet, so excluded per your request — say the word if you want a moons table too. Its comm delay to Safford is <10 sec (co-orbital), already in the bible.*
+*Note: Boann (Mannannán's ocean moon, populated water-operations site) is a moon, not a planet, so excluded from the planet grid above — say the word if you want a moons table. Its comm delay to Safford is <10 sec (co-orbital), already in the bible. Physical values locked this session (bible §7.1): surface gravity 0.02g (0.196 m/s²), mass ~8.9 × 10²⁰ kg (~0.00015 M⊕), radius 550 km (working estimate), bulk density ~1,275 kg/m³ — consistent with a real ice/rock body of comparable size (cf. Rhea, 1,236 kg/m³). Ice shell ~3–5 km thick at the borehole site (a deliberately chosen tidal-heating hotspot).*
  
 ---
  
 ## Obatala System
  
-**Safford Obatala station population (bible-established): a few hundred to ~900 rotational crew** (medium-tier, single-ring habitat)
+**Safford Obatala station population (bible-established): a few hundred to ~900 rotational crew** (medium-tier, single-ring habitat). **Relocated** (this session) from the 2–4 AU asteroid belt to a minor moon co-orbital with Olokun, Phobos/Deimos-style — see Olokun's row below and the Worldbuilding Bible §7.2.
  
 | Body | Type | Mass | Radius | Surface Gravity | Semi-Major Axis | Atm. Pressure | Eq. Temperature | Atm. Composition | Solar Day | Comm Delay from Safford | Population |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | Obatala | G8V star | 0.87 M☉ | 0.901 R☉ | 293.7 m/s² (29.9× Earth) | — | — | Teff 5,240 K | — | TBD | — | — |
 | Obatala b | Rocky planet | 0.338 M⊕ | 4,088.0 km | 8.07 m/s² (0.82× Earth) | 0.097 AU | TBD | 703.7 K | TBD | 11.87 days (= orbital period, tidally locked) | N/A (uninhabited) | TBD |
-| Obatala Yemoja | Ocean world | 1.28 M⊕ | 7,293.6 km | 9.59 m/s² (0.98× Earth) | 0.452 AU | TBD | 326.4 K | Thick (bible-qualitative, traps heat) | TBD | 20.8–28.3 min one-way | TBD (agricultural population center, no hard figure) |
+| Obatala Yemoja | Ocean world | 1.28 M⊕ | 7,293.6 km | 9.59 m/s² (0.98× Earth) | 0.452 AU | TBD | 326.4 K | Thick (bible-qualitative, traps heat) | TBD | **61.5–96.5 min one-way** (revised — now the isolated, slow-coupled world following Safford's relocation to Olokun) | TBD (agricultural population center, no hard figure) |
 | Obatala d | Rocky planet | 0.555 M⊕ | 4,724.7 km | 9.90 m/s² (1.01× Earth) | 0.870 AU | TBD | 235.2 K | TBD | TBD | N/A (uninhabited) | TBD |
 | Obatala e | Rocky planet | 0.678 M⊕ | 5,539.9 km | 8.80 m/s² (0.90× Earth) | 1.14 AU | TBD | 205.5 K | TBD | TBD | N/A (uninhabited) | TBD |
-| Obatala f | Gas giant | 214.0 M⊕ | 59,496.4 km | 24.10 m/s² (2.46× Earth) | 8.07 AU | 1 bar (by definition) | 77.2 K | TBD | ~10–16 hr (estimate) | N/A (uninhabited) | — |
-| Obatala Olokun | Methane/ethane sea world | 1.19 M⊕ | 5,809.6 km | 14.05 m/s² (1.43× Earth) | 18.76 AU | TBD | 50.7 K | TBD | TBD | 131.5–180.6 min one-way | TBD (likely minimal/automated per bible) |
+| Obatala f | Gas giant | 214.0 M⊕ | 59,496.4 km | 24.10 m/s² (2.46× Earth) | 8.07 AU | 1 bar (by definition) | 77.2 K | TBD | ~10–16 hr (estimate) | N/A (uninhabited) | Minor Trelium source only — not worth developing (bible §7.2) |
+| Obatala Olokun | Liquid methane/ethane ocean world | **0.69 M⊕** (revised) | **6,200 km** (revised) | **7.85 m/s² (0.80× Earth)** (revised — locked this session) | **~9–10 AU** (revised inward from 18.76 AU) | **~2–5 bar, methane/ethane-dominant** (revised) | **~90 K** (revised — held above methane/ethane freezing point by dense atmosphere + orbital placement; supports a liquid ocean) | Methane/ethane-dominant, dense | TBD | **under ~10 sec one-way** (revised — Safford now co-orbital, Phobos/Deimos-style) | TBD (hydrocarbon extraction + growing post-collapse hydroponic-agriculture workforce, bible §7.2) |
 | Obatala h | Icy dwarf | 0.021 M⊕ | 1,348.7 km | 4.60 m/s² (0.47× Earth) | 26.13 AU | TBD | 42.9 K | TBD | TBD | N/A (uninhabited) | TBD |
 | Obatala i | Icy dwarf | 0.015 M⊕ | 1,212.1 km | 4.13 m/s² (0.42× Earth) | 32.67 AU | TBD | 38.4 K | TBD | TBD | N/A (uninhabited) | TBD |
+ 
+*Olokun's revised values (0.8g, 0.69 M⊕, 6,200 km radius, bulk density ~5,520 kg/m³, 22° axial tilt, ~0.15–0.20 eccentricity, ~27–30 year orbital period) supersede the earlier 18.76 AU / 1.43g / near-90° tilt entry. Axial tilt and eccentricity aren't columns in this grid yet — noted here and in the bible §7.2 pending a possible grid restructure. Eq. temperature (~90 K) is a target value consistent with a liquid ocean, not a blackbody calc — a proper greenhouse/albedo pass is still owed, same caveat as Lugh's stale 504.7 K figure.*
  
 ---
  
@@ -125,7 +127,9 @@ Units: stellar mass/radius in solar units (M☉/R☉); planetary mass/radius in 
 |---|---|---|---|
 | Ereshkigal | Enlil | 18–34 sec | 35–65 sec |
 | Boann *(moon, for reference)* | Danu | <10 sec | <15 sec |
-| Yemoja | Obatala | 20.8–28.3 min | 41.5–56.6 min |
+| Olokun *(moon-scale; Safford relocated here, revised this session)* | Obatala | under ~10 sec | under ~15 sec |
 | Lugh | Danu | 49.0–51.5 min | 1.63–1.72 hr |
-| Olokun | Obatala | 131.5–180.6 min | 4.38–6.02 hr |
+| Yemoja *(revised this session — now the isolated world)* | Obatala | 61.5–96.5 min | 2.05–3.22 hr |
+ 
+*Yemoja and Olokun swapped roles this session: Safford Obatala relocated from the asteroid belt to a minor moon co-orbital with Olokun (bible §7.2), making Olokun the fast-coupled, tightly-controlled world and Yemoja the slow-coupled, autonomous one — the reverse of the original table above.*
  

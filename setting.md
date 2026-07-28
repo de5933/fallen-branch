@@ -266,7 +266,17 @@ Three constant material facts of life on Lugh — the slowness of its light, the
 **Underneath all of this: a quiet, specific resentment of being unseen.** Lugh feeds the 25,000–35,000 people on Safford, and by rights that should command real respect — but the people eating that food never meet the people who grew it, thanks to distance and a corporate culture that treats Lugh as a resource line item rather than a place with a name and a face. This is a different flavor of grievance from Safford's own direct, felt corporate control (§4.2) — less about being controlled, more about being taken for granted by people who have never once watched the light shift across a twenty-two-day cycle, or checked a neighbor's seal before stepping outside.
 
 *Note on eq-temperature: the data grid's 504.7 K figure for Lugh is a no-greenhouse blackbody average and predates this atmosphere; a real CO2 atmosphere at this thickness would trap meaningfully more heat than that number reflects. Treat 504.7 K as a stale floor, not the actual expected surface temperature, until a proper radiative-transfer pass is done.*
- 
+
+### Boann: World and Settlement
+
+Boann (Mannannán I) is a tidally-heated subsurface ocean moon — a differentiated body with an icy shell, a thick liquid-water layer beneath that shell, and a modest silicate core. Surface gravity is 0.02g (0.196 m/s²), implying a mass of roughly 8.9 × 10²⁰ kg (~0.00015 M⊕) at a radius of 550 km, and a bulk density of ~1,275 kg/m³ — physically consistent with a real ice/rock body of this size (Saturn's actual moon Rhea, comparable radius, has a density of 1,236 kg/m³). The settlement is built around a single deep borehole, sunk through roughly 3–5 km of ice at a deliberately chosen tidal-heating hotspot where the shell thins locally, opening into the subsurface ocean proper. A submerged station sits at the ocean floor above hydrothermal-vent fields; habitat cavities are carved into the ice at intervals along the shaft.
+
+**Excavation is mechanical, not thermal, and it pays for itself.** Melting a shaft this size would cost on the order of 6,000+ GJ and creates an unstable standing-water problem in near-vacuum surface conditions (flash-boiling at the top, refreezing lower down). Mechanical cutting — a rotary head fracturing ice at the working face, hauled to surface by cable hoist — is roughly two orders of magnitude cheaper: for a representative 2 m-diameter, 4 km shaft (~12,500 m³), fracture energy runs ~63 GJ and lift energy against Boann's 0.02g gravity is a negligible ~4.5 GJ, for a total of roughly 67 GJ. Recovered ice is hauled to the surface and melted in controlled tanks, not left standing in the shaft. This makes habitat expansion nearly self-funding: every cubic meter of new chamber space produces a cubic meter of exactly the resource the colony exists to export — excavation *is* the harvest. The one exception is the final few meters of breakthrough into the ocean itself, deliberately melted under a sealed docking collar rather than mechanically punched through, to engineer a controlled transition instead of risking a blowout.
+
+**0.02g forces a rotational population.** This is deep into ISS-microgravity territory, well below the threshold for maintaining human bone density and muscle mass over anything longer than months, and a stationary borehole has no mechanism for artificial gravity the way Safford's rotating rings do. Boann's population is necessarily short-tour and rotational rather than multi-generational — workers serve tours of months to a couple of years, then rotate out to a higher-gravity settlement to recover. This is a harder, more fundamental constraint than politics or comm-lag geography, and it's the real reason Boann reads as the network's weakest, least independent settlement (§11.0): it structurally cannot grow the kind of rooted, multi-generational population that gives Lugh its leverage.
+
+**Hazards and culture.** Tidal flexing produces ongoing ice-shell stress (icequakes, shaft fatigue) as a slow, ever-present background hazard; the submerged station and lower shaft carry genuine pressure-differential risk, closer to submarine hazards than anything Lugh or Safford deals with. There is no daylight cycle of any kind — not even Lugh's slow twilight — only the constant artificial day of electric light and the psychological weight of kilometers of ice overhead. Real-world analogues (submarine crews, Antarctic winter-over staff) suggest a tight-knit, technically rigorous work culture with dark humor as a coping mechanism. Where Lugh's culture centers on cultivation, patience, and generational rootedness, Boann's centers on competence and endurance under constraint — a rig crew's ethic, not a farmer's. This, combined with Boann's near-instant comm coupling to Safford (§14), leaves it structurally closer to Enlil's tight corporate subordination than to Lugh's independence, and is the underlying reason it produces no rival leader after the collapse (§11.0), instead being absorbed into Lugh's authority.
+
 ## 7.2 Obatala System — Yoruba mythology
  
 **Star:** Obatala, G8V–K0V, ~0.9 M☉ (single star, no binary companion)
@@ -276,15 +286,25 @@ Three constant material facts of life on Lugh — the slowness of its light, the
 - Obatala b — rocky, molten, tidally locked, ~0.1 AU
 - Yemoja (Obatala c) — hot, high-pressure ocean world, ~0.4–0.5 AU. Thick atmosphere traps heat, keeps water liquid despite proximity and heat. Named for the orisha mother of waters.
 - Obatala d, e — unremarkable rocky worlds, ~0.7–1.2 AU
-- Asteroid belt — ~2–4 AU
-- Obatala f — gas giant, ~8 AU
+- Asteroid belt — ~2–4 AU (source of imported ice for Olokun's agriculture, see below)
+- Obatala f — gas giant, ~8 AU. A minor Trelium source at best, nothing like Goibniu's rich helium enrichment (§6) — not presently worth the infrastructure to exploit.
 - Obatala f I, II — minor moons
-- Olokun (Obatala g) — methane/ethane sea world, ~90° axial tilt (decades-long extreme seasons), ~18–20 AU. Tilt explained by gravitational interaction with another planet in the system during formation, analogous to the leading real hypothesis for Uranus's tilt — not a binary companion. Named for the orisha of ocean depths and unknowable mystery.
+- Olokun (Obatala g) — liquid methane/ethane ocean world, ~9–10 AU (revised inward from an earlier ~18–20 AU siting), axial tilt ~22° (moderate, Earth-like), orbital eccentricity ~0.15–0.20 (a second, overlapping source of seasonal variation atop the tilt), orbital period ~27–30 years. Surface gravity 0.8g (7.85 m/s²), implying a mass of ~0.69 M⊕ at a 6,200 km radius and a bulk density of ~5,520 kg/m³ — slightly denser than Earth's average, consistent with a differentiated rocky world with a substantial core. Surface temperature ~90 K, held above methane/ethane's freezing point by a dense (~2–5 bar) methane/ethane-dominant atmosphere and orbital placement rather than by proximity alone. Named for the orisha of ocean depths and unknowable mystery.
 - Obatala h, i — outer icy dwarf remnants
 ### Safford Station (Sat-48 Obatala)
  
-Sited on an object within the ~2–4 AU asteroid belt (representative distance ~3 AU used for transit/comm calculations — the specific body is not yet finalized), rather than mirroring the gas-giant-moon pattern used at Nova Reach and Danu. The belt site is a deliberate practical choice: it sits meaningfully closer to Yemoja than a station at Obatala f (~8 AU) would, without committing the station to either the inner or outer half of the system. Medium-tier habitat per §4.1: a single closed population ring plus counter-rotating counterweight at the habitat anchor.
- 
+Sited as a minor moon co-orbital with Olokun — a Phobos/Deimos-style small body rather than the gas-giant-moon pattern used at Nova Reach and Danu, and a deliberate departure from the station's original asteroid-belt siting. This puts Safford in near-instant comm contact with Olokun (under 10 seconds one-way, §14) but genuinely far from Yemoja — roughly 9 AU of separation at Olokun's distance, versus the old belt site's ~2.5 AU. See §7.2's Olokun subsection and §11.4/§15.1 for how this reversed comm-delay relationship (Olokun now tightly coupled, Yemoja now the isolated world) reshapes Obatala's governance. Medium-tier habitat per §4.1: a single closed population ring plus counter-rotating counterweight at the habitat anchor.
+
+### Olokun: World and Settlement
+
+Olokun is a liquid methane/ethane ocean world at 0.8g — deliberately set close to Earth-normal gravity so its settlement, unlike Boann's, supports genuine multi-generational habitation. The dense, cold atmosphere (methane/ethane-dominant, ~2–5 bar) is what actually keeps the ocean liquid at this distance, trapping enough heat to hold surface temperature near 90 K despite Olokun sitting well past the system's nominal habitable zone. The moderate 22° axial tilt combined with ~0.15–0.20 orbital eccentricity produces genuinely complex seasons: a roughly 27–30 year orbital period means each seasonal phase lasts years, and the eccentricity means some years are hotter or colder than the tilt alone would predict — colonists plan around multi-year cycles rather than annual ones, and a "harsh winter" may not arrive on a perfectly predictable schedule.
+
+**Economic role: hydrocarbon extraction first, agriculture second.** Olokun was originally settled to harvest liquid methane and ethane directly from the ocean — fractional distillation and cryogenic separation exploiting the different boiling points of the two compounds, powered by geothermal taps into the warmer crust below the frozen-solid permafrost layer. Settlement architecture mixes anchored harvesting platforms near active extraction zones with underground coastal bases for habitation, processing, and shelter from the long seasonal extremes. EVA work requires full pressure suits rated for the cold and the dense atmosphere; a breach is lethal in minutes.
+
+**Post-collapse agricultural buildout.** Before the collapse, a small hydroponics operation supplemented Lugh's food shipments: ice imported from the system's 2–4 AU asteroid belt (a multi-month haul, given the distance) supplied water, and a modest reactor-fed sunlamp array made limited indoor growing possible — Olokun's actual sunlight, at this distance, is negligible (roughly 7–9 W/m², versus Earth's ~1,360) and useless for agriculture on its own. After Year 92, Nova Reach invests heavily in scaling this up specifically to reduce dependency on an increasingly independent Danu: imported ice tonnage increases, the power grid expands to support much larger sunlamp-lit hydroponic domes, and food self-sufficiency becomes a strategic priority rather than a supplementary pilot project. Because Obatala f's Trelium yield is too poor to be worth developing (above), the expanded reactors remain fueled by shipments from Nova Reach — meaning Olokun's post-collapse agricultural independence from Danu is bought at the cost of deeper dependency on Nova Reach for fuel, hardware, and technical staff.
+
+**Why this makes Olokun the controlled node, not Yemoja.** Nova Reach's investment here isn't just capital, it's ownership: the reactors, the ice-shipping contracts, and the hydroponic domes are built and held as direct corporate assets, developed from scratch as a strategic post-collapse program rather than growing organically from local self-sufficiency the way Lugh's agriculture did. Paired with Safford's near-instant comm coupling to Olokun, this makes Olokun the one Obatala settlement Nova Reach can — and does — govern in something close to real time, structurally similar to Enlil's tight subordination (§11.3) rather than Lugh's independence. See §11.4 and §15.1 for the resulting governance picture, where Yemoja (now genuinely distant from Safford) develops the real local autonomy instead.
+
 ## 7.3 Enlil System — Mesopotamian mythology
  
 Structurally distinct from the other two: this is a post-red-giant system. The primary has already died and become a white dwarf; everything else in the system is wreckage.
@@ -315,7 +335,7 @@ Timeline anchored to Nova Reach's founding as Year 0. All years approximate and 
 | Year 0 | The 39th gate inflated by Farfield (Sat-39) reaches Stage 2 characterization, revealing an exceptionally rich ring-band and giant-planet system. Farfield commits to full Stage 3 expansion. Sat-39 opens; first-wave colonists (administrators plus idealists) step through. Nova Reach is founded. |
 | ~5–10 | Ramp-up. Second-wave pragmatists arrive once word reaches Earth about real conditions. Extraction pipeline scales. |
 | ~25 | Hub emergence. Nova Reach's own harvested seeds are peeked, characterized, and (for three of them) fully expanded locally — no shipping back to Sol required. Sat-48 goes up. Danu, Obatala, and Enlil are discovered and founded around this time. Each branch station is sited on its own local body (see §7.1–7.3); from this point on, in-system transit and comm delays (§13–14) begin shaping how each colony actually governs itself. |
-| ~25–100 | Mature hub, steady state. Danu, Obatala, and Enlil each mature into distinct colonies with their own character, over decades, at their own pace. Comm-delay geography (§14) drives an early split within each system between fast-coupled settlements (Safford–Boann in Danu; Safford–Ereshkigal in Enlil) and slow-coupled ones (Lugh in Danu; Olokun in Obatala), pushing the latter toward independent local decision-making well before the severance. |
+| ~25–100 | Mature hub, steady state. Danu, Obatala, and Enlil each mature into distinct colonies with their own character, over decades, at their own pace. Comm-delay geography (§14) drives an early split within each system between fast-coupled settlements (Safford–Boann in Danu; Safford–Ereshkigal in Enlil; Safford–Olokun in Obatala, following Safford's relocation to co-orbit Olokun, §7.2) and slow-coupled ones (Lugh in Danu; Yemoja in Obatala), pushing the latter toward independent local decision-making well before the severance. |
 | Year 92 | The severance event: Sat-39 collapses on the Sol side (see §9). Exogenous shock to a stable, extractive system. By this point, founders are dead or very elderly; their grandchildren and great-grandchildren run the colonies. Nobody alive has memory of a time before Farfield's complete ruthlessness. |
  
 # 9. The Severance Event
@@ -408,7 +428,7 @@ This makes Safford, in every system, the thing local leadership negotiates *over
 In the vacuum after Year 92, each system's real settlements — not Safford — throw up their own local leadership by necessity, usually built on whoever already held practical authority (a senior administrator, an engineer, a hazard-crew chief) before the crisis forced the question. Where a system has more than one settlement, these leaders then have to deal with each other as well as with Nova Reach, and one of them typically emerges as the system's spokesperson for external negotiation — not by formal design, but because someone has to be the voice Nova Reach actually talks to.
  
 - **Danu — clean hierarchy.** Lugh and Boann are the system's two real settlements. Per §15.1, Lugh's agricultural operation was already forced into independent local decision-making well before the collapse, so Lugh's leader is the dominant figure by Year 92 and the natural organizer of the Boann water seizure (§11.1, §12.1). Boann, tightly coupled to Safford and comparatively weak on its own, is absorbed into Lugh's authority rather than producing a rival leader. Lugh's leader becomes spokesperson essentially by default — they were already governing independently before anyone had to formalize it.
-- **Obatala — contested, sector-based.** Yemoja and Olokun are the real settlements. Yemoja, the actual agricultural population center, produces the stronger leader; Olokun, likely minimally staffed through the mature-hub period (§15.1), produces a weaker or more informal one, if any at all. Neither dominates the way Lugh does in Danu, so the spokesperson role is genuinely negotiated rather than assumed — a compromise position that later gets formalized and sold as the presidential/sectoral-autonomy structure in §11.4, rather than being its actual origin.
+- **Obatala — contested, but tilted toward Yemoja.** Yemoja and Olokun are the real settlements. Following Safford's relocation to co-orbit Olokun (§7.2), Yemoja is now the genuinely distant, slow-coupled world — forced into real local decision-making the way Lugh was, and producing the stronger, more independent leader as a result. Olokun, by contrast, is Nova Reach's own post-collapse investment (reactors, ice-shipping contracts, hydroponic domes, all built and held as corporate assets) sitting in near-instant comm contact with Safford — its administration answers to Nova Reach in something close to real time, leaving little room for an independent leader to emerge there. The spokesperson role still ends up genuinely negotiated rather than simply defaulting to Yemoja's leader, since Olokun's controllers retain real institutional leverage even without local political weight — a compromise position that later gets formalized and sold as the presidential/sectoral-autonomy structure in §11.4, rather than being its actual origin.
 - **Enlil — uncontested by necessity.** Ereshkigal is the only real settlement, small and harsh enough (§7.3, §11.3) that one administrator becomes the obvious point of contact almost by default, much as a single factory director becomes a town's de facto authority once distant central oversight loosens. That leader negotiates from real weakness, however, because Safford sits close enough (§7.3, §11.3) that Nova Reach retains near-real-time reach and genuine leverage — Ereshkigal's leadership is uncontested locally but constrained externally in a way Danu's and Obatala's are not.
 ### Negotiation and goodwill
  
@@ -455,13 +475,13 @@ Develops a presidential system with autonomous sectors, similar in structure to 
  
 - Strong local president/coordinator with significant executive authority, but not absolute rule
 - Critical sectors operate semi-independently with their own leadership:
-- Agricultural sector (Yemoja and Olokun operations): autonomous production and distribution decisions
-- Industrial/transit sector (hydrocarbon extraction, manufacturing): autonomous operations and trade negotiations
+- Agricultural sector (Yemoja's ocean-world food production): substantially autonomous production and distribution decisions, run by Yemoja's own local leadership
+- Hydrocarbon/agricultural-buildout sector (Olokun's methane/ethane extraction and Nova Reach-funded hydroponics): remains a direct Nova Reach asset rather than a genuinely autonomous sector — its "seat at the table" is institutional leverage (control of reactors, ice shipments, and the post-collapse food-security investment), not independent local political weight
 - Local governance and security: day-to-day administration
-- Checks and balances: sector leaders can negotiate with the president, form coalitions, resist overreach
+- Checks and balances: Yemoja's leadership can negotiate with the president, form coalitions, resist overreach; Olokun's administration negotiates from Nova Reach's side of the table rather than against it
 - Reflects pragmatist ideology: people care about functional governance and sectoral autonomy more than ideological purity
-- Sectoral autonomy is mechanically reinforced by geography: Olokun's ~2–3 hour one-way comm lag to Safford (§14) makes real-time central coordination impossible, so its operations necessarily run on local authority even under nominal Farfield control.
-- Ultimately subordinate to Nova Reach's gate and trelium control, but maintains substantial internal autonomy
+- Sectoral autonomy is mechanically reinforced by geography, but only for Yemoja: its ~1–1.6 hour one-way comm lag to Safford (§14, following Safford's relocation to co-orbit Olokun) makes real-time central coordination impossible, so its operations necessarily run on local authority. Olokun, by contrast, sits in near-instant contact with Safford and is governed close to directly.
+- Ultimately subordinate to Nova Reach's gate and trelium control, but Yemoja maintains substantial internal autonomy where Olokun does not
 ## 11.5 The Political Division: Two Space Nations
  
 The two post-collapse political entities take their formal names directly from existing identities rather than inventing new ones:
@@ -510,13 +530,13 @@ Standard mission budget: roughly 350–400 km/s total delta-v (split between dep
  
 | Route | Distance | Transit time (at std. drive spec) |
 | --- | --- | --- |
-| Yemoja ↔ Olokun (Obatala) | ~18.5 AU | ~4–6 months |
+| Yemoja ↔ Olokun (Obatala) | ~9.05–9.95 AU (revised; Olokun moved inward, §7.2) | recompute pending — see Open Questions |
 | Lugh ↔ Boann/Mannannán (Danu) | ~5.85 AU | under 2 months |
 | Safford (Mannannán moon) → Lugh (Danu) | ~5.85 AU | ~1.7–1.9 months |
-| Safford (belt, ~3 AU) → Yemoja (Obatala) | ~2.55 AU | ~0.7–0.8 months |
+| Safford (Olokun moon) → Yemoja (Obatala) | ~9.05–9.95 AU (revised; Safford relocated to co-orbit Olokun, §7.2) | recompute pending — see Open Questions |
 | Safford (rubble pile, ~0.05 AU) → Ereshkigal (Enlil) | ~0.035 AU | under 2 days |
  
-*For reference, a fuel-optimal (Hohmann) transfer between Yemoja and Olokun costs only ~21.8 km/s of delta-v but takes ~16 years; a continuous-thrust torchship covers the same distance in weeks but at a delta-v cost of hundreds to thousands of km/s. The accelerate-coast-decelerate profile above was chosen specifically to avoid both extremes.*
+*For reference, a fuel-optimal (Hohmann) transfer between Yemoja and Olokun costs only ~21.8 km/s of delta-v but takes ~16 years at the old ~18.5 AU separation; this figure is stale following Olokun's relocation to ~9–10 AU and needs recomputing (see Open Questions). A continuous-thrust torchship covers the same distance in weeks but at a delta-v cost of hundreds to thousands of km/s. The accelerate-coast-decelerate profile above was chosen specifically to avoid both extremes.*
  
 # 14. Communication Delays
  
@@ -526,8 +546,8 @@ Gate-to-gate communication is near-instant (fiber-optic threading, §2). In-syst
 | --- | --- | --- | --- |
 | Danu: Safford (Mannannán, 6 AU) ↔ Lugh (0.15 AU) | 5.85–6.15 AU | 48.7–51.2 min | 1.62–1.70 hr |
 | Danu: Safford ↔ Boann (co-orbital moon of Mannannán) | moon-system scale, not heliocentric | under ~7 sec | under ~15 sec |
-| Obatala: Safford (belt, 3 AU) ↔ Yemoja (0.45 AU) | 2.55–3.45 AU | 21.2–28.7 min | 42.4–57.4 min |
-| Obatala: Safford (belt, 3 AU) ↔ Olokun (19 AU) | 16–22 AU | 2.22–3.05 hr | 4.44–6.10 hr |
+| Obatala: Safford (Olokun moon, ~9.5 AU) ↔ Yemoja (0.45 AU) | 7.4–11.6 AU (varies with Olokun's eccentric orbit, §7.2) | 61.5–96.5 min | 2.05–3.22 hr |
+| Obatala: Safford ↔ Olokun (co-orbital minor moon, Phobos/Deimos-style, §7.2) | moon-system scale, not heliocentric | under ~10 sec | under ~15 sec |
 | Enlil: Safford (rubble pile, 0.05 AU) ↔ Ereshkigal (0.015 AU) | 0.035–0.065 AU | 17.5–32.4 sec | 34.9–64.9 sec |
  
 *Nova Reach has no equivalent entry: its population lives on the two stations themselves rather than on a planet, so there is no station-to-settlement comm lag internal to the system.*
@@ -541,13 +561,13 @@ The comm-delay figures in §14 aren't just color — they mechanically shape why
 Once each branch station goes live (~Year 25), every system splits into a fast-coupled cluster and a slow-coupled one:
  
 - Danu: Safford and Boann (near-instant, co-orbital) versus Lugh (48–51 minutes one-way). Lugh's agricultural operation has no choice but to develop real local decision-making authority early — an hour-plus round trip makes gate-side micromanagement of daily operations unworkable.
-- Obatala: Safford sits at a genuinely intermediate distance from Yemoja (21–29 min) — survivable for coordination — but Olokun (2.2–3.1 hr one-way) is functionally isolated. During the mature-hub period (Year 25–92) Olokun likely remains minimally staffed or automated, since it cannot be managed as a normal settlement at that lag.
+- Obatala: following Safford's relocation to co-orbit Olokun (§7.2), Safford and Olokun are near-instant, co-orbital neighbors — Olokun is managed close to directly, the way Boann is in Danu. Yemoja, by contrast, sits roughly 61–97 minutes one-way — functionally isolated in the same way Lugh is in Danu. During the mature-hub period (Year 25–92), this pushes Yemoja toward genuine local self-sufficiency and decision-making well before the collapse, while Olokun's post-collapse buildout (§7.2) remains a directly-administered Nova Reach investment rather than an independent settlement.
 - Enlil: Safford and Ereshkigal are practically neighbors (17–32 sec one-way). This is the only branch system where the gate station and the main settlement stay tightly coupled, reinforcing Enlil's character as a single, focused outpost rather than a distributed colony.
 ## 15.2 The severance and the collapse of central coordination
  
-At the moment Sat-39 fails (Year 92), Nova Reach knows immediately. The branch systems learn nearly as fast via the gate-to-gate fiber threading (§2, §14) — but a colony's internal population doesn't hear it from the gate directly. News has to propagate in-system at light speed on top of that: Danu's Safford learns close to instantly, but Lugh only hears from Safford 48–51 minutes later; Obatala's Olokun stays in the dark for 2–3 hours.
+At the moment Sat-39 fails (Year 92), Nova Reach knows immediately. The branch systems learn nearly as fast via the gate-to-gate fiber threading (§2, §14) — but a colony's internal population doesn't hear it from the gate directly. News has to propagate in-system at light speed on top of that: Danu's Safford learns close to instantly, but Lugh only hears from Safford 48–51 minutes later; Obatala's Yemoja stays in the dark for roughly an hour to an hour and a half.
  
-More importantly, the three branch systems cannot coordinate with each other except by routing through Nova Reach — and Nova Reach is, at that exact moment, in crisis. This is the real mechanism behind the failure of Phase 1's cooperative-federation attempt (§12.1): it is not simply that the conservative leader lacks the will or authority to hold the network together, but that hour-plus round-trip coordination with Lugh (and multi-hour lag with Olokun) makes real-time crisis management structurally impossible, even for a competent, well-intentioned leader.
+More importantly, the three branch systems cannot coordinate with each other except by routing through Nova Reach — and Nova Reach is, at that exact moment, in crisis. This is the real mechanism behind the failure of Phase 1's cooperative-federation attempt (§12.1): it is not simply that the conservative leader lacks the will or authority to hold the network together, but that hour-plus round-trip coordination with Lugh (and comparable lag with Yemoja) makes real-time crisis management structurally impossible, even for a competent, well-intentioned leader.
  
 By Phase 2 (§12.2), Danu's field commanders at Lugh are already making decisions on local authority by necessity, because Nova Reach's orders arrive too stale to be useful. Ambiguous or delayed directives read as hostile intent on both sides, which is exactly the kind of miscommunication that turns a tense standoff into an actual armed clash.
  
@@ -556,7 +576,7 @@ By Phase 2 (§12.2), Danu's field commanders at Lugh are already making decision
 The independent decision-making structures each system builds during the crisis don't get dismantled once the fighting stops — they become the actual shape of post-collapse governance, because the underlying comm-delay geography never changes:
  
 - Danu's councils and elected leadership (§11.1) formalize what Lugh's defenders were already doing out of necessity during Phase 2.
-- Obatala's sectoral autonomy (§11.4) is the peacetime version of Olokun's (and to a lesser extent Yemoja's) forced self-sufficiency during the mature-hub period.
+- Obatala's sectoral autonomy (§11.4) is the peacetime version of Yemoja's forced self-sufficiency during the mature-hub period — Olokun, by contrast, never developed comparable independence, since Safford's relocation (§7.2) kept it in near-continuous Nova Reach contact throughout.
 - Enlil's continued subordination to Nova Reach (§11.3) is the one case where central authority remains genuinely workable, because the comm lag never made it otherwise.
 *Net effect: the severance and the resource/ideological pressures already in the bible (§10–12) remain the primary drivers of the post-collapse political split. Comm-delay geography is a reinforcing, load-bearing mechanism underneath that story, not a competing explanation for it — it's the reason central authority was already brittle before Year 92, and the reason each colony's improvised wartime autonomy hardens into permanent governance afterward.*
  
@@ -583,7 +603,7 @@ Understanding why each system survives and how they leverage resources:
 - Boann water & agriculture: Danu's subsurface ocean moon produces water and some crops. Supplemented by Lugh's extensive terminator-zone greenhouse agriculture.
 - Lugh agriculture: The primary agricultural hub for Danu, using perpetual-sunset mirrors and imported or local water to simulate Earth-like day/night cycles. Far more productive than Boann.
 - Phosphorus: Ereshkigal in Enlil's system. Essential for fertilizer; can be recycled but with losses. Both Danu and Obatala depend on Enlil's exports.
-- Hydrocarbons and pressure-vessel materials: Olokun (methane/ethane seas) in Obatala. Cheaper extraction than synthesis elsewhere; valuable for industry and rockets.
+- Hydrocarbons and pressure-vessel materials: Olokun (methane/ethane seas) in Obatala. Cheaper extraction than synthesis elsewhere; valuable for industry and rockets. Post-collapse, Olokun also becomes a Nova Reach-funded hydroponic food source (imported belt ice + sunlamp power), developed specifically to reduce dependence on Danu (§7.2).
 - Gate infrastructure: Sat-48 is physically owned and controlled by Nova Reach. All inter-system trade passes through Nova Reach's territory, giving them veto power over shipments.
 ## Danu's Path to Independence
  
@@ -598,11 +618,13 @@ Understanding why each system survives and how they leverage resources:
 - Unable to conquer Danu, focuses on consolidating the Farfield Technocratic Zone:
 - Maintains gate control: all trade between Danu and Enlil/Obatala must pass through Sat-48, giving Nova Reach leverage
 - Trelium leverage: controls the fuel supply for all conventional space operations
-- Develops Obatala agriculture: invests resources in expanding Yemoja and Olokun production to reduce dependence on Danu's food
+- Develops Obatala agriculture: invests heavily in Olokun's hydroponic buildout specifically (imported ice, expanded sunlamp power grid, all held as direct Nova Reach assets, §7.2) to reduce dependence on Danu's food; Yemoja's own agriculture remains locally autonomous rather than a Nova Reach investment target
 - Result: Stable but incomplete dominance; Danu remains an independent but isolated rival
 # Open Questions
  
 - Confirm/recheck the extraction-pipeline math: 1 viable seed per 8,333,334 processed particles.
+- Recompute §13.1's Yemoja↔Olokun and Safford↔Yemoja transit times, and the Hohmann-transfer reference figures, following Olokun's relocation from ~18–20 AU to ~9–10 AU (§7.2) — old figures are stale and flagged as pending in the table.
+- Determine Boann's precise mass/radius as canon values rather than working numbers derived solely from the 0.02g target (§7.1) — a full moons data table, mentioned as a future option in Stars_and_Planets_Data.md, would formalize this alongside Olokun's own values.
 - Per-wormhole target masses are now set (§9.2: Enlil ~5,000 t, Obatala ~9,000–10,000 t, Danu ~18,000–20,000 t, Sat-39 ~30,000 t), which narrows but doesn't yet fix the exact post-severance evaporation timeline for Sat-39 specifically — still bounded to somewhere between hours and several months pending a precise M³ calculation off the ~30,000 t figure.
 - Develop the charismatic leader/eventual martyr character, including final gender decision.
 - Decide whether Nova Reach / this cluster has military or strategic value pre-collapse, or remains purely economic/civilian.
