@@ -540,3 +540,5 @@ Understanding why each system survives and how they leverage resources:
 - Medical effects of life on each planet — gravity, radiation, atmosphere, and other environmental factors specific to each world, beyond the general 0.5g station standard already established in §4.1.
 - Culinary situation: what people actually eat on each world/station, and what local cuisines have developed from available ingredients and imports.
 - Economy and technology progression after the collapse — how each colony's industry and tech base evolves once cut off from Earth and, in Danu's case, from Farfield.
+
+<!-- read/write test: Claude PAT access confirmed 2026-07-28T13:37:11Z -->
