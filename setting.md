@@ -211,6 +211,8 @@ Nova Reach itself is mostly just Goibniu and its two orbiting stations; the syst
  
 All three systems are reached via Sat-48 in Nova Reach and were established before the eventual wormhole collapse, discovered and founded via the same staged-inflation method (§3) using seeds harvested locally from Goibniu's own ring band. Each uses a distinct mythological naming convention, chosen deliberately to avoid the overused Greco-Roman well: Irish (Danu), Yoruba (Obatala), and Mesopotamian (Enlil). Each system's own Sat-48-designated wing — Safford — is sited on a distinct local body; see each subsection below and §13–14 for the resulting transit and communication figures, and §4.1 for each wing's habitat tier.
  
+Founding years (see §8): Danu, Year 19; Enlil, Year 22; Obatala, Year 30.
+
 ## 7.1 Danu System — Irish mythology
  
 **Star(s):** Wide binary. Danu A: K2V, ~0.8 M☉ (primary; all planets orbit this star). Danu B: M4V red dwarf companion, ~0.25 M☉, separated by roughly 500–800 AU — negligible gravitational effect on the planets; visible as a fixed, reddish second point of light in the sky.
@@ -334,8 +336,11 @@ Timeline anchored to Nova Reach's founding as Year 0. All years approximate and 
 | — | Farfield's seed-harvesting program in Saturn's rings identifies an exceptional resonance band. Systematic Stage 1 peeks begin across many harvested seeds; most are discarded. A handful reach Stage 2 characterization. |
 | Year 0 | The 39th gate inflated by Farfield (Sat-39) reaches Stage 2 characterization, revealing an exceptionally rich ring-band and giant-planet system. Farfield commits to full Stage 3 expansion. Sat-39 opens; first-wave colonists (administrators plus idealists) step through. Nova Reach is founded. |
 | ~5–10 | Ramp-up. Second-wave pragmatists arrive once word reaches Earth about real conditions. Extraction pipeline scales. |
-| ~25 | Hub emergence. Nova Reach's own harvested seeds are peeked, characterized, and (for three of them) fully expanded locally — no shipping back to Sol required. Sat-48 goes up. Danu, Obatala, and Enlil are discovered and founded around this time. Each branch station is sited on its own local body (see §7.1–7.3); from this point on, in-system transit and comm delays (§13–14) begin shaping how each colony actually governs itself. |
-| ~25–100 | Mature hub, steady state. Danu, Obatala, and Enlil each mature into distinct colonies with their own character, over decades, at their own pace. Comm-delay geography (§14) drives an early split within each system between fast-coupled settlements (Safford–Boann in Danu; Safford–Ereshkigal in Enlil; Safford–Olokun in Obatala, following Safford's relocation to co-orbit Olokun, §7.2) and slow-coupled ones (Lugh in Danu; Yemoja in Obatala), pushing the latter toward independent local decision-making well before the severance. |
+| ~19–30 | Hub emergence. Nova Reach's own harvested seeds are peeked, characterized, and (for three of them) fully expanded locally — no shipping back to Sol required. Sat-48 goes up in stages as each branch mouth comes online. Each branch station is sited on its own local body (see §7.1–7.3); from each system's founding date on, in-system transit and comm delays (§13–14) begin shaping how that colony actually governs itself. |
+| Year 19 | Danu is discovered and founded — the first of the three branch systems to come online, and (per §15.1) the earliest to begin developing the comm-delay-driven local autonomy that later defines its independence. |
+| Year 22 | Enlil is discovered and founded. |
+| Year 30 | Obatala is discovered and founded — the last of the three branch systems established, roughly a decade after Danu. |
+| ~30–100 | Mature hub, steady state. Danu, Obatala, and Enlil each mature into distinct colonies with their own character, over decades, at their own pace — Danu and Enlil have an eleven-and eight-year head start on Obatala respectively. Comm-delay geography (§14) drives an early split within each system between fast-coupled settlements (Safford–Boann in Danu; Safford–Ereshkigal in Enlil; Safford–Olokun in Obatala, following Safford's relocation to co-orbit Olokun, §7.2) and slow-coupled ones (Lugh in Danu; Yemoja in Obatala), pushing the latter toward independent local decision-making well before the severance. |
 | Year 92 | The severance event: Sat-39 collapses on the Sol side (see §9). Exogenous shock to a stable, extractive system. By this point, founders are dead or very elderly; their grandchildren and great-grandchildren run the colonies. Nobody alive has memory of a time before Farfield's complete ruthlessness. |
  
 # 9. The Severance Event
@@ -361,7 +366,7 @@ Since a wormhole's two mouths always share one mass (§2) — inflation raises b
 | Enlil | ~5,000 t | Smallest population (2,000–4,000), single low-throughput outpost; sits near the evacuation-time floor |
 | Obatala | ~9,000–10,000 t | Moderate two-settlement economy; pre-collapse agriculture still underdeveloped relative to Danu |
 | Danu | ~18,000–20,000 t | Lugh is the network's primary agricultural exporter feeding the Nova Reach hub — highest sustained branch throughput |
-| Sat-39 (Sol ↔ Nova Reach) | ~30,000 t | Sole colonization artery for the first ~25 years (§8) — heaviest sustained one-way historical burden in the network |
+| Sat-39 (Sol ↔ Nova Reach) | ~30,000 t | Sole colonization artery for roughly the first two to three decades (§8) — heaviest sustained one-way historical burden in the network |
  
 **Working theory of the collapse (unconfirmed in-universe):** Sat-39's mass target was the largest in the network, but its imbalance was also proportionally the worst — for roughly the first quarter of Nova Reach's history, nearly all traffic ran Sol-to-colony, with nothing of comparable value flowing back until local Trelium production and seed-harvesting existed to export. A large buffer bought decades rather than immunity, consistent with a collapse that took 92 years to arrive rather than one that struck early. Farfield's established cost-cutting culture (§10.6) gives a plausible, mundane reason nobody prioritized balancing return shipments to Earth over that period. This remains a candidate explanation, not a settled one — nothing in-universe confirms it, and the failure is still experienced by every character as sudden and uncaused.
  
@@ -558,10 +563,10 @@ The comm-delay figures in §14 aren't just color — they mechanically shape why
  
 ## 15.1 Pre-collapse stratification
  
-Once each branch station goes live (~Year 25), every system splits into a fast-coupled cluster and a slow-coupled one:
+Once each branch station goes live (Danu: Year 19; Enlil: Year 22; Obatala: Year 30), every system splits into a fast-coupled cluster and a slow-coupled one:
  
 - Danu: Safford and Boann (near-instant, co-orbital) versus Lugh (48–51 minutes one-way). Lugh's agricultural operation has no choice but to develop real local decision-making authority early — an hour-plus round trip makes gate-side micromanagement of daily operations unworkable.
-- Obatala: following Safford's relocation to co-orbit Olokun (§7.2), Safford and Olokun are near-instant, co-orbital neighbors — Olokun is managed close to directly, the way Boann is in Danu. Yemoja, by contrast, sits roughly 61–97 minutes one-way — functionally isolated in the same way Lugh is in Danu. During the mature-hub period (Year 25–92), this pushes Yemoja toward genuine local self-sufficiency and decision-making well before the collapse, while Olokun's post-collapse buildout (§7.2) remains a directly-administered Nova Reach investment rather than an independent settlement.
+- Obatala: following Safford's relocation to co-orbit Olokun (§7.2), Safford and Olokun are near-instant, co-orbital neighbors — Olokun is managed close to directly, the way Boann is in Danu. Yemoja, by contrast, sits roughly 61–97 minutes one-way — functionally isolated in the same way Lugh is in Danu. During the mature-hub period (Year 30–92), this pushes Yemoja toward genuine local self-sufficiency and decision-making well before the collapse, while Olokun's post-collapse buildout (§7.2) remains a directly-administered Nova Reach investment rather than an independent settlement.
 - Enlil: Safford and Ereshkigal are practically neighbors (17–32 sec one-way). This is the only branch system where the gate station and the main settlement stay tightly coupled, reinforcing Enlil's character as a single, focused outpost rather than a distributed colony.
 ## 15.2 The severance and the collapse of central coordination
  
@@ -630,7 +635,7 @@ Understanding why each system survives and how they leverage resources:
 - Decide whether Nova Reach / this cluster has military or strategic value pre-collapse, or remains purely economic/civilian.
 - Flesh out Ereshkigal's specific colony structure, population size, and phosphorus extraction/shipping method — now informed by its near-instant comm coupling to Safford, and by the open question of whether its population is rotational or permanent.
 - Assign any remaining unnamed system(s) or Enlil's second "interesting planet" slot, if desired.
-- Detail exactly what triggers Sat-39's collapse, if it is ever to be revealed to the reader even partially. A candidate mechanism now exists (§9.2: chronic Sol-to-colony mass imbalance during the ~25-year ramp-up, never corrected) but is not yet decided as canon.
+- Detail exactly what triggers Sat-39's collapse, if it is ever to be revealed to the reader even partially. A candidate mechanism now exists (§9.2: chronic Sol-to-colony mass imbalance during the ~20–30 year ramp-up, never corrected) but is not yet decided as canon.
 - Flesh out day-to-day life, culture, and government specifics for Danu, Obatala, and Enlil individually.
 - Map planet surfaces and place colonies — settlement locations, sizes, and layouts on Lugh, Boann, Yemoja, Olokun, and Ereshkigal.
 - Survival on each planet: what hazards colonists deal with day to day and how each colony's infrastructure addresses them.
