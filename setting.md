@@ -75,11 +75,23 @@ Because the throat has essentially no mechanical cross-section (§2), engineers 
  
 Because throat area — and therefore the flux/fermion input required — scales explosively with radius (roughly the square, so getting from a seed's ~10⁻³² m throat to the network's 2.5 m standard is on the order of 60+ orders of magnitude in required charge), Stage 3 isn't a linear cost step up from Stage 2, it's a categorically different cost tier. This is the real reason Stage 3 functions as the funnel's one true point of no return rather than a gradual ramp.
  
-## 3.2 Why the Far Mouth Is the Real Bottleneck
+## 3.2 The Usability Calculation: Near Mouth vs. Far Mouth
  
-Stage 1's brutal discard rate isn't just about a seed failing to exist (§10.4's abundance problem) — it's about *where the far mouth happens to be*, which is entirely uncontrolled. A rough order-of-magnitude accounting: only a fraction of the universe's matter is bound up in galaxies at all (rather than diffuse intergalactic medium); of that, only a small fraction is in stars and their planetary systems rather than the star itself; and of *that*, only a small fraction is in small, undifferentiated bodies (asteroids, comets, ring material) rather than a planet, moon, or the star. Chained together, something on the order of 1-in-100,000 to 1-in-a-million is a reasonable estimate for a far mouth landing somewhere a station could ever be anchored — everything else is empty space, a star, a gas giant's interior, or buried under a differentiated body's full gravity. This is the quantitative backbone under "most seeds are discarded after Stage 1": Stage 1 is functionally a search for that rare good far-side location, not just a search for signs of life.
- 
-Ring and asteroid siting is doubly justified once a good far mouth *is* found: real planetary-science thresholds put differentiation onset around 100–200 km body radius, while ring particles and rubble-pile moonlets top out in the tens-to-hundreds-of-meters range — three to four orders of magnitude too small, ever, to have melted and sorted a core. A seed that lands in ring or small-asteroid material is essentially guaranteed to still be sitting exactly where it landed, fully accessible.
+Whether a given seed is ever usable splits into two separate questions with very different answers — one Farfield controls by choice of harvesting site, one it doesn't control at all.
+
+**Near mouth — the one Farfield chooses where to harvest: ~100% usable.** Real planetary-science thresholds put differentiation onset around 100–200 km body radius, while ring particles and rubble-pile moonlets top out in the tens-to-hundreds-of-meters range — three to four orders of magnitude too small, ever, to have melted and sorted a core. A seed harvested from ring or small-asteroid material (§10.4) is essentially guaranteed to still be sitting exactly where it landed, fully accessible, never buried by differentiation. This is why ring/asteroid siting (§4.1) is doubly justified: it's the only class of host that guarantees a usable near mouth *and* it happens to supply free ballast (§2.1).
+
+**Far mouth — wherever that end of the primordial pair happens to be, entirely uncontrolled.** This is the real bottleneck, and it's estimable as a chain of independent odds:
+
+| Step | Estimated probability | Basis |
+| --- | --- | --- |
+| Far mouth is in a galaxy at all | ~10% | Baryon-census work consistently finds the large majority of the universe's ordinary matter sits in the diffuse intergalactic/circumgalactic medium, never collapsed into a galaxy |
+| ...is in planetary solid material, not the star itself or interstellar gas | ~0.11% | Within a galaxy, ~85% of baryonic mass is locked in stars; of a star system's own mass, planetary solid material is only ~0.13% (Solar System calibration: ~447 Earth masses of planets against the Sun's ~333,000 Earth masses) |
+| ...is in a small, undifferentiated body rather than a planet or moon | ~3–5% | Asteroid-belt/Kuiper-belt/comet-class material is a small fraction of a system's total solid mass against its planets and major moons |
+
+Chained together: 0.10 × 0.0011 × 0.04 ≈ 5×10⁻⁶ — call it, very roughly, **1-in-100,000 to 1-in-a-million**. Every other outcome is a total loss: swallowed by a star, buried in a differentiated planetary interior, adrift in interstellar or intergalactic space with nothing to ever anchor a station to, or (per §2's "possibly a different universe") not in reachable spacetime at all.
+
+**Combined odds a single seed is ever fully usable end to end:** since the near mouth is deliberately engineered to ~100% by choice of harvesting site, the far mouth's ~1-in-100,000-to-a-million figure sets the overall odds almost entirely on its own. This is the quantitative backbone under "most seeds are discarded after Stage 1" (§3): Stage 1 exists specifically because this number is so brutal that a dedicated, cheap peek-and-discard step is the only economical way to find the rare hits, rather than gambling everything on Stage 3 directly.
  
 # 4. The Sat-# Station Naming Convention
  
@@ -198,10 +210,11 @@ Nova Reach is Farfield's root colony — the oldest system in this branch of the
  
 | Designation | Colloquial name | Role |
 | --- | --- | --- |
-| Sat-39 | — (unlikely to matter narratively; see below) | Earthbound gate. Sole link between Nova Reach and Sol — the gate that made Nova Reach a colony at all. Physically separate structure from Sat-48 by design — a corporate risk-quarantine decision so a single gate failure can't sever every downstream colony at once. This is the gate that collapses in the eventual severance event (see §8). |
+| Sat-39 Sol | — (unlikely to matter narratively; see below) | Earthbound segment. Sole link between Nova Reach and Sol — the gate that made Nova Reach a colony at all. |
+| Sat-39 Nova Reach | — (unlikely to matter narratively; see below) | Nova Reach-side segment of the same two-mouth structure, sited on its own dedicated minor moon of Goibniu — a separate physical station from Sat-48 entirely, not a wing of it (§4's naming convention covers one continuous structure per wormhole, not per system). This pairing (Sat-39 Sol / Sat-39 Nova Reach) is physically separate from Sat-48 by design — a corporate risk-quarantine decision so a single gate's failure can't sever every downstream colony at once. This is the gate that collapses in the eventual severance event (see §9); because both segments share one mass (§9.1), both fail simultaneously, but Sat-48 — structurally unconnected — is unaffected either way. |
 | Sat-48 | Safford | The highly-connected hub, built two-anchor/bridge style per §4.1: three individually sealed gate chambers (one per branch mouth) clustered at the gate anchor, connected by bridge to a large-tier habitat anchor whose axial ring-stack is the biggest spin structure in the network. The habitat anchor's non-rotating hub also hosts the wing's Trelium refining/storage facilities, drone-control centers, and the system's single power plant — which, via the shared power/water/air/comms lines threaded through every wormhole mouth (§4), supplies all four Safford wings network-wide. Both anchors sit on one of Goibniu's dwarf moons, outside its ring system. |
  
-*Sat-39's asteroid/station is expected to be destroyed in the severance event, which is why its colloquial name is not expected to matter narratively. Sat-48 drifted to "Safford" through casual phonetic erosion over the colony's history.*
+*Sat-39 Sol's fate at collapse is unknown and unknowable in-universe (§9) — the failure occurs on the far side of the gate from Nova Reach's perspective. Sat-39 Nova Reach's fate is a live dramatic question rather than a certainty: whether it survives depends on whether hazard crews and wormhole engineers can redirect the resulting black hole onto a safe escape trajectory before the terminal burst (§9.3). Sat-48 drifted to "Safford" through casual phonetic erosion over the colony's history.*
  
 ## 6.2 Nova Reach planetary architecture
  
@@ -345,7 +358,7 @@ Timeline anchored to Nova Reach's founding as Year 0. All years approximate and 
  
 # 9. The Severance Event
  
-Sat-39 collapses specifically on the Sol side. Cause unknown and unknowable in-universe (the failure occurs on the far side of the gate from Nova Reach's perspective, or the initiating event is otherwise never determined). Both mouths convert to black holes, each with a mass equal to the mass of the gate mouth it replaced, per local conservation of mass.
+The triggering cause originates specifically on the Sol side (Sat-39 Sol). Cause unknown and unknowable in-universe (the failure occurs on the far side of the gate from Nova Reach's perspective, or the initiating event is otherwise never determined). Because both segments of Sat-39 share one mass (§9.1, §9.3), both convert to black holes at once, each with a mass equal to the mass of the gate mouth it replaced, per local conservation of mass.
  
 ## 9.1 Failure Mode: Unified
  
@@ -370,7 +383,21 @@ Since a wormhole's two mouths always share one mass (§2) — inflation raises b
  
 **Working theory of the collapse (unconfirmed in-universe):** Sat-39's mass target was the largest in the network, but its imbalance was also proportionally the worst — for roughly the first quarter of Nova Reach's history, nearly all traffic ran Sol-to-colony, with nothing of comparable value flowing back until local Trelium production and seed-harvesting existed to export. A large buffer bought decades rather than immunity, consistent with a collapse that took 92 years to arrive rather than one that struck early. Farfield's established cost-cutting culture (§10.6) gives a plausible, mundane reason nobody prioritized balancing return shipments to Earth over that period. This remains a candidate explanation, not a settled one — nothing in-universe confirms it, and the failure is still experienced by every character as sudden and uncaused.
  
-Narrative implications: the collapse itself is a sudden, violent event — a burst of hard radiation at both mouths simultaneously, a genuine hazard to anything nearby. What's left behind is real and detectable but shrinking — something the colony can monitor and mark time by until it's fully gone, rather than either an instant erasure or a permanent monument.
+## 9.3 The Collapse in Real Time
+
+At ~30,000 t (§9.2), Sat-39's evaporation runs **~26 days** (τ ≈ 8.4×10⁻¹⁷ × M³ seconds), releasing on the order of **2.7×10²⁴ J** total (E = Mc²) — but heavily backloaded rather than a steady burn, since Hawking power climbs as the black hole shrinks. The first week releases only ~10% of the total; the final 1% of the mass (~300 t) goes in the last couple of seconds, in a genuinely violent terminal gamma burst. Everything before that point is a slow, monitorable fade — consistent with the evacuation-time design margin built into every gate's target mass (§9.1).
+
+**Gravity is a non-issue throughout.** Mass is conserved through the collapse, and by Birkhoff's theorem the external field of a spherical mass depends only on that mass, not its compactness — so the resulting black hole pulls exactly as hard, from exactly the same distance, as the throat already did as a wormhole mouth. Nothing gets pulled in; there was never a meaningful gravity well and there still isn't. **Radiation is the entire hazard**, not infall — which is why §4.1 already treats gate-mouth failure as an emergency-response problem (alarms, evacuation, hazard-crew procedure) rather than something solved by distance or shielding.
+
+**Position:** the resulting black hole holds essentially still relative to the station, retaining whatever position the throat had at the instant of failure (§4.1's gate anchor is fixed and non-rotating by design) rather than drifting or falling toward anything.
+
+**Both segments of Sat-39 fail simultaneously.** Since the wormhole shares one mass across both mouths (§9.1), Sat-39 Sol and Sat-39 Nova Reach lose stability in the same instant — this isn't a delayed relay from one side to the other, it's two black holes, same origin mass, forming at once. Sat-48, being a structurally separate station (§6.1), is unaffected.
+
+**The rescue: redirecting the remnant.** A gate-failure black hole isn't just inert wreckage — it carries over the throat's charge along with its mass (Qe was at or just below M at the moment of failure, §9.1), making it a genuinely charged object rather than a neutral one. That means the same flux-shaping electrode cage that sustained the threading field in life (§4.1) can, in principle, still act on it in death: a Lorentz-force tow rather than anything requiring new technology. Sat-39 Nova Reach's hazard crews and wormhole engineers, working together in the days after collapse, can attempt to push the remnant onto a controlled escape trajectory — clear of the station, evaporating harmlessly at a safe distance well before the terminal burst. Whether they succeed in time is a genuine dramatic question, not a foregone conclusion: Sat-39 Nova Reach's survival now depends on it, in a way Sat-48's never has to.
+
+**If the tow succeeds: a vacant anchor, not a way back to Sol.** A successful redirect leaves Sat-39 Nova Reach's gate anchor physically intact — injector ring, flux-shaping electrode cage, anchor piers, control room, all undamaged, just no longer holding a throat. That's real, expensive, already-built infrastructure sitting idle, and an obvious candidate for reuse: inflate a freshly harvested seed (§10.4's extraction pipeline presumably keeps running post-collapse) in the same chamber rather than building a new gate anchor from scratch elsewhere. What it can't do is restore the Sol connection — per §3, discovery is blind, and a new seed's far mouth is wherever it happens to be, uncontrolled and unrelated to where the old one led. Reusing the anchor means restarting the entire Stage 1/2/3 funnel from zero on a brand-new seed, with the same brutal discard odds as any other (§3.2) — a genuine, costly, uncertain rebuilding project for post-collapse Nova Reach to chase, not a way to undo the severance.
+
+Narrative implications: the collapse itself is a sudden event at both mouths simultaneously, but the aftermath isn't instant erasure — it's a weeks-long countdown the station can see, measure, and race against, ending either in a clean escape or a terminal burst at the anchor if the tow fails or comes too late.
  
 # 10. Colony Political & Social Framework
  
@@ -630,7 +657,7 @@ Understanding why each system survives and how they leverage resources:
 - Confirm/recheck the extraction-pipeline math: 1 viable seed per 8,333,334 processed particles.
 - Recompute §13.1's Yemoja↔Olokun and Safford↔Yemoja transit times, and the Hohmann-transfer reference figures, following Olokun's relocation from ~18–20 AU to ~9–10 AU (§7.2) — old figures are stale and flagged as pending in the table.
 - Determine Boann's precise mass/radius as canon values rather than working numbers derived solely from the 0.02g target (§7.1) — a full moons data table, mentioned as a future option in Stars_and_Planets_Data.md, would formalize this alongside Olokun's own values.
-- Per-wormhole target masses are now set (§9.2: Enlil ~5,000 t, Obatala ~9,000–10,000 t, Danu ~18,000–20,000 t, Sat-39 ~30,000 t), which narrows but doesn't yet fix the exact post-severance evaporation timeline for Sat-39 specifically — still bounded to somewhere between hours and several months pending a precise M³ calculation off the ~30,000 t figure.
+- Per-wormhole target masses are set (§9.2: Enlil ~5,000 t, Obatala ~9,000–10,000 t, Danu ~18,000–20,000 t, Sat-39 ~30,000 t), and Sat-39's post-severance evaporation timeline is now calculated at §9.3's ~26 days (~2.7×10²⁴ J total, heavily backloaded). Still open: whether Sat-39 Nova Reach's hazard crews successfully redirect the remnant (§9.3) is not yet decided as canon.
 - Develop the charismatic leader/eventual martyr character, including final gender decision.
 - Decide whether Nova Reach / this cluster has military or strategic value pre-collapse, or remains purely economic/civilian.
 - Flesh out Ereshkigal's specific colony structure, population size, and phosphorus extraction/shipping method — now informed by its near-instant comm coupling to Safford, and by the open question of whether its population is rotational or permanent.
