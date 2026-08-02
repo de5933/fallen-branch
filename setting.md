@@ -420,7 +420,7 @@ Narrative implications: the collapse itself is a sudden event at both mouths sim
 ## 10.4 Extraction pipeline (Nova Reach, sequential)
  
 - Robotic sweeper drones — magnetic collection of charged ring-band material (fully automated).
-- Centrifuge station — mass-separation; yield is approximately 1 viable wormhole seed per 8,333,334 particles processed.
+- Centrifuge station — mass-separation, isolating candidate seeds from bulk ring material ahead of human inspection.
 - Human inspection — charge-to-mass ratio and test-threading-field response determine viability.
 - Outcome fork — expand into a local gate on-site, or crate and ship to another system.
 Trelium (local slang for helium-3) is scooped from Goibniu's atmosphere by robotic drone scoops, fully automated, same rationale as the sweepers (repetitive, hazardous, no need for split-second judgment).
