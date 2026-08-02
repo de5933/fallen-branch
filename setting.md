@@ -420,7 +420,7 @@ Narrative implications: the collapse itself is a sudden event at both mouths sim
 ## 10.4 Extraction pipeline (Nova Reach, sequential)
  
 - Robotic sweeper drones — magnetic collection of charged ring-band material (fully automated).
-- Centrifuge station — mass-separation; yield is approximately 1 viable wormhole seed per 8,333,334 particles processed (math to be rechecked — see Open Questions).
+- Centrifuge station — mass-separation; yield is approximately 1 viable wormhole seed per 8,333,334 particles processed.
 - Human inspection — charge-to-mass ratio and test-threading-field response determine viability.
 - Outcome fork — expand into a local gate on-site, or crate and ship to another system.
 Trelium (local slang for helium-3) is scooped from Goibniu's atmosphere by robotic drone scoops, fully automated, same rationale as the sweepers (repetitive, hazardous, no need for split-second judgment).
@@ -654,7 +654,6 @@ Understanding why each system survives and how they leverage resources:
 - Result: Stable but incomplete dominance; Danu remains an independent but isolated rival
 # Open Questions
  
-- Confirm/recheck the extraction-pipeline math: 1 viable seed per 8,333,334 processed particles.
 - Recompute §13.1's Yemoja↔Olokun and Safford↔Yemoja transit times, and the Hohmann-transfer reference figures, following Olokun's relocation from ~18–20 AU to ~9–10 AU (§7.2) — old figures are stale and flagged as pending in the table.
 - Determine Boann's precise mass/radius as canon values rather than working numbers derived solely from the 0.02g target (§7.1) — a full moons data table, mentioned as a future option in Stars_and_Planets_Data.md, would formalize this alongside Olokun's own values.
 - Per-wormhole target masses are set (§9.2: Enlil ~5,000 t, Obatala ~9,000–10,000 t, Danu ~18,000–20,000 t, Sat-39 ~30,000 t), and Sat-39's post-severance evaporation timeline is now calculated at §9.3's ~26 days (~2.7×10²⁴ J total, heavily backloaded). Still open: whether Sat-39 Nova Reach's hazard crews successfully redirect the remnant (§9.3) is not yet decided as canon.
