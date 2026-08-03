@@ -134,10 +134,17 @@ Rotational gravity is standard across all four wings — a genuinely permanent p
  
 Habitat structure at the habitat anchor scales in three tiers as a wing's population grows:
  
-- **Small — paired arms.** Two short counter-rotating arms off the habitat anchor, each ending in a habitat pod. Cheapest, least internal volume, self-balancing since the arms directly cancel each other's momentum. Enlil's wing (≈500–1,500) has never outgrown this tier.
-- **Medium — single ring + counterweight.** One closed population ring, paired with a non-habited counter-rotating flywheel or reaction mass purely to cancel angular momentum. Danu's and Obatala's wings (a few hundred to ~900 rotational crew each) sit at this tier — these wings are working gate terminals (docking, customs, sensors, cargo storage, logistics, a modest commercial strip), not population centers, so a single ring comfortably covers their housing need.
+- **Branch wings — short arc-module.** Danu, Obatala, and Enlil's Safford wings are working gate terminals only: docking, hazard/maintenance crews for the gate chamber, capsule loading, life support, and minimal medical/food service for the on-site rotational crew. There is no customs function here — this is internal Farfield territory pre-collapse, not a border crossing — and no civilian or family housing, since crew serve rotational tours rather than settling. Each uses the same short-arc-module architecture as Nova Reach's own founding structure (Year 0 subsection below): a partial-arc torus segment on the network-standard 111.8 m/2.000 rpm/0.5g design, balanced by the same four-mass counterweight system (habitat plus co-rotating balance weight; counter-rotating pair of ballast weights), scaled to each wing's actual crew size:
+
+  | Wing | Crew | Arc length | Arc angle |
+  |---|---|---|---|
+  | Enlil | 50 | 22.0 m | 11.3° |
+  | Obatala | 90 | 39.7 m | 20.3° |
+  | Danu | 150 | 66.1 m | 33.9° |
+
+  This crew are Nova Reach citizens and Farfield personnel, not local colonists (see "Safford is Nova Reach territory," §11.0) — they are not counted toward any colony's own population figures (Lugh/Boann, Yemoja/Olokun, Ereshkigal), and nobody commutes to Safford from the surface; crew live on-station for the duration of their rotational tour.
 - **Large — multiple independent structures.** Nova Reach's wing (≈25,000–35,000 settled, ~39,000+ built capacity), hosting the bulk of the network's population and all three branch mouths, is the only wing to grow past this tier — via a sequence of independently-built, counter-rotating structures added over Sat-48's history rather than a single design executed once. See "Year 0: The Founding Arc-Module" and "The Growth Sequence: Structures 1–4" below for the actual mechanism and numbers.
-Because Sat-48 has operated for 65+ years, wings that have grown into a higher tier can plausibly still show physical evidence of the earlier stage — an old, disused arm-pod section standing near Nova Reach's newest structures, for instance — while Enlil's wing has simply never left tier one.
+Because Sat-48 has operated for 65+ years, Nova Reach's wing shows visible layered evidence of its own growth — Structure 1's original small quad still standing near its much larger later additions — while the three branch wings, never having grown past their initial operational-crew requirements, still look close to how they were first built.
  
 ### Deck Pitch and the Healthy Gravity Range
 
@@ -316,7 +323,7 @@ Founding years (see §8): Danu, Year 19; Enlil, Year 22; Obatala, Year 30.
 - Danu f — ice giant, ~15 AU, outer system
 ### Safford Station (Sat-48 Danu)
  
-Sited on its own dedicated minor moon of Mannannán — a distinct body from Mannannán II and III, which are ordinary minor moons uninvolved in station siting. This places Safford right alongside Boann's water operations, but ~5.85–6.15 AU from Lugh, the system's actual agricultural and population hub — see §13–14 for the resulting transit time and comm delay to Lugh. Medium-tier habitat per §4.1: a single closed population ring plus counter-rotating counterweight at the habitat anchor.
+Sited on its own dedicated minor moon of Mannannán — a distinct body from Mannannán II and III, which are ordinary minor moons uninvolved in station siting. This places Safford right alongside Boann's water operations, but ~5.85–6.15 AU from Lugh, the system's actual agricultural and population hub — see §13–14 for the resulting transit time and comm delay to Lugh. Habitat: a short arc-module on the network-standard 111.8 m/2.000 rpm/0.5g design (§4.1), sized to Safford Danu's 150-person operational crew — a 66.1 m arc (33.9°), balanced by the standard four-mass counterweight system. Crew are Nova Reach personnel on rotational tours, not counted toward Danu's own population.
 
 ### Lugh: World and Settlement
 
@@ -382,7 +389,7 @@ Boann (Mannannán I) is a tidally-heated subsurface ocean moon — a differentia
 - Obatala h, i — outer icy dwarf remnants
 ### Safford Station (Sat-48 Obatala)
  
-Sited as a minor moon co-orbital with Olokun — a Phobos/Deimos-style small body rather than the gas-giant-moon pattern used at Nova Reach and Danu, and a deliberate departure from the station's original asteroid-belt siting. This puts Safford in near-instant comm contact with Olokun (under 10 seconds one-way, §14) but genuinely far from Yemoja — roughly 9 AU of separation at Olokun's distance, versus the old belt site's ~2.5 AU. See §7.2's Olokun subsection and §11.4/§15.1 for how this reversed comm-delay relationship (Olokun now tightly coupled, Yemoja now the isolated world) reshapes Obatala's governance. Medium-tier habitat per §4.1: a single closed population ring plus counter-rotating counterweight at the habitat anchor.
+Sited as a minor moon co-orbital with Olokun — a Phobos/Deimos-style small body rather than the gas-giant-moon pattern used at Nova Reach and Danu, and a deliberate departure from the station's original asteroid-belt siting. This puts Safford in near-instant comm contact with Olokun (under 10 seconds one-way, §14) but genuinely far from Yemoja — roughly 9 AU of separation at Olokun's distance, versus the old belt site's ~2.5 AU. See §7.2's Olokun subsection and §11.4/§15.1 for how this reversed comm-delay relationship (Olokun now tightly coupled, Yemoja now the isolated world) reshapes Obatala's governance. Habitat: a short arc-module on the network-standard 111.8 m/2.000 rpm/0.5g design (§4.1), sized to Safford Obatala's 90-person operational crew — a 39.7 m arc (20.3°), balanced by the standard four-mass counterweight system. Crew are Nova Reach personnel on rotational tours, not counted toward Obatala's own population.
 
 ### Olokun: World and Settlement
 
@@ -411,7 +418,7 @@ Causal chain: Enlil A swelled into a red giant → Enlil B's gravity destabilize
  
 ### Safford Station (Sat-48 Enlil)
  
-Sited on a rubble-pile remnant beyond Ereshkigal, at roughly 0.05 AU (versus Ereshkigal's ~0.01–0.02 AU) — a deliberately close placement, only ~0.035 AU of separation. Of the three branch stations, this is the only one built directly into the wreckage of a dead system rather than docked to an intact planet or moon, and it sits close enough to Ereshkigal that station and outpost are functionally neighbors (see §13–14). Because the host body is a loose rubble pile rather than a solid moon or asteroid, both the gate anchor and habitat anchor are built as wide-footprint pier "rafts" rather than a few deep piers (§4.1). Small-tier habitat: paired counter-rotating arms, the only branch wing that has never grown beyond this stage.
+Sited on a rubble-pile remnant beyond Ereshkigal, at roughly 0.05 AU (versus Ereshkigal's ~0.01–0.02 AU) — a deliberately close placement, only ~0.035 AU of separation. Of the three branch stations, this is the only one built directly into the wreckage of a dead system rather than docked to an intact planet or moon, and it sits close enough to Ereshkigal that station and outpost are functionally neighbors (see §13–14). Because the host body is a loose rubble pile rather than a solid moon or asteroid, both the gate anchor and habitat anchor are built as wide-footprint pier "rafts" rather than a few deep piers (§4.1). Habitat: a short arc-module on the network-standard 111.8 m/2.000 rpm/0.5g design (§4.1), sized to Safford Enlil's 50-person operational crew — the smallest of the three branch wings, a 22.0 m arc (11.3°), balanced by the standard four-mass counterweight system. Crew are Nova Reach personnel on rotational tours, not counted toward Ereshkigal's population (§7.3 above).
  
 # 8. Chronology
  
