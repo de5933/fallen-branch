@@ -149,6 +149,48 @@ Nova Reach's habitat anchor is the one wing that outgrew a single ring, and its 
 - **Multiple axles:** past a certain point, bearing load and axial bending stress on a single spine become the limiting factor long before population does. Nova Reach's habitat anchor addresses this the same way it addressed the arm → ring → stack progression in the first place — by adding a second (and eventually further) independently mounted axle assembly, each running its own stack of paired rings. A structural problem on one axle doesn't propagate to the others, the same risk-quarantine logic already used for the gate chambers and for Sat-39/Sat-48 (§6.1).
 Seen end-on down any given axle, Nova Reach's wing shows a visible size progression — small early tori nearest the hub, giving way to much larger cylindrical drums further out, or on a newer second axle entirely — growth rings in the most literal sense, marking out 65 years of the colony's expansion for anyone who knows how to read them.
 
+### Deck Pitch and the Healthy Gravity Range
+
+Two reference standards used throughout this section and elsewhere in the bible (including the Year 0 arc-module design below):
+
+**Deck pitch: 4.5 m total** — 4 m clear headroom plus 0.5 m for structural floor plate and the service void (power, water, air, data) beneath it. This is the standard unit of radial spacing between decks anywhere radial stacking is used.
+
+**Floor area per resident: 40 m²** — a mid-range planning figure (no dedicated on-station agriculture needed, since Trelium and Goibniu extraction are the wing's economic purpose, not food production), used to convert ring floor area into population capacity below.
+
+**Healthy gravity range**, informed by real long-duration microgravity data (0g is unambiguously harmful per ISS-era medicine) and by Boann's already-canon 0.02g rotational-only tour structure (§7.1) as the low-end anchor, with the upper bound set by Coriolis/vestibular comfort rather than any known injury threshold:
+
+| Zone | Range | Status |
+|---|---|---|
+| Fully healthy, indefinite | 0.4g – 1.0g | Standard permanent housing |
+| Marginal, medically monitored | 0.2g – 0.4g (lower) / 1.0g – 1.5g (upper) | Not standard housing; requires monitoring |
+| Rotational-only | < 0.2g | Short tours, mandatory rotation out (Boann-tier, §7.1) |
+| Trained/occupational only | > 1.5g | Never permanent residential |
+
+The partial-g thresholds (as opposed to 0g's harm, which is well-established) reflect Farfield's best available in-universe medicine rather than confirmed real-world science — a corporate judgment call, not a hard physical limit.
+
+**Gravity gradient at the existing 120 m rim:** gravity scales linearly with radius, g(r) = 0.5 × (r / 120), giving Δg ≈ 0.01875g per 4.5 m deck. At the current single-radius rim structure, only the *inward* direction is physically available for additional radial stacking without building an entirely larger wheel — the 120 m rim is the outer hull edge, not a mid-point with room to expand outward. Working inward from the rim:
+
+| Radius | Gravity | Note |
+|---|---|---|
+| 120.0 m | 0.500g | Current rim (existing structure) |
+| 97.5 m | 0.406g | Innermost deck still within the healthy range (5 decks inward) |
+| 96.0 m | 0.400g | Exact floor of the healthy range |
+
+Six decks (the rim plus 5 inward) span the full available healthy-gravity depth at the existing radius, with a small ~1.5 m unused margin at the innermost edge. Reaching the *upper* end of the healthy range (up to 1.0g, i.e. 240 m radius) is not available by stacking decks at all — it would require constructing an entirely new, larger-radius wheel, not adding decks to the existing one.
+
+### Tier Dimensions (Nova Reach Wing)
+
+Concrete floor area and capacity figures for the three ring tiers described qualitatively above, all held at the standard 120 m radius (so gravity and rotation rate never change between tiers — only axial length grows):
+
+| Tier | Axial length | Floor area / ring | Capacity / ring | Capacity / pair |
+|---|---|---|---|---|
+| Tier 1 — founding tori | 30 m | ~22,600 m² | ~565 | ~1,130 |
+| Tier 2 — mid-growth tori | 60 m | ~45,200 m² | ~1,131 | ~2,260 |
+| Tier 3 — cylinder (largest) | 480 m | ~361,900 m² | ~9,048 | ~18,100 |
+
+(Floor area = circumference at 120 m [~754 m] × axial length; capacity = floor area ÷ 40 m² per resident.) A single Tier 3 pair alone accounts for most of Nova Reach wing's established 25,000–35,000 population, with older Tier 1 and Tier 2 pairs — visible as the "small early tori nearest the hub" described above — making up the remainder.
+
+
 ### Year 0: The Founding Arc-Module (Before the Ring Standard)
 
 Before Sat-48 grew into the axial ring-stack described above, its very first habitat structure had to solve a different problem entirely: house a small, specialized founding crew (roughly 100–150 people — the wormhole engineers, technicians, and support staff needed to characterize and inflate the branch seeds, per §3 and §10.3) as cheaply and simply as possible, with no population history yet to justify a full ring. The design that resulted predates and differs in a few specific numbers from the eventual ring standard above, and is preserved here as a real engineering artifact of the colony's first years rather than smoothed over to match later construction.
