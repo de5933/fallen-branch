@@ -71,7 +71,7 @@ Units: stellar mass/radius in solar units (M☉/R☉); planetary mass/radius in 
  
 ## Danu System
  
-**Safford Danu station population (bible-established): a few hundred to ~900 rotational crew** (medium-tier, single-ring habitat)
+**Safford Danu station population (bible-established): 150 rotational crew** (short arc-module, 66.1 m arc/33.9°, network-standard 111.8 m/2.000 rpm/0.5g design — Nova Reach personnel, not counted toward Danu's population)
  
 | Body | Type | Mass | Radius | Surface Gravity | Semi-Major Axis | Atm. Pressure | Eq. Temperature | Atm. Composition | Solar Day | Comm Delay from Safford | Population |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -89,7 +89,7 @@ Units: stellar mass/radius in solar units (M☉/R☉); planetary mass/radius in 
  
 ## Obatala System
  
-**Safford Obatala station population (bible-established): a few hundred to ~900 rotational crew** (medium-tier, single-ring habitat). **Relocated** (this session) from the 2–4 AU asteroid belt to a minor moon co-orbital with Olokun, Phobos/Deimos-style — see Olokun's row below and the Worldbuilding Bible §7.2.
+**Safford Obatala station population (bible-established): 90 rotational crew** (short arc-module, 39.7 m arc/20.3°, network-standard 111.8 m/2.000 rpm/0.5g design — Nova Reach personnel, not counted toward Obatala's population). **Relocated** (this session) from the 2–4 AU asteroid belt to a minor moon co-orbital with Olokun, Phobos/Deimos-style — see Olokun's row below and the Worldbuilding Bible §7.2.
  
 | Body | Type | Mass | Radius | Surface Gravity | Semi-Major Axis | Atm. Pressure | Eq. Temperature | Atm. Composition | Solar Day | Comm Delay from Safford | Population |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -109,7 +109,7 @@ Units: stellar mass/radius in solar units (M☉/R☉); planetary mass/radius in 
  
 ## Enlil System
  
-**Safford Enlil station population (bible-established): small-tier, ≈500–1,500 rotational crew** (paired counter-rotating arms, never grown beyond)
+**Safford Enlil station population (bible-established): 50 rotational crew** (short arc-module, 22.0 m arc/11.3°, network-standard 111.8 m/2.000 rpm/0.5g design — Nova Reach personnel, not counted toward Ereshkigal's population)
  
 | Body | Type | Mass | Radius | Surface Gravity | Semi-Major Axis | Atm. Pressure | Eq. Temperature | Atm. Composition | Solar Day | Comm Delay from Safford | Population |
 |---|---|---|---|---|---|---|---|---|---|---|---|
