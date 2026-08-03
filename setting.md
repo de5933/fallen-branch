@@ -235,6 +235,26 @@ Beyond that 4x step, three further strategies exist, with different trade-offs:
 
 *Note on areal mass density: the tonnage figures above (module mass, ballast tonnage) depend on an areal structural-mass density (kg per m² of floor) that has not yet been locked as canon — see Open Questions.*
 
+### The Growth Sequence: Structures 1–4
+
+The Year 0 arc-module design above is a starting point, not an endpoint — over Sat-48's history, Farfield scales the wing through four distinct, independently-built structures, each keeping the same 111.8 m/2.000 rpm/0.5g-anchor design tradition established at Year 0 rather than jumping to the later-standardized 120 m ring figure. Each is its own physically separate assembly with its own bearings, not an enlargement of what came before.
+
+**Structure 1 — the original quad.** The four Year 0 arc modules (§ above — one habitat, one co-rotating balance weight, two counter-rotating weights, all swapped to matching habitat mass per the 4x expansion logic) are extended in lockstep from their original ~8.2° arc out to 45° each, keeping all four masses matched throughout construction to preserve balance at every step. Population: **877**.
+
+**Structure 2 — first new ring pair.** An entirely new, independently-bearinged structure elsewhere on the shared spine, using the same 5-deck cross-section (minor radius 11.25 m) as Structure 1, but grown to a full 360° ring rather than a partial arc. Initially balanced against a plain ballast counter-ring (unhabited, quarried mass, matching radius and mass); once justified, that ballast ring is swapped for a second habitable ring, giving two full counter-rotating rings that balance directly against each other with no ballast needed at all. Population: **3,508**.
+
+**Structure 3 — second new ring pair, larger cross-section.** A second all-new independent structure, same 111.8 m anchor radius and design tradition, but stacked to **20 decks** (minor radius 45 m, spanning 111.8–201.8 m, outermost-deck gravity 0.892g) rather than 5. Built the same way as Structure 2 — ballast counter-ring first, later swapped for a second habitable ring. Population: **34,940**.
+
+Cumulative built capacity across Structures 1–3: **39,325** — comfortably covering, and somewhat exceeding, Nova Reach's established Year 92 population of 25,000–35,000 (§ Chronology). The gap is deliberate: Farfield builds ahead of settled population, not to it, and the ~4,000–14,000-person surplus of finished-but-under-occupied capacity is simply capacity waiting for growth that was still expected to continue.
+
+**Farfield's standing engineering philosophy, made explicit here:** gravity varies meaningfully within a single structure (0.510g–0.591g in Structure 1's decks, 0.500g–0.892g across Structure 3's 20 decks) and this is treated as an acceptable, unremarkable cost of construction speed and cross-section economy, not a defect to be engineered around. "People will adjust" is the operative institutional attitude — fully consistent with, and a direct architectural expression of, Farfield's already-established amoral efficiency (§10.6): safety and structural soundness are non-negotiable, comfort is not.
+
+**Structure 4 — the unfinished fourth structure.** Construction begins on a fourth independent structure, again at the 111.8 m anchor, planned to push the radial-stacking design to its absolute physical ceiling: **25 decks** (minor radius 56.25 m, spanning 111.8–223.55 m) — the maximum depth obtainable before the outermost deck would cross 1.0g. If completed as a full counter-rotating ring pair, Structure 4 alone would have added roughly **116,900** further capacity, dwarfing Structures 1–3 combined and pushing the wing's total built capacity well past 150,000.
+
+It is never finished. The Severance Event (Year 92, §9) halts construction outright, and Structure 4 is left as an incomplete skeleton — partial ring segments, exposed structural framework, exactly the kind of half-built ambition that reads as a physical monument to the future Farfield still expected right up until the collapse. Its final planned specifications (exact deck count reached before halting, whether a counter-ring had even been started) are an open dramatic question rather than fixed canon — useful as a setting for a scene, and a visible, permanent reminder to post-collapse Nova Reach of how confidently the company was still expanding the day everything changed.
+
+
+
 
 ## 4.2 Safford as Company Town: Daily Life and Education
 
@@ -741,6 +761,7 @@ Understanding why each system survives and how they leverage resources:
 - Result: Stable but incomplete dominance; Danu remains an independent but isolated rival
 # Open Questions
  
+- Reconcile the detailed Structures 1–4 growth sequence (§4.1, Year 0 arc-module lineage — 111.8 m anchor radius, radial deck-stacking) with the more abstract Tier 1/2/3 axial-growth description elsewhere in §4.1 (120 m radius, single deck, axial extension). Currently presented as two coexisting, unreconciled accounts of how Nova Reach's wing reached its Year 92 population — plausibly the same real history described at two different levels of detail, or plausibly two genuinely different structures on the station, but not yet decided as canon.
 - Lock an areal structural-mass density (kg per m² of floor) for habitat construction — needed to convert the Year 0 arc-module's floor area into real tonnage (module mass, counterweight ballast tonnage, §4.1). Not yet established; real spin-habitat concepts range roughly 300 kg/m² (lightly shielded) to 2,000+ kg/m² (heavily shielded), and nothing in-universe pins this down yet.
 - Year 0's founding arc-module uses a 111.8 m major radius (exact 2.000 rpm at 0.5g); the eventual ring standard elsewhere in §4.1 uses 120 m (~1.93 rpm). Currently treated as two distinct engineering moments 65+ years apart (deliberately not reconciled to one number) — flag if a single consistent radius across all eras is wanted instead.
 - Recompute §13.1's Yemoja↔Olokun and Safford↔Yemoja transit times, and the Hohmann-transfer reference figures, following Olokun's relocation from ~18–20 AU to ~9–10 AU (§7.2) — old figures are stale and flagged as pending in the table.
