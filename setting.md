@@ -519,9 +519,20 @@ Trelium (local slang for helium-3) is scooped from Goibniu's atmosphere by robot
 - Year 92: The severance is exogenous, sudden, a random catastrophe — not the inevitable result of building tensions. It exposes a system that was only ever held together by ruthless efficiency and lack of alternatives.
 - Post-severance, Nova Reach attempts to maintain legitimacy and provide for the branch systems, and partially fails due to internal chaos and limited capacity — compounded by the comm-delay problem detailed in §15: central coordination across 20-minute-to-hour-plus one-way lags was already strained before the collapse, and becomes unworkable during it. All accumulated resentment erupts because the system holding it in place is gone.
 - Likely outcome: one or two large coalitions plus several smaller, fractured systems under extreme governance (feudal, dictatorial, etc.).
-- A charismatic leader (gender under consideration) leads early peaceful rebuilding efforts, is later assassinated, and becomes a martyr/symbol of hope for stability.
+- A charismatic leader (gender under consideration) leads early peaceful rebuilding efforts, is later assassinated, and becomes a martyr/symbol of hope for stability. *(See §10.8 for the now-locked leadership roster — this figure is most likely Halvard Deschamps; final confirmation of the martyr/Deschamps link is still an open cross-reference, see Open Questions.)*
 - Government type per colony depends on: resource self-sufficiency, population ideology mix, dependency on Nova Reach, and (newly established) how tightly each settlement is coupled to its Safford station by communication lag — see §15.
 - Inspirations: Soviet collapse (messy, multi-decade, competing factions, no clean resolution), early American frontier, COVID-era supply chain fragility.
+
+## 10.8 Nova Reach Phase Leadership
+
+The Managing Director of Nova Reach Operations is the senior civilian executive authority over the entire Nova Reach network, based at Safford. As with all Farfield executive appointments, there is no formal rule restricting the role to Terran-born candidates, but in practice, informal sponsorship networks, accreditation pedigree, and generational patterns of executive rotation from Earth mean the position, and the executive tier beneath it, has always been held by Terran-born career staff. Local, Safford-born administrator-track colonists can and do rise to senior operational roles — department heads, station managers, refinery chiefs — but the top chair has never gone to a native-born candidate, a fact nobody at Farfield acknowledges as policy and everybody quietly reproduces.
+
+**Halvard Deschamps** served as Managing Director for over fifteen years prior to the Severance Event, a long tour by any standard, having arrived on Safford as a younger executive and raised his family there — a wife and children who called Safford home rather than Earth. Deschamps was a sincere believer in Farfield's mission, not naively so, but because decades of real, accurate evidence — the stable Year 36–92 growth era — seemed to confirm his optimism right up until it didn't. His fatal blind spot was not underestimating the network's problems, which he understood well, but failing to grasp that he would always be seen as an outsider on Safford, however long he served or however well he meant it. He is Phase 1's conservative leader (§12.1) and is assassinated at the end of that phase (§12.2, revised).
+
+**Ingrid Castellane** served as Security & Enforcement Director prior to the collapse, overseeing Nova Reach's only standing armed capability — a modest company security force sized for policing and workplace discipline, never for organized conflict. She spent years arguing, and losing the argument, that this force was underfunded and dangerously complacent, dismissed as alarmist during the stable era precisely because things were stable. She took power after Deschamps's assassination, not through any formal succession, but by simple fact of already commanding Safford's only armed personnel, declaring emergency continuity of operations, and moving quickly while the loyalist population was still reeling. She is Phase 2's militaristic leader (§12.2).
+
+**Ines Okafor-Lindqvist** served as Director of Labor & Personnel, and later removed Castellane from power through a coalition of pragmatist factions after repeated costly and unsuccessful incursions against Danu. Her primary motivation was the unsustainable cost of the war in personnel and materiel, though she held a genuine, secondary humanitarian discomfort with the losses as well. Her defining skill, and the reason she succeeded where Deschamps failed, was recognizing that legitimacy in crisis must be actively built rather than simply earned by being correct — winning public support by leading with the human cost of the war rather than the arithmetic of it. She is Phase 3's moderate leader (§12.3).
+
 # 11. Post-Collapse Governance Structures
  
 By the time the network stabilizes into an uneasy equilibrium, each system has developed distinct governance appropriate to its ideological composition, resources, and dependency relationships.
@@ -609,28 +620,34 @@ The two entities maintain an uneasy peace: Danu is independent but resource-cons
  
 # 12. The Path to Stalemate: The Military Arc
  
-The transition from post-collapse chaos to two-entity equilibrium unfolds through three leadership phases in Nova Reach. See §15 for how comm-delay geography (§14) mechanically underlies each phase below, rather than resulting purely from personality or ideology.
+The transition from post-collapse chaos to two-entity equilibrium unfolds through three leadership phases in Nova Reach. See §15 for how comm-delay geography (§14) mechanically underlies each phase below, rather than resulting purely from personality or ideology. See §10.8 for full biographical detail on all three phase leaders (Deschamps, Castellane, Okafor-Lindqvist).
  
 ## 12.1 Phase 1: Conservative Leadership (Days 1–60 post-collapse)
  
-- The highest-ranking administrator at collapse becomes de facto leader, taking a cautious approach
+- Halvard Deschamps (§10.8), the sitting Managing Director at collapse, remains de facto leader, taking a cautious approach
 - Focus: stabilizing Nova Reach's internal systems, maintaining order, negotiating cooperation with other colonies
 - Sends diplomatic envoys to Danu, Enlil, and Obatala, hoping to preserve a cooperative federation
-- This window of restraint allows Danu to consolidate idealist control, seize Boann's water facilities, and organize blue-collar resistance
 - Attempted real-time coordination is undercut from day one by comm lag: a round-trip exchange with Lugh (Danu's actual population center) already runs 1.6–1.7 hours before any crisis-driven delay is added — see §15.
-## 12.2 Phase 2: Aggressive Leadership and Military Escalation
+- **Prior to the Severance Event, escalating unrest on Danu had already prompted Nova Reach to maintain a disproportionate security presence on Lugh and Boann** — garrison deployments built up over time in response to ongoing local resistance, representing perhaps a third of the network's entire security force concentrated in a single branch system.
+- **When the Severance Event struck and Danu moved immediately to press for independence, this garrison was overwhelmed within days.** The unrest itself involved only scattered, small-scale violence — isolated street clashes and sporadic gunfire, no large engagement or standoff — but it was enough. Nova Reach personnel stationed on Lugh and Boann were disarmed and marched to their transports at gunpoint, expelled from both worlds and ordered home. Given the routine safety of in-system transit, all personnel returned to Safford intact; the only casualties of the entire uprising were a small number killed in the initial scattered clashes.
+- **Ingrid Castellane (§10.8) treated the humiliation of her own security forces as complete vindication of years of warnings Nova Reach leadership had dismissed.** Deschamps, however, held firm, insisting on continued diplomacy, patience, and faith that restraint would ultimately be met with reason from Danu. This produced a serious ideological fracture within Safford itself — not merely between Deschamps and Castellane at the executive level, but throughout the loyalist population, many of whom felt the humiliated security personnel deserved retribution rather than having their defeat met with official patience.
  
-- The conservative leader is assassinated by a Nova Reach insider sympathetic to Danu's independence movement
-- The assassination is not intended as a power grab, but a hardline militaristic faction seizes the opportunity to take control
-- The new militaristic leader uses the chaos to rally support: "Look, diplomacy failed. Danu is sabotaging us. We need strong leadership now."
+## 12.2 Phase 2: Aggressive Leadership and Military Escalation
+
+> **CANON REVISION — supersedes previous language.** The assassin was previously described as "a Nova Reach insider sympathetic to Danu's independence movement." This is no longer canon. The assassin is a **domestic Nova Reach hardliner acting alone**, motivated by fury at Deschamps's restraint, not by sympathy for Danu. Loyalist propaganda later falsely claims a Danu-sympathizer motive — that claim is in-universe misinformation, not the true backstory. See §10.8 for the leadership roster this plugs into.
+ 
+- **Deschamps was assassinated by a Nova Reach hardliner acting alone** — not a Danu sympathizer, as loyalist propaganda would later claim, but a furious member of the domestic pro-retribution faction (§12.1) who viewed Deschamps's restraint as a betrayal of Nova Reach's own humiliated people.
+- **Ingrid Castellane had no foreknowledge of the assassination and no connection to the assassin beyond shared ideological grievance.** The assassination is not intended as a power grab by her or her allies — it is an act of individual rage that she did not order, plan, or anticipate.
+- **She moved swiftly afterward**, using her existing command of Safford's only armed force to seize continuity of operations before any rival could organize a response, publicly framing the killing as proof that appeasement had failed and that only strength would hold the network together: "Look, diplomacy failed. Danu is sabotaging us. We need strong leadership now."
 - Nova Reach mobilizes hastily: recruits civilian security forces, arms them poorly, launches military incursions into Danu
 - Danu's defenders (engineers, maintenance crews, hazard workers) fight on home turf with superior knowledge and improvised weapons
 - Multiple clashes occur; Nova Reach suffers costly defeats against Danu's defensive strategy
 - Danu's field commanders at Lugh are, by this point, already operating on local authority by necessity (§15) — orders and clarifications from Nova Reach arrive an hour or more out of date, so ambiguous directives read as hostile intent on both sides.
+ 
 ## 12.3 Phase 3: Negotiated Peace
  
-- After several failed incursions, the militaristic leader either steps down voluntarily or is removed by pragmatist factions within Nova Reach
-- A moderate leader takes over, one willing to accept Danu's independence as the cost of stability
+- After several failed incursions, Castellane either steps down voluntarily or is removed by pragmatist factions within Nova Reach, led by Ines Okafor-Lindqvist (§10.8)
+- Okafor-Lindqvist takes over, willing to accept Danu's independence as the cost of stability
 - Formal recognition: Danu is declared independent. The two entities establish borders and minimal trade relations.
 - Nova Reach focuses on consolidating control over Enlil and Obatala and developing Obatala's agriculture as an alternative to Danu's food supply
 # 13. Propulsion & Interplanetary Transit
@@ -650,6 +667,30 @@ Standard mission budget: roughly 350–400 km/s total delta-v (split between dep
 | Safford (rubble pile, ~0.05 AU) → Ereshkigal (Enlil) | ~0.035 AU | under 2 days |
  
 *For reference, a fuel-optimal (Hohmann) transfer between Yemoja and Olokun costs only ~21.8 km/s of delta-v but takes ~16 years at the old ~18.5 AU separation; this figure is stale following Olokun's relocation to ~9–10 AU and needs recomputing (see Open Questions). A continuous-thrust torchship covers the same distance in weeks but at a delta-v cost of hundreds to thousands of km/s. The accelerate-coast-decelerate profile above was chosen specifically to avoid both extremes.*
+
+## 13.2 War-Era Vehicle Architecture (Nova Reach–Danu conflict, §12)
+
+Consistent with §2.1's hard ceiling — no hull ever transits a gate, and nothing built in one system can fly to another — Farfield's interplanetary cargo (and, during the war, troop) logistics use a three-vehicle-class architecture rather than a single do-everything ship:
+
+- **Interplanetary transfer vessel.** Trelium fusion drive (§13). Makes the long accelerate-coast-decelerate burns between Safford and a branch system's local space, and never enters atmosphere or fires anything near a planetary surface. Permanently operates in the black between worlds, looping between Safford and its assigned system's parking orbit.
+- **Planet-specific lander fleet.** Separate, dedicated lander fleets are based at Lugh and at Boann respectively. A lander never travels to Safford and never leaves its home system — it only ever shuttles cargo (and personnel) between its home planet's surface and local parking orbit, handing off to a waiting transfer vessel via orbital rendezvous and docking. This is more mass- and cost-efficient than hauling a lander's dead weight all the way to Safford and back, and allows each fleet to be customized to its home world's specific conditions rather than built to one generic standard.
+  - **Lugh's lander** is a lifting-body/winged shuttle design, using Lugh's ~1.8 bar CO2 atmosphere for a gliding entry and runway touchdown (provisionally assumed pending final confirmation against Lugh's atmospheric data, §7.1) — bleeding off nearly all orbital velocity via drag rather than propellant, needing only a comparatively small hydrogen-oxygen reserve for final approach correction and maneuvering. This gives it a real mass/payload advantage over a fully propulsive lander, fitting Lugh's role moving high cargo volumes.
+  - **Boann's lander** must be fully propulsive (hydrogen-oxygen boosted landing and ascent) in both directions — Boann's negligible atmosphere makes any gliding approach physically impossible, so descent and ascent both burn the full delta-v.
+- **Tactical implication (§12.2):** this architecture gives every incursion an unavoidable, highly visible orbital loiter phase — the transfer vessel sits exposed in parking orbit while its lander is down on the surface — a predictable rhythm Danu's defenders can plan incursion response around.
+
+### Lugh: landing infrastructure
+
+Built for high cargo throughput rather than defense: open ground, likely multiple pads/runway capacity, positioned near processing and storage facilities so harvested crops can move quickly from field to orbit. Tactically exposed — clean, unobstructed sightlines for defenders on slightly elevated ground or nearby structures, with nowhere for a landing party to take cover once down. A gliding shuttle-style landing (if confirmed) implies an actual runway with real approach/rollout margin, a larger and harder-to-seal target than a compact pad, but one that also exposes an inbound vehicle during a fast, low, hard-to-evade rollout.
+
+### Boann: landing infrastructure
+
+Boann has no coastlines and no open ocean — its surface is ice sheet throughout, and its "dry land" is the network of paved surface facilities built atop that ice near the borehole settlement (§7.1). A propulsive hydrogen-oxygen landing here requires an engineered, heat-resistant, blast-diverted pad built directly into the reinforced ice/paved surface, since an unprepared site risks uncontrolled melt-through or cracking under landing-plume thermal and pressure loading. This gives Boann a small number of fixed, known, heavily fortified landing points rather than Lugh's more open, distributed exposure — defenders don't need to cover a whole region, just deny the handful of points that are the only physical way in.
+
+### War mechanics: no ship-to-ship combat
+
+Neither side possesses anything resembling a warship. Nova Reach's forces are a company security apparatus (§10.8, Castellane) improvising combat capability onto vehicles and personnel built for policing, not war; Danu has no space-based force at all. Orbital closing speeds are far too high for conventional projectile weapons to be effective at any range beyond point-blank/boarding distance, so there is no meaningful space combat in this conflict — a mounted gun is, at best, an improvised close-range boarding or intimidation weapon, not a warship's armament. **Safford itself is never attacked by anyone**: as the sole gate infrastructure connecting all four systems, an attack on it would unite every faction, Danu included, against the attacker, since Danu needs the gates as much as Nova Reach does.
+
+The war is therefore fought entirely as a **ground/landing-zone conflict**, structurally similar to an opposed amphibious landing with no landing-craft doctrine on the attacker's side: Castellane's forces arrive via slow, unarmed transports with an unavoidable, visible final descent, and Danu's defenders don't need ships or orbital assets at all — they only need to make the small number of physical landing points (above) lethal with prepared fields of fire and repurposed equipment.
  
 # 14. Communication Delays
  
@@ -739,7 +780,7 @@ Understanding why each system survives and how they leverage resources:
 - Recompute §13.1's Yemoja↔Olokun and Safford↔Yemoja transit times, and the Hohmann-transfer reference figures, following Olokun's relocation from ~18–20 AU to ~9–10 AU (§7.2) — old figures are stale and flagged as pending in the table.
 - Determine Boann's precise mass/radius as canon values rather than working numbers derived solely from the 0.02g target (§7.1) — a full moons data table, mentioned as a future option in Stars_and_Planets_Data.md, would formalize this alongside Olokun's own values.
 - Per-wormhole target masses are set (§9.2: Enlil ~5,000 t, Obatala ~9,000–10,000 t, Danu ~18,000–20,000 t, Sat-39 ~30,000 t), and Sat-39's post-severance evaporation timeline is now calculated at §9.3's ~26 days (~2.7×10²⁴ J total, heavily backloaded). Still open: whether Sat-39 Nova Reach's hazard crews successfully redirect the remnant (§9.3) is not yet decided as canon.
-- Develop the charismatic leader/eventual martyr character, including final gender decision.
+- ~~Develop the charismatic leader/eventual martyr character, including final gender decision.~~ **Partially resolved** — see §10.8: Nova Reach's three phase leaders (Deschamps, Castellane, Okafor-Lindqvist) are now locked. Still open: whether §10.6's "martyred charismatic leader" reference and Deschamps are formally confirmed as the same figure, or whether the martyr figure is distinct.
 - Decide whether Nova Reach / this cluster has military or strategic value pre-collapse, or remains purely economic/civilian.
 - Flesh out Ereshkigal's specific colony structure, population size, and phosphorus extraction/shipping method — now informed by its near-instant comm coupling to Safford, and by the open question of whether its population is rotational or permanent.
 - Assign any remaining unnamed system(s) or Enlil's second "interesting planet" slot, if desired.
@@ -751,5 +792,9 @@ Understanding why each system survives and how they leverage resources:
 - Medical effects of life on each planet — gravity, radiation, atmosphere, and other environmental factors specific to each world, beyond the general 0.5g station standard already established in §4.1.
 - Culinary situation: what people actually eat on each world/station, and what local cuisines have developed from available ingredients and imports.
 - Economy and technology progression after the collapse — how each colony's industry and tech base evolves once cut off from Earth and, in Danu's case, from Farfield.
+- **New:** Confirm Lugh's atmospheric density/scale-height figures actually support a gliding shuttle-style landing (§13.2) as currently assumed provisionally — check against Stars_and_Planets_Data.md's Lugh entry (1.8 bar CO2, 0.70g) before treating the runway-based landing-zone tactics in §13.2 as locked.
+- **New:** Lock Castellane's exact reign length (leaning 2–3 years, not yet finalized) and whether her incursions are raid-style (land/fight/withdraw) or attempt occupation — both needed to pace §12.2's war beats precisely.
+- **New:** Determine whether Danu fields any organized defense force (militia, repurposed equipment) by the time of Phase 2, or whether resistance is purely improvised each time.
+- **New:** Halvard Deschamps's family (spouse, children — number, ages, post-severance fate) is referenced in §10.8 but not yet detailed.
 
 <!-- read/write test: Claude PAT access confirmed 2026-07-28T13:37:11Z -->
