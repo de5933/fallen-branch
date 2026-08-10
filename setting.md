@@ -672,7 +672,16 @@ Standard mission budget: roughly 350–400 km/s total delta-v (split between dep
 
 Four physically distinct vehicle classes serve the Danu branch, each sized to the specific journey it makes rather than built to one generic standard — a direct consequence of how different Lugh's and Boann's local environments actually are (§7.1), confirmed by working the real numbers for each route rather than assumed for narrative variety.
 
-### Lugh Surface Aircraft — electric only
+**Naming convention.** Farfield's official designators follow a dry, functional letter-and-number scheme in the same spirit as the Sat-# convention (§4) — no PR spend justified unless a vehicle is a genuine first (§10.6's cost efficiency). In-universe usage draws a real aerospace distinction between an **aircraft** (operates exclusively within atmosphere, never leaves it) and a **transatmospheric vehicle (TAV)** — a vehicle whose defining feature is transitioning between atmospheric flight and orbit. Colonists use both terms functionally ("that's an aircraft, not a TAV"), not just as marketing:
+
+| Vehicle | Official designator | Common usage |
+|---|---|---|
+| Lugh Surface Aircraft | Farfield A-6 | "aircraft" |
+| Lugh Spaceplane | AOTS (Atmospheric Orbital Transfer System) | Farfield Skyreach; TAV (class term — the network's only vehicle of this type) |
+| Interplanetary Transfer Vessel | ITV | "ITV" / "OTO" (route jargon, orbit-to-orbit) |
+| Boann Shuttle | Farfield PDV-1 (Propulsive Descent Vehicle) | "Boann Shuttle" / "Shuttle" |
+
+### Lugh Surface Aircraft (Farfield A-6) — electric only
 
 Ground-to-ground transport between Lugh's primary terminator city and its satellite settlements (§7.1) runs on pure electric propulsion — motor, ducted fan/propeller, battery pack — with no rocket component at all. Two independent effects make this favorable relative to Earth aviation:
 
@@ -682,7 +691,7 @@ Ground-to-ground transport between Lugh's primary terminator city and its satell
 
 Real-world electric regional aircraft already achieve 200–400 km ranges on current battery technology; at 30%+ better energy economy, Lugh's terminator-line hops between settlements sit comfortably within that same envelope. No exotic future battery tech required.
 
-### Lugh Spaceplane — hybrid electric/H2-LOX, single-stage reusable
+### Lugh Spaceplane (AOTS / Farfield Skyreach) — hybrid electric/H2-LOX, single-stage reusable, TAV
 
 Surface-to-orbit-and-back transport, handing off cargo to the Interplanetary Transfer Vessel (below) at Lugh parking orbit. Confirms and supersedes the earlier "provisionally assumed" gliding lander (§7.1, §13.2 prior revision) — the underlying physics checks out favorably:
 
@@ -691,11 +700,11 @@ Surface-to-orbit-and-back transport, handing off cargo to the Interplanetary Tra
 - **Rocket-only ΔV budget:** orbital velocity (6.53 km/s) plus the remaining gravity/drag losses the rocket phase alone incurs, estimated at **~6.8 km/s** total after the electric-assist offload. At H2/LOX Isp ≈ 450s (ve ≈ 4,413 m/s): mass ratio e^(6800/4413) ≈ 4.67, or **~79% propellant fraction**.
 - **Verdict:** single-stage, but a genuine engineering achievement rather than a comfortable margin — meaningfully below Earth SSTO concepts' ~90%+ propellant-fraction wall (which sank real designs like X-33 and Skylon), thanks to Lugh's lower g, lower total ΔV, and gentler reentry all pulling the same direction. A ~20% dry-mass fraction (tanks, structure, TPS, electric and rocket propulsion) is demanding but achievable — worth treating in-universe as a source of real engineering pride, a fully reusable spaceplane architecture Earth aerospace never quite closed the numbers on.
 
-### Interplanetary Transfer Vessel ("Lugh OTO") — Trelium fusion torch
+### Interplanetary Transfer Vessel (ITV) — Trelium fusion torch
 
 Unchanged in kind from the network-standard drive (§13 above): makes the full Safford↔Lugh haul (5.85 AU, ~54–57 days one-way) at 350–400 km/s total ΔV, 25–30% propellant mass fraction — comfortable margin, no staging benefit. Reference sizing: ~5,000 t class vessel (~2,500 t cargo capacity), 5–6 vessel fleet covering Danu's ~22,500 t/yr export demand with margin for maintenance and wartime repurposing (§13.3). Never enters atmosphere; operates exclusively between Safford and Lugh parking orbit, exchanging cargo with Lugh Spaceplanes via orbital rendezvous.
 
-### Boann Shuttle — single-stage H2/LOX, full surface-to-Safford route
+### Boann Shuttle (Farfield PDV-1) — single-stage H2/LOX, full surface-to-Safford route
 
 Boann's situation is qualitatively different from Lugh's, and the vehicle architecture follows suit rather than mirroring it. Safford Danu sits co-orbital with Boann around Mannannán (<7 sec comm delay, §14) — a short moon-to-moon hop, not an interplanetary transfer. Using Io/Europa-analog orbital radii (Boann ~421,700 km, Safford's moon ~671,100 km from Mannannán) and standard Hohmann-transfer math: **~3.2 km/s total ΔV, ~35 hour transit.**
 
@@ -707,12 +716,12 @@ Combining Boann's escape burn with transfer injection via the Oberth effect (mos
 
 ### Summary
 
-| Vehicle | Route | Propulsion | Single-stage? | Key figures |
-|---|---|---|---|---|
-| Lugh Surface Aircraft | Terminator city ↔ satellite settlements | Electric only | N/A (no staging) | ~30% lower energy/km than Earth-equivalent; ~3.7× payload/wing-area at matched speed |
-| Lugh Spaceplane | Lugh surface ↔ Lugh parking orbit | Electric (low-speed climb) + H2/LOX (high-speed climb, vacuum insertion, reentry reserve) | Yes — ~79% propellant fraction, ~20% dry-mass target | Reentry: 2.5× Earth column mass, same scale height, 6.53 km/s to shed |
-| Interplanetary Transfer Vessel ("Lugh OTO") | Lugh parking orbit ↔ Safford | Trelium fusion torch | Yes — 25–30% propellant fraction, comfortable margin | 350–400 km/s ΔV; ~5,000 t class; 5–6 vessel fleet |
-| Boann Shuttle | Boann surface ↔ Safford (direct, no parking-orbit handoff) | H2/LOX | Yes — ~49% propellant fraction | ~3.23 km/s total ΔV; ~35 hr transit; escape velocity only 464 m/s |
+| Vehicle | Designator | Route | Propulsion | Single-stage? | Key figures |
+|---|---|---|---|---|---|
+| Lugh Surface Aircraft | Farfield A-6 | Terminator city ↔ satellite settlements | Electric only | N/A (no staging) | ~30% lower energy/km than Earth-equivalent; ~3.7× payload/wing-area at matched speed |
+| Lugh Spaceplane | AOTS / Farfield Skyreach (TAV) | Lugh surface ↔ Lugh parking orbit | Electric (low-speed climb) + H2/LOX (high-speed climb, vacuum insertion, reentry reserve) | Yes — ~79% propellant fraction, ~20% dry-mass target | Reentry: 2.5× Earth column mass, same scale height, 6.53 km/s to shed |
+| Interplanetary Transfer Vessel | ITV | Lugh parking orbit ↔ Safford | Trelium fusion torch | Yes — 25–30% propellant fraction, comfortable margin | 350–400 km/s ΔV; ~5,000 t class; 5–6 vessel fleet |
+| Boann Shuttle | Farfield PDV-1 | Boann surface ↔ Safford (direct, no parking-orbit handoff) | H2/LOX | Yes — ~49% propellant fraction | ~3.23 km/s total ΔV; ~35 hr transit; escape velocity only 464 m/s |
 
 ## 13.3 War-Era Vehicle Architecture (Nova Reach–Danu conflict, §12)
 
