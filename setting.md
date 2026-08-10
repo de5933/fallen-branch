@@ -704,6 +704,33 @@ Surface-to-orbit-and-back transport, handing off cargo to the Interplanetary Tra
 
 Unchanged in kind from the network-standard drive (§13 above): makes the full Safford↔Lugh haul (5.85 AU, ~54–57 days one-way) at 350–400 km/s total ΔV, 25–30% propellant mass fraction — comfortable margin, no staging benefit. Reference sizing: ~5,000 t class vessel (~2,500 t cargo capacity), 5–6 vessel fleet covering Danu's ~22,500 t/yr export demand with margin for maintenance and wartime repurposing (§13.3). Never enters atmosphere; operates exclusively between Safford and Lugh parking orbit, exchanging cargo with Lugh Spaceplanes via orbital rendezvous.
 
+### ITV Artificial Gravity: Axial Spin-Gravity Architecture
+
+At 54–57 days one-way, the Lugh-route ITV's coast phase is long enough for real zero-g deconditioning (bone/muscle loss) to matter — this crossing, and the longer Obatala-route Yemoja crossing once its transit time is recomputed (§13.1, Open Questions), are the network's only hauls that clear that bar. Short hops — Boann Shuttle (~35 hr), Safford OTO/Enlil variant (~32.6 hr, §13.4) — stay well under a week, where zero-g exposure is real-world well-tolerated even by untrained civilians; no spin-gravity architecture is fitted to those hulls.
+
+**Geometry: axial spin, spin axis = thrust axis.** The ITV is a rigid spine with the hab/cargo module on one arm and the reactor/drive/radiator module on the other, counterbalanced about a single gimbaled engine mounted at the hub — the center of rotation. This differs from a classic "tumbling pigeon" (spin axis perpendicular to the ship's length, engine off-axis) in one deliberate way: because the engine sits exactly on the spin axis, its thrust vector is unaffected by rotation. A burn along the ship's own axis — which is nearly the entire 350–400 km/s ΔV budget, since the accelerate-coast-decelerate profile (§13) is two axial burns bracketing an unpowered coast — imparts no gyroscopic precession and needs no rotation-synced firing. Only fine, off-axis trajectory corrections require phased firing timed to the spin, a much smaller version of the problem a fully off-axis engine would have for every burn.
+
+**Spin-up and spin-down: paired tangential RCS, no flywheel.** The ship spins up once after undocking and spins down once before docking, using tangential RCS thrusters mounted at both the hab end and the reactor end, fired as a torque couple (equal and opposite, same rotational sense) so the maneuver imparts no net translation. A compact flywheel was considered and rejected on the same physical grounds §4.1 already used to reject one for the Nova Reach habitat ring: canceling a rotating structure's angular momentum with a small on-axis wheel demands a rim speed that scales explosively as the structure's own radius shrinks (radius ∝ 1/ω² to hold gravity fixed, so the ship's angular momentum scales as roughly 1/ω³) — workable only in the 7.5–10 rpm range this design deliberately avoids for comfort reasons (below), and requiring an implausibly massive or fast wheel at any gentler spin rate. RCS avoids this because its lever arm is the ship's own long spine, not a compact hub wheel — the mechanism the flywheel needed to make small, RCS gets to keep large.
+
+**Spin rate: 6 rpm — locked.** Selected as the fastest rate the source research still class as passenger-tolerable-with-adaptation rather than crew-only: multi-day adaptation required, some susceptible individuals will have real difficulty, but it is not disqualifying for ordinary colonists and administrators making the crossing, unlike the 7.5–10 rpm band above it.
+
+Reference geometry and cost, using the ITV's established ~5,000 t class sizing (hab/cargo arm 2,700 t, reactor/drive/radiators/propellant arm 2,300 t — this split is a working assumption, not yet locked; see Open Questions):
+
+| Figure | Value |
+|---|---|
+| Hab arm radius | 12.4 m |
+| Reactor arm radius | 14.6 m |
+| Total spine length | 27.0 m |
+| Angular momentum at 6 rpm | 5.69×10⁸ kg·m²/s |
+| Propellant per spin event (storable, ~3,000 m/s ve) | ~14.1 t |
+| Propellant per spin event (H2/LOX, ~4,400 m/s ve) | ~9.6 t |
+| Propellant per one-way crossing (spin-up + spin-down) | ~28.1 t (storable) / ~19.2 t (H2/LOX) |
+| As fraction of total ship mass | ~0.56% — trivial against the 25–30% transit propellant budget |
+
+**The mid-coast turnover.** The accelerate-coast-decelerate profile needs thrust flipped from prograde (departure) to retrograde (arrival) once per crossing. Rather than a mechanical turret swinging the hub engine through 180° — a new class of heavy moving hardware — this is executed as a slow RCS-driven precession of the spin axis itself, walking the ship's whole orientation around during the idle coast, with no time pressure and no despin required. This keeps the added complexity in guidance software rather than machinery, consistent with the same instinct already governing this design's spin-up/down choice.
+
+**Structural note, flagged rather than solved.** The spine arms are under continuous centrifugal tension from the hab and reactor masses at their tips — a real whirl/resonance safety margin against the ship's natural bending frequency needs checking once arm material and cross-section are chosen (Open Questions), though centrifugal tension itself measurably stiffens a rotating beam against transverse flexing (the same effect analyzed in helicopter rotor design), which works in this design's favor rather than against it. Separately, this geometry sits at the ship's own major moment-of-inertia axis by construction — the dissipation-stable configuration for a real rotating body with any internal damping (energy loss from flex, slosh, etc. drives rotation toward the largest-moment axis over time) — the opposite of Explorer 1's 1958 tumble, which resulted from spinning about its smallest-moment axis. This is a genuine point in the design's favor, not just a neutral fact.
+
 ### Boann Shuttle (Farfield PDV-1) — single-stage H2/LOX, full surface-to-Safford route
 
 Boann's situation is qualitatively different from Lugh's, and the vehicle architecture follows suit rather than mirroring it. Safford Danu sits co-orbital with Boann around Mannannán (<7 sec comm delay, §14) — a short moon-to-moon hop, not an interplanetary transfer. Using Io/Europa-analog orbital radii (Boann ~421,700 km, Safford's moon ~671,100 km from Mannannán) and standard Hohmann-transfer math: **~3.2 km/s total ΔV, ~35 hour transit.**
@@ -720,7 +747,7 @@ Combining Boann's escape burn with transfer injection via the Oberth effect (mos
 |---|---|---|---|---|---|
 | Lugh Surface Aircraft | Farfield A-6 | Terminator city ↔ satellite settlements | Electric only | N/A (no staging) | ~30% lower energy/km than Earth-equivalent; ~3.7× payload/wing-area at matched speed |
 | Lugh Spaceplane | AOTS / Farfield Skyreach (TAV) | Lugh surface ↔ Lugh parking orbit | Electric (low-speed climb) + H2/LOX (high-speed climb, vacuum insertion, reentry reserve) | Yes — ~79% propellant fraction, ~20% dry-mass target | Reentry: 2.5× Earth column mass, same scale height, 6.53 km/s to shed |
-| Interplanetary Transfer Vessel | ITV | Lugh parking orbit ↔ Safford | Trelium fusion torch | Yes — 25–30% propellant fraction, comfortable margin | 350–400 km/s ΔV; ~5,000 t class; 5–6 vessel fleet |
+| Interplanetary Transfer Vessel | ITV | Lugh parking orbit ↔ Safford | Trelium fusion torch | Yes — 25–30% propellant fraction, comfortable margin | 350–400 km/s ΔV; ~5,000 t class; 5–6 vessel fleet; axial spin-gravity at 6 rpm, ~27 m spine (long-haul routes only, see below) |
 | Boann Shuttle | Farfield PDV-1 | Boann surface ↔ Safford (direct, no parking-orbit handoff) | H2/LOX | Yes — ~49% propellant fraction | ~3.23 km/s total ΔV; ~35 hr transit; escape velocity only 464 m/s |
 
 ## 13.3 War-Era Vehicle Architecture (Nova Reach–Danu conflict, §12)
@@ -881,6 +908,9 @@ Understanding why each system survives and how they leverage resources:
 - Result: Stable but incomplete dominance; Danu remains an independent but isolated rival
 # Open Questions
  
+- Lock the ITV's hab/cargo-arm vs. reactor/drive/propellant-arm mass split (currently a working 2,700 t / 2,300 t assumption against the established ~5,000 t total, §13.2) — needed to finalize the axial spin-gravity architecture's exact spine geometry and per-crossing propellant figures rather than the current working numbers.
+- Choose the ITV spine's structural material and cross-section, then check the whirl/resonance safety margin at 6 rpm against the spine's natural bending frequency (§13.2) — flagged as a real constraint on the axial spin-gravity design, not yet computed; centrifugal tension should help (rotor-blade-style stiffening) but hasn't been quantified.
+- Confirm the axial spin-gravity ITV architecture (§13.2) also applies to the Obatala-route (Yemoja) ITV once its transit time is recomputed following Olokun's relocation (see below) — the route is already known to be longer than Danu's, so it almost certainly clears the same multi-week threshold, but this should be confirmed against the actual recomputed transit time rather than assumed.
 - Lock an areal structural-mass density (kg per m² of floor) for habitat construction — needed to convert the Year 0 arc-module's floor area into real tonnage (module mass, counterweight ballast tonnage, §4.1). Not yet established; real spin-habitat concepts range roughly 300 kg/m² (lightly shielded) to 2,000+ kg/m² (heavily shielded), and nothing in-universe pins this down yet.
 - Recompute §13.1's Yemoja↔Olokun and Safford↔Yemoja transit times, and the Hohmann-transfer reference figures, following Olokun's relocation from ~18–20 AU to ~9–10 AU (§7.2) — old figures are stale and flagged as pending in the table.
 - Determine Boann's precise mass/radius as canon values rather than working numbers derived solely from the 0.02g target (§7.1) — a full moons data table, mentioned as a future option in Stars_and_Planets_Data.md, would formalize this alongside Olokun's own values.
