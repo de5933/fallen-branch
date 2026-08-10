@@ -83,8 +83,19 @@ Units: stellar mass/radius in solar units (M☉/R☉); planetary mass/radius in 
 | Danu Mannannán | Gas giant | 253.0 M⊕ | 68,725.3 km | 21.35 m/s² (2.18× Earth) | 6.04 AU | 1 bar (by definition) | 78.6 K | TBD | ~10–16 hr (estimate) | N/A (Safford orbits it directly) | — |
 | Danu f | Ice giant | 14.24 M⊕ | 22,303.7 km | 11.41 m/s² (1.16× Earth) | 15.37 AU | 1 bar (by definition) | 49.3 K | TBD | ~14–18 hr (estimate) | N/A (uninhabited) | TBD |
  
-*Note: Boann (Mannannán's ocean moon, populated water-operations site) is a moon, not a planet, so excluded from the planet grid above — say the word if you want a moons table. Its comm delay to Safford is <10 sec (co-orbital), already in the bible. Physical values locked this session (bible §7.1): surface gravity 0.02g (0.196 m/s²), mass ~8.9 × 10²⁰ kg (~0.00015 M⊕), radius 550 km (working estimate), bulk density ~1,275 kg/m³ — consistent with a real ice/rock body of comparable size (cf. Rhea, 1,236 kg/m³). Ice shell ~3–5 km thick at the borehole site (a deliberately chosen tidal-heating hotspot).*
- 
+*Eccentricity and inclination are now locked for every body above but, like Olokun's axial tilt/eccentricity, aren't columns in this grid yet: Danu A e=0.019/i=0.15°, Danu B e=0.009/i=0.23° (barycentric orbits); Danu b e=0.006/i=0.18°; Lugh e=0.024/i=0.19°; Danu d e=0.035/i=1.21°; Mannannán e=0.012/i=0.28°; Danu f e=0.016/i=1.26°. Mannannán also now has a locked ring system (inner radius 84,636.3 km, outer radius 148,067.9 km) — decorative/setting detail only so far.*
+
+### Danu Moons (Mannannán system)
+
+| Body | Mass | Radius | Surface Gravity | Orbital Radius | Eccentricity / Inclination | Comm Delay from Safford | Notes |
+|---|---|---|---|---|---|---|---|
+| Boann | ~8.9 × 10²⁰ kg (~0.00015 M⊕) | 550 km | 0.02g (0.196 m/s²) | 350,000 km | e = 0.0, i = 1.26° | <10 sec (co-orbital) | Populated water-operations site; bulk density ~1,275 kg/m³ (cf. Rhea, 1,236 kg/m³). Ice shell ~3–5 km thick at the borehole site. **Open flag:** e = 0.0 doesn't by itself sustain tidal heating — needs either a nonzero eccentricity or a resonance partner among Mannannán's other moons; not yet decided (see setting.md Open Questions). |
+| Mannannán II | ~1.246 × 10²¹ kg | 370.5 km | TBD | 420,000 km | e = 0.02, i = 0.48° | N/A (uninhabited) | Minor uninhabited moon |
+| Mannannán III | ~1.002 × 10²¹ kg | 380.0 km | TBD | 460,000 km | e = 0.01, i = 0.13° | N/A (uninhabited) | Minor uninhabited moon |
+| Safford Danu's host moon | ~2.62 × 10¹⁷ kg | 31.5 km | ~0.018 m/s² (~0.18% Earth g, negligible) | 590,000 km | e = 0.02, i = 0.61° | — (Safford wing itself) | Dedicated station-siting body, distinct from Mannannán II/III; negligible native gravity consistent with §4.1's Safford siting requirement |
+
+*Two representative asteroid-belt bodies are also now locked as examples of the ~1–3 AU sparse belt (not an exhaustive catalog): Danu Belt 1 at 1.53 AU (e = 0.081, i = 3.3°, ~5.4 × 10¹⁸ kg, 75.80 km radius) and Danu Belt 2 at 2.13 AU (e = 0.111, i = 4.07°, ~4.8 × 10¹⁸ kg, 71.52 km radius).*
+
 ---
  
 ## Obatala System
