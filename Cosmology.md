@@ -164,7 +164,7 @@ Causal chain: Enlil A swelled into a red giant → Enlil B's gravity destabilize
 - Debris ring around Enlil A — shattered remains of the original planets, some still slowly accreting onto the white dwarf. Ongoing meteor/radiation hazard for anything nearby.
 - Ereshkigal (Enlil A b) — phosphorus-rich rocky world, orbits the white dwarf directly at roughly 0.01–0.02 AU. Tidally locked. One face in permanent, brilliant white-dwarf light; the other in permanent dark. No natural warmth or agriculture to speak of beyond the tight orbit — an industrial/extraction outpost, not a residential colony. Likely small, purpose-built, rotational population given the harsh conditions. Named for the Mesopotamian queen of the underworld — ruling a dead, hollowed-out realm.
 - Enlil c, d — minor rubble-pile remnants / unstable debris clumps, not true planets
-*Ereshkigal's status as the network's key phosphorus/starvation-leverage chokepoint (see §9.5 — **broken reference, no §9.5 exists**; likely candidates are [Economy §2.1](Economy.md#2.1) in Economy or [Politics §2](Politics.md#2) in Politics, both of which discuss this chokepoint) is reinforced by its harsh, small-population character — a resource stranglehold held by very few people.*
+*Ereshkigal's status as the network's key phosphorus/starvation-leverage chokepoint (see [Politics §2](Politics.md#2)) is reinforced by its harsh, small-population character — a resource stranglehold held by very few people.*
 <a name="5"></a>
 # 5. The Severance Event
  
