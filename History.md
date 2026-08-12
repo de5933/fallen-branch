@@ -1,7 +1,5 @@
 # History
 
-*Split from the master worldbuilding bible (`setting.md`) by topic. Each file numbers its own sections independently starting at §1. Cross-references elsewhere in the bible take the form `[File §X.Y](File.md#X.Y)`, naming the target file before the section number.*
-
 <a name="1"></a>
 # 1. Premise
  
