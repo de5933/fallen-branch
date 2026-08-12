@@ -1,6 +1,6 @@
 # Fallen Branch — Worldbuilding Bible Index
 
-*This bible was split by topic on 2026-08-12. `setting.md` is now an index rather than the canonical text — the files below are the source of truth.*
+*This bible was split by topic on 2026-08-12. This file (`README.md`, formerly `setting.md`) is now an index rather than the canonical text — the files below are the source of truth.*
 
 | File | Covers |
 |---|---|
@@ -14,6 +14,6 @@
 | `Politics.md` | Farfield Interstellar, post-severance power structures, post-collapse governance, comm-delay-driven authority |
 | `timeline.md` | Master chronological event grid |
 | `Open_Questions.md` | Active unresolved worldbuilding questions |
-| `Stars_and_Planets_Data.md` | Tabular planetary/stellar data (companion reference, unaffected by this split) |
+| `PlanetData.md` | Tabular planetary/stellar data (companion reference, unaffected by this split) |
 
-Section markers like §7.1 inside each file refer to the original `setting.md` numbering and may now point to content living in a different file — cross-check against the table above if a reference doesn't resolve locally.
+Section markers like §7.1 inside each file refer to the original bible's numbering (pre-split) and may now point to content living in a different file — cross-check against the table above if a reference doesn't resolve locally.
