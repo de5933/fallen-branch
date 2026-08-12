@@ -52,7 +52,7 @@ Units: stellar mass/radius in solar units (M☉/R☉); planetary mass/radius in 
 | Boann | ~8.9 × 10²⁰ kg (~0.00015 M⊕) | 550 km | 0.02g (0.196 m/s²) | 350,000 km | e = 0.008, i = 1.26° | <10 sec (co-orbital) | Populated water-operations site; bulk density ~1,275 kg/m³ (cf. Rhea, 1,236 kg/m³). Ice shell ~3–5 km thick at the borehole site. Eccentricity sustained by a locked **3:2 mean-motion resonance with Mannannán III** (orbital periods ~1.50 days / ~2.26 days, within 0.5% of exact 3:2 — same resonance type as Neptune/Pluto). No remaining open item on the tidal-heating mechanism. |
 | Mannannán II | ~1.246 × 10²¹ kg | 370.5 km | TBD | 420,000 km | e = 0.02, i = 0.48° | N/A (uninhabited) | Minor uninhabited moon |
 | Mannannán III | ~1.002 × 10²¹ kg | 380.0 km | TBD | 460,000 km | e = 0.01, i = 0.13° | N/A (uninhabited) | Minor uninhabited moon — **Boann's 3:2 resonance partner** (see Boann row above); otherwise ordinary, no narrative significance beyond this |
-| Safford Danu's host moon | ~2.62 × 10¹⁷ kg | 31.5 km | ~0.018 m/s² (~0.18% Earth g, negligible) | 590,000 km | e = 0.02, i = 0.61° | — (Safford wing itself) | Dedicated station-siting body, distinct from Mannannán II/III; negligible native gravity consistent with §4.1's Safford siting requirement |
+| Safford Danu's host moon | ~2.62 × 10¹⁷ kg | 31.5 km | ~0.018 m/s² (~0.18% Earth g, negligible) | 590,000 km | e = 0.02, i = 0.61° | — (Safford wing itself) | Dedicated station-siting body, distinct from Mannannán II/III; negligible native gravity consistent with [Infrastructure §2.1](Infrastructure.md#2.1)'s Safford siting requirement |
 
 *Two representative asteroid-belt bodies are also now locked as examples of the ~1–3 AU sparse belt (not an exhaustive catalog): Danu Belt 1 at 1.53 AU (e = 0.081, i = 3.3°, ~5.4 × 10¹⁸ kg, 75.80 km radius) and Danu Belt 2 at 2.13 AU (e = 0.111, i = 4.07°, ~4.8 × 10¹⁸ kg, 71.52 km radius).*
 
@@ -60,7 +60,7 @@ Units: stellar mass/radius in solar units (M☉/R☉); planetary mass/radius in 
  
 ## Obatala System
  
-**Safford Obatala station population (bible-established): 90 rotational crew** (short arc-module, 39.7 m arc/20.3°, network-standard 111.8 m/2.000 rpm/0.5g design — Nova Reach personnel, not counted toward Obatala's population). **Relocated** (this session) from the 2–4 AU asteroid belt to a minor moon co-orbital with Olokun, Phobos/Deimos-style — see Olokun's row below and the Worldbuilding Bible §7.2.
+**Safford Obatala station population (bible-established): 90 rotational crew** (short arc-module, 39.7 m arc/20.3°, network-standard 111.8 m/2.000 rpm/0.5g design — Nova Reach personnel, not counted toward Obatala's population). **Relocated** (this session) from the 2–4 AU asteroid belt to a minor moon co-orbital with Olokun, Phobos/Deimos-style — see Olokun's row below and [Cosmology §4.2](Cosmology.md#4.2).
  
 | Body | Type | Mass | Radius | Surface Gravity | Semi-Major Axis | Atm. Pressure | Eq. Temperature | Atm. Composition | Solar Day | Comm Delay from Safford | Population |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -69,12 +69,12 @@ Units: stellar mass/radius in solar units (M☉/R☉); planetary mass/radius in 
 | Obatala Yemoja | Ocean world | 1.28 M⊕ | 7,293.6 km | 9.59 m/s² (0.98× Earth) | 0.452 AU | TBD | 326.4 K | Thick (bible-qualitative, traps heat) | TBD | **61.5–96.5 min one-way** (revised — now the isolated, slow-coupled world following Safford's relocation to Olokun) | TBD (agricultural population center, no hard figure) |
 | Obatala d | Rocky planet | 0.555 M⊕ | 4,724.7 km | 9.90 m/s² (1.01× Earth) | 0.870 AU | TBD | 235.2 K | TBD | TBD | N/A (uninhabited) | TBD |
 | Obatala e | Rocky planet | 0.678 M⊕ | 5,539.9 km | 8.80 m/s² (0.90× Earth) | 1.14 AU | TBD | 205.5 K | TBD | TBD | N/A (uninhabited) | TBD |
-| Obatala f | Gas giant | 214.0 M⊕ | 59,496.4 km | 24.10 m/s² (2.46× Earth) | 8.07 AU | 1 bar (by definition) | 77.2 K | TBD | ~10–16 hr (estimate) | N/A (uninhabited) | Minor Trelium source only — not worth developing (bible §7.2) |
-| Obatala Olokun | Liquid methane/ethane ocean world | **0.69 M⊕** (revised) | **6,200 km** (revised) | **7.85 m/s² (0.80× Earth)** (revised — locked this session) | **~9–10 AU** (revised inward from 18.76 AU) | **~2–5 bar, methane/ethane-dominant** (revised) | **~90 K** (revised — held above methane/ethane freezing point by dense atmosphere + orbital placement; supports a liquid ocean) | Methane/ethane-dominant, dense | TBD | **under ~10 sec one-way** (revised — Safford now co-orbital, Phobos/Deimos-style) | TBD (hydrocarbon extraction + growing post-collapse hydroponic-agriculture workforce, bible §7.2) |
+| Obatala f | Gas giant | 214.0 M⊕ | 59,496.4 km | 24.10 m/s² (2.46× Earth) | 8.07 AU | 1 bar (by definition) | 77.2 K | TBD | ~10–16 hr (estimate) | N/A (uninhabited) | Minor Trelium source only — not worth developing ([Cosmology §4.2](Cosmology.md#4.2)) |
+| Obatala Olokun | Liquid methane/ethane ocean world | **0.69 M⊕** (revised) | **6,200 km** (revised) | **7.85 m/s² (0.80× Earth)** (revised — locked this session) | **~9–10 AU** (revised inward from 18.76 AU) | **~2–5 bar, methane/ethane-dominant** (revised) | **~90 K** (revised — held above methane/ethane freezing point by dense atmosphere + orbital placement; supports a liquid ocean) | Methane/ethane-dominant, dense | TBD | **under ~10 sec one-way** (revised — Safford now co-orbital, Phobos/Deimos-style) | TBD (hydrocarbon extraction + growing post-collapse hydroponic-agriculture workforce, [Cosmology §4.2](Cosmology.md#4.2)) |
 | Obatala h | Icy dwarf | 0.021 M⊕ | 1,348.7 km | 4.60 m/s² (0.47× Earth) | 26.13 AU | TBD | 42.9 K | TBD | TBD | N/A (uninhabited) | TBD |
 | Obatala i | Icy dwarf | 0.015 M⊕ | 1,212.1 km | 4.13 m/s² (0.42× Earth) | 32.67 AU | TBD | 38.4 K | TBD | TBD | N/A (uninhabited) | TBD |
  
-*Olokun's revised values (0.8g, 0.69 M⊕, 6,200 km radius, bulk density ~5,520 kg/m³, 22° axial tilt, ~0.15–0.20 eccentricity, ~27–30 year orbital period) supersede the earlier 18.76 AU / 1.43g / near-90° tilt entry. Axial tilt and eccentricity aren't columns in this grid yet — noted here and in the bible §7.2 pending a possible grid restructure. Eq. temperature (~90 K) is a target value consistent with a liquid ocean, not a blackbody calc — a proper greenhouse/albedo pass is still owed, same caveat as Lugh's stale 504.7 K figure.*
+*Olokun's revised values (0.8g, 0.69 M⊕, 6,200 km radius, bulk density ~5,520 kg/m³, 22° axial tilt, ~0.15–0.20 eccentricity, ~27–30 year orbital period) supersede the earlier 18.76 AU / 1.43g / near-90° tilt entry. Axial tilt and eccentricity aren't columns in this grid yet — noted here and in [Cosmology §4.2](Cosmology.md#4.2) pending a possible grid restructure. Eq. temperature (~90 K) is a target value consistent with a liquid ocean, not a blackbody calc — a proper greenhouse/albedo pass is still owed, same caveat as Lugh's stale 504.7 K figure.*
  
 ---
  
@@ -102,5 +102,5 @@ Units: stellar mass/radius in solar units (M☉/R☉); planetary mass/radius in 
 | Lugh | Danu | 49.0–51.5 min | 1.63–1.72 hr |
 | Yemoja *(revised this session — now the isolated world)* | Obatala | 61.5–96.5 min | 2.05–3.22 hr |
  
-*Yemoja and Olokun swapped roles this session: Safford Obatala relocated from the asteroid belt to a minor moon co-orbital with Olokun (bible §7.2), making Olokun the fast-coupled, tightly-controlled world and Yemoja the slow-coupled, autonomous one — the reverse of the original table above.*
+*Yemoja and Olokun swapped roles this session: Safford Obatala relocated from the asteroid belt to a minor moon co-orbital with Olokun ([Cosmology §4.2](Cosmology.md#4.2)), making Olokun the fast-coupled, tightly-controlled world and Yemoja the slow-coupled, autonomous one — the reverse of the original table above.*
  
