@@ -16,4 +16,4 @@
 | [`Open_Questions.md`](./Open_Questions.md) | Active unresolved worldbuilding questions |
 | [`PlanetData.md`](./PlanetData.md) | Tabular planetary/stellar data (companion reference, unaffected by this split) |
 
-Section markers like §7.1 inside each file refer to the original bible's numbering (pre-split) and may now point to content living in a different file — cross-check against the table above if a reference doesn't resolve locally.
+Each topic file numbers its own sections independently starting at §1. Cross-references between files take the form `[File §X.Y](File.md#X.Y)`, naming the target file before the section number — e.g. a reference to `History §2.1` points to §2.1 inside `History.md`, not §2.1 of any other file.
