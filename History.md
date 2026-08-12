@@ -42,8 +42,6 @@ The transition from post-collapse chaos to two-entity equilibrium unfolds throug
  
 <a name="3.2"></a>
 ## 3.2 Phase 2: Aggressive Leadership and Military Escalation
-
-> **CANON REVISION — supersedes previous language.** The assassin was previously described as "a Nova Reach insider sympathetic to Danu's independence movement." This is no longer canon. The assassin is a **domestic Nova Reach hardliner acting alone**, motivated by fury at Deschamps's restraint, not by sympathy for Danu. Loyalist propaganda later falsely claims a Danu-sympathizer motive — that claim is in-universe misinformation, not the true backstory. See [People §1](People.md#1) for the leadership roster this plugs into.
  
 - **Deschamps was assassinated by a Nova Reach hardliner acting alone** — not a Danu sympathizer, as loyalist propaganda would later claim, but a furious member of the domestic pro-retribution faction ([§3.1](#3.1)) who viewed Deschamps's restraint as a betrayal of Nova Reach's own humiliated people.
 - **Ingrid Castellane had no foreknowledge of the assassination and no connection to the assassin beyond shared ideological grievance.** The assassination is not intended as a power grab by her or her allies — it is an act of individual rage that she did not order, plan, or anticipate.
