@@ -1,6 +1,6 @@
 # Open Questions
 
-*Split from the master worldbuilding bible (`setting.md`) by topic. Each file numbers its own sections independently starting at §1. Cross-references elsewhere in the bible take the form `[File §X.Y](File.md#X.Y)`, naming the target file before the section number.*
+*Each file numbers its own sections independently starting at §1. Cross-references elsewhere in the bible take the form `[File §X.Y](File.md#X.Y)`, naming the target file before the section number.*
 
  
 - Lock the ITV's hab/cargo-arm vs. reactor/drive/propellant-arm mass split (currently a working 2,700 t / 2,300 t assumption against the established ~5,000 t total, [Travel §1.2](Travel.md#1.2)) — needed to finalize the axial spin-gravity architecture's exact spine geometry and per-crossing propellant figures rather than the current working numbers.
