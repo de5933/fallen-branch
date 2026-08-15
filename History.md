@@ -28,7 +28,7 @@ Narrative implications: the collapse itself is a sudden event at both mouths sim
 The transition from post-collapse chaos to two-entity equilibrium unfolds through three leadership phases in Nova Reach. See [Politics §5](Politics.md#5) for how comm-delay geography ([Infrastructure §5](Infrastructure.md#5)) mechanically underlies each phase below, rather than resulting purely from personality or ideology. See [People §1](People.md#1) for full biographical detail on all three phase leaders (Deschamps, Castellane, Okafor-Lindqvist).
  
 <a name="3.1"></a>
-## 3.1 Phase 1: Conservative Leadership (Days 1–60 post-collapse)
+## 3.1 Phase 1: Conservative Leadership (Days 1–58 post-collapse)
  
 - Halvard Deschamps ([People §1](People.md#1)), the sitting Managing Director at collapse, remains de facto leader, taking a cautious approach
 - Focus: stabilizing Nova Reach's internal systems, maintaining order, negotiating cooperation with other colonies
