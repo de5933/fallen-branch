@@ -294,3 +294,39 @@ Gate-to-gate communication is near-instant (fiber-optic threading, [Cosmology §
  
 *Nova Reach has no equivalent entry: its population lives on the two stations themselves rather than on a planet, so there is no station-to-settlement comm lag internal to the system.*
  
+
+
+<a name="6"></a>
+# 6. Post-Collapse Electronics
+
+<a name="6.1"></a>
+## 6.1 Material Sourcing and the Rare-Earth Wall
+
+Pre-collapse, Nova Reach never developed native chip fabrication — modern semiconductor fabs require tens of billions in capital and an entire specialized equipment supply chain that only ever existed on Earth, so finished electronics were always shipped through Sat-39 rather than built locally. The Severance Event strands the network with whatever finished stock and spare parts existed at Year 92, and no clean path back to anything resembling that fabrication tier ([History §4.1](History.md#4.1)).
+
+Rebuilding from scratch, the colonies find their material base is a genuine mix of abundance and hard walls:
+
+- **Silicon, iron, aluminum, magnesium** — Nova Reach's ring/asteroid material is undifferentiated silicate rock, plausibly abundant in all four with no invention required.
+- **Phosphorus** — already Ereshkigal's signature export ([Economy §2.1](Economy.md#2.1)), and also a standard semiconductor N-type dopant; Enlil's fertilizer economy gains an unplanned second customer.
+- **Boron** — the standard P-type dopant, reasonably assumed as another Nova Reach silicate byproduct.
+- **Copper** — sourced from Boann's hydrothermal seafloor vents, where the moon's forsterite-rich crust (Boann subsection, [§3](#3) above) makes for genuinely favorable sulfide-metal chemistry. Post-severance, this is a political dependency as much as a technical one: Danu is independent, so Nova Reach's own electronics rebuild depends on trade with a government it fought a war against ([History §3](History.md#3)). Aluminum interconnects (a weaker conductor, but locally sourceable without Danu) are the domestic substitute Nova Reach has real incentive to develop.
+- **Gold** — unnecessary. Aluminum and copper wire bonding both predate and coexist with gold in real electronics history; the tradeoff is corrosion resistance, solved with genuinely good hermetic packaging rather than an exotic material.
+- **Gallium and rare-earth dopants** — absent, with no plausible in-network source identified among the currently-settled bodies. This is a hard, likely permanent wall: no compound-semiconductor components, ever, without a new discovery.
+
+<a name="6.2"></a>
+## 6.2 Fabrication Tier
+
+The achievable fabrication ceiling is contact/proximity photolithography — micron-scale features, hand-aligned masks under UV light, no exotic optics — roughly comparable to 1960s–70s Earth chip technology in raw capability, though built with the colonists' full modern theoretical knowledge rather than rediscovered from ignorance. In practice this means low transistor density, clock speeds in the megahertz range, and real, felt latency on compute-heavy tasks — see [Culture §4](Culture.md#4) for the distributed, swarm-native software culture this constraint produced.
+
+Basic wireless communication (radio, short-range data/voice links) is comfortably achievable at this tier, since it depends on antennas, oscillators, and amplifiers rather than dense logic or exotic RF front-end chips. High-bandwidth wireless data at modern speeds is not.
+
+Reconstruction itself proceeds in stages, not as a single leap — see [History §4.1](History.md#4.1) for the full Scramble → tubes → discrete transistors → indigenous ICs → maturation timeline (roughly Years 92 to 200+).
+
+<a name="6.3"></a>
+## 6.3 Display Evolution
+
+Monochrome CRT is the universal baseline throughout reconstruction — glass, vacuum, and electron-gun engineering, none of it dependent on scarce dopants. Color follows a genuine, generations-long arc:
+
+- **Field-sequential color** (a single monochrome tube behind a spinning red/green/blue filter wheel, synced to frame rate — the same principle used on the real Apollo lunar rover's color camera) is the earliest color technology available: mechanical, maintenance-heavy, and the first luxury/prestige display, reserved for administrators and critical control rooms in the same texture as Safford's stratified food service ([§2.2](#2.2) above).
+- **Three-phosphor color CRTs**, using pre-rare-earth phosphor chemistry (cadmium-based reds, zinc-sulfide-family greens and blues — the same chemistry real Earth color television used before the rare-earth generation of phosphors), spend decades in prototype and pilot-scale development before becoming reliable and cheap enough to displace field-sequential displays as the common standard.
+- Throughout this entire period, data formats and protocols ([Culture §4](Culture.md#4)) preserve full color information losslessly even while displays remain monochrome or field-sequential — a deliberate act of institutional hope that color hardware will eventually be common again. The eventual arrival of cheap three-phosphor displays means old archives and images are finally seen in true color for the first time by anyone still alive to see them.
