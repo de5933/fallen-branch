@@ -37,22 +37,49 @@ The transition from post-collapse chaos to two-entity equilibrium unfolds throug
 - **Prior to the Severance Event, escalating unrest on Danu had already prompted Nova Reach to maintain a disproportionate security presence on Lugh and Boann** — garrison deployments built up over time in response to ongoing local resistance, representing perhaps a third of the network's entire security force concentrated in a single branch system.
 - **When the Severance Event struck and Danu moved immediately to press for independence, this garrison was overwhelmed within days.** The unrest itself involved only scattered, small-scale violence — isolated street clashes and sporadic gunfire, no large engagement or standoff — but it was enough. Nova Reach personnel stationed on Lugh and Boann were disarmed and marched to their transports at gunpoint, expelled from both worlds and ordered home. Given the routine safety of in-system transit, all personnel returned to Safford intact; the only casualties of the entire uprising were a small number killed in the initial scattered clashes.
 - **Ingrid Castellane ([People §1](People.md#1)) treated the humiliation of her own security forces as complete vindication of years of warnings Nova Reach leadership had dismissed.** Deschamps, however, held firm, insisting on continued diplomacy, patience, and faith that restraint would ultimately be met with reason from Danu. This produced a serious ideological fracture within Safford itself — not merely between Deschamps and Castellane at the executive level, but throughout the loyalist population, many of whom felt the humiliated security personnel deserved retribution rather than having their defeat met with official patience.
+- **Around Days 50–55, Deschamps's diplomatic envoy mission to Danu is turned back at both Lugh and Boann.** Aoife Kwiatkowski ([People §2](People.md#2)), Lugh's senior pre-collapse agricultural director and Danu's de facto post-collapse leader, orders landing pads and runways physically obstructed rather than granting the envoys entry — a deliberate signal, not an act of violence. The envoys, having expected to restock supplies on landing, are left without enough reserves for the full return transit and only barely make it back to Safford. Nothing about the encounter is violent, but domestically it reads as a second humiliation stacked on the security garrison's earlier expulsion — proof, to Deschamps's critics, that his restraint has bought nothing.
  
 <a name="3.2"></a>
 ## 3.2 Phase 2: Aggressive Leadership and Military Escalation
  
-- **Deschamps was assassinated by a Nova Reach hardliner acting alone** — not a Danu sympathizer, as loyalist propaganda would later claim, but a furious member of the domestic pro-retribution faction ([§3.1](#3.1)) who viewed Deschamps's restraint as a betrayal of Nova Reach's own humiliated people.
+- **Deschamps was assassinated by a Nova Reach hardliner acting alone** — not a Danu sympathizer, as loyalist propaganda would later claim, but a furious member of the domestic pro-retribution faction ([§3.1](#3.1)) who viewed Deschamps's restraint, and the turned-back envoy mission that followed it, as a betrayal of Nova Reach's own humiliated people.
 - **Ingrid Castellane had no foreknowledge of the assassination and no connection to the assassin beyond shared ideological grievance.** The assassination is not intended as a power grab by her or her allies — it is an act of individual rage that she did not order, plan, or anticipate.
 - **She moved swiftly afterward**, using her existing command of Safford's only armed force to seize continuity of operations before any rival could organize a response, publicly framing the killing as proof that appeasement had failed and that only strength would hold the network together: "Look, diplomacy failed. Danu is sabotaging us. We need strong leadership now."
 - Nova Reach mobilizes hastily: recruits civilian security forces, arms them poorly, launches military incursions into Danu
 - Danu's defenders (engineers, maintenance crews, hazard workers) fight on home turf with superior knowledge and improvised weapons
 - Multiple clashes occur; Nova Reach suffers costly defeats against Danu's defensive strategy
 - Danu's field commanders at Lugh are, by this point, already operating on local authority by necessity ([Politics §5](Politics.md#5)) — orders and clarifications from Nova Reach arrive an hour or more out of date, so ambiguous directives read as hostile intent on both sides.
+- **Castellane's rule lasts roughly three years (Day 58 of Year 92 through Year 95).** The Safford–Lugh transit itself (~54–57 days one-way, [Travel §1.1](Travel.md#1.1)) bottlenecks every incursion cycle — mobilization, transit, engagement, retreat, and reassessment each eat months before a next attempt is even possible — so "repeated costly defeats" plays out as a genuine multi-year grind rather than a rapid collapse of will.
  
 <a name="3.3"></a>
-## 3.3 Phase 3: Negotiated Peace
+## 3.3 Phase 3: Negotiated Peace (from Year 95)
  
 - After several failed incursions, Castellane either steps down voluntarily or is removed by pragmatist factions within Nova Reach, led by Ines Okafor-Lindqvist ([People §1](People.md#1))
 - Okafor-Lindqvist takes over, willing to accept Danu's independence as the cost of stability
 - Formal recognition: Danu is declared independent. The two entities establish borders and minimal trade relations.
 - Nova Reach focuses on consolidating control over Enlil and Obatala and developing Obatala's agriculture as an alternative to Danu's food supply
+
+<a name="4"></a>
+# 4. Technological Reconstruction
+
+<a name="4.1"></a>
+## 4.1 The Long Rebuild
+
+Pre-collapse, all cutting-edge electronics were finished goods shipped from Earth through Sat-39 — no colony ever needed or built native fabrication capacity, since duplicating Earth's fabrication supply chain locally was never remotely cost-effective ([Infrastructure §6](Infrastructure.md#6)). The Severance Event doesn't just cut off new chips; it strands the network with whatever finished stock and spare parts happened to be on-hand or already in the pipeline at Year 92, with no path to more.
+
+What follows is roughly a century of bootstrapped reconstruction, not a single recovery:
+
+- **Years 92–~110, Scramble.** Pure triage: salvaged boards, passive-component repair, no new active electronics built at all.
+- **Years ~110–140, Vacuum tube resurgence.** The first genuinely new (not salvaged) active components since the collapse — tubes need glassblowing and vacuum sealing, nothing from the fabrication supply chain that died with Sat-39.
+- **Years ~140–170, Discrete transistors.** Hand-built, not integrated, once local doping and crystal-growing processes mature.
+- **Years ~170–200, First indigenous integrated circuits.** Contact/proximity photolithography stood up as real infrastructure — a genuinely dated, celebrated milestone: the day the colonies could build their own chips again, not merely patch old ones.
+- **Years 200+, Maturation.** Yield and scale improve; color-capable displays move from prototype to common availability ([Infrastructure §6.3](Infrastructure.md#6.3)).
+
+See [Infrastructure §6](Infrastructure.md#6) for the material and technical detail behind each stage, and [Culture §4](Culture.md#4) for the software culture this constraint produced.
+
+<a name="4.2"></a>
+## 4.2 The Frozen Archive
+
+At collapse, Nova Reach's local LLM inference infrastructure — a Farfield corporate asset, hosted at Nova Reach for latency reasons rather than owned by the colony itself — is stranded with whatever model weights happened to be cached at Year 92, permanently unable to retrain or update. Farfield's ownership of everything in the colonies ([Politics §4.1](Politics.md#4.1)) makes its post-collapse status a matter of practical control rather than settled law: whoever can physically reach and maintain the hardware effectively owns it now, whatever the org chart used to say.
+
+No single administration ever makes a clean decision to preserve or dismantle it. Instead, across Phases 1 through 3 and beyond, the data center is worn down by a slow, piecemeal cannibalization — a rack pulled here for a life-support board, a memory module scavenged there for a failing gate-control system, each individual decision a reasonable emergency triage call, never an official policy. What survives by the time indigenous chip fabrication matures ([§4.1](#4.1) above) is a degraded, patched wreck running on a fraction of its original hardware — not dead, not whole, kept alive mostly by whoever still has the swarm-control expertise ([Infrastructure §2.2](Infrastructure.md#2.2)) to run something that distributed and resource-starved at all.
