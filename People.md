@@ -2,6 +2,11 @@
 
 *Each file numbers its own sections independently starting at §1. Cross-references elsewhere in the bible take the form `[File §X.Y](File.md#X.Y)`, naming the target file before the section number.*
 
+## Contents
+
+- [1 Nova Reach Phase Leadership](#1)
+- [2 Danu Leadership](#2)
+
 <a name="1"></a>
 ## 1 Nova Reach Phase Leadership
 
