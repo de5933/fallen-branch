@@ -14,10 +14,10 @@ Standard mission budget: roughly 350–400 km/s total delta-v (split between dep
  
 | Route | Distance | Transit time (at std. drive spec) |
 | --- | --- | --- |
-| Yemoja ↔ Olokun (Obatala) | ~9.05–9.95 AU ([Cosmology §4.2](Cosmology.md#4.2)) | recompute pending — see Open Questions |
+| Yemoja ↔ Olokun (Obatala) | ~9.05–9.95 AU ([Cosmology §5](Cosmology.md#5)) | recompute pending — see Open Questions |
 | Lugh ↔ Boann/Mannannán (Danu) | ~5.85 AU | under 2 months |
 | Safford (Mannannán moon) → Lugh (Danu) | ~5.85 AU | ~1.7–1.9 months |
-| Safford (Olokun moon) → Yemoja (Obatala) | ~9.05–9.95 AU (Safford co-orbits Olokun, [Cosmology §4.2](Cosmology.md#4.2)) | recompute pending — see Open Questions |
+| Safford (Olokun moon) → Yemoja (Obatala) | ~9.05–9.95 AU (Safford co-orbits Olokun, [Cosmology §5.3](Cosmology.md#5.3)) | recompute pending — see Open Questions |
 | Safford (rubble pile, ~0.05 AU) → Ereshkigal (Enlil) | ~0.035 AU | under 2 days |
  
 *For reference, a fuel-optimal (Hohmann) transfer between Yemoja and Olokun trades a much lower delta-v cost for a multi-year transit time at their current ~9–10 AU separation — see Open Questions for the precise recomputation still pending. A continuous-thrust torchship covers the same distance in weeks but at a delta-v cost of hundreds to thousands of km/s. The accelerate-coast-decelerate profile above was chosen specifically to avoid both extremes.*
@@ -25,7 +25,7 @@ Standard mission budget: roughly 350–400 km/s total delta-v (split between dep
 <a name="1.2"></a>
 ## 1.2 The Danu Vehicle Fleet
 
-Four physically distinct vehicle classes serve the Danu branch, each sized to the specific journey it makes rather than built to one generic standard — a direct consequence of how different Lugh's and Boann's local environments actually are ([Cosmology §4.1](Cosmology.md#4.1)), confirmed by working the real numbers for each route rather than assumed for narrative variety.
+Four physically distinct vehicle classes serve the Danu branch, each sized to the specific journey it makes rather than built to one generic standard — a direct consequence of how different Lugh's and Boann's local environments actually are ([Cosmology §4](Cosmology.md#4)), confirmed by working the real numbers for each route rather than assumed for narrative variety.
 
 **Naming convention.** Farfield's official designators follow a dry, functional letter-and-number scheme in the same spirit as the Sat-# convention ([Infrastructure §2](Infrastructure.md#2)) — no PR spend justified unless a vehicle is a genuine first ([Politics §3](Politics.md#3)'s cost efficiency). In-universe usage draws a real aerospace distinction between an **aircraft** (operates exclusively within atmosphere, never leaves it) and a **transatmospheric vehicle (TAV)** — a vehicle whose defining feature is transitioning between atmospheric flight and orbit. Colonists use both terms functionally ("that's an aircraft, not a TAV"), not just as marketing:
 
@@ -90,7 +90,7 @@ Reference geometry and cost, using the ITV's established ~5,000 t class sizing (
 
 Boann's situation is qualitatively different from Lugh's, and the vehicle architecture follows suit rather than mirroring it. Safford Danu sits co-orbital with Boann around Mannannán (<7 sec comm delay, [Infrastructure §5](Infrastructure.md#5)) — a short moon-to-moon hop, not an interplanetary transfer. Using Io/Europa-analog orbital radii (Boann ~421,700 km, Safford's moon ~671,100 km from Mannannán) and standard Hohmann-transfer math: **~3.2 km/s total ΔV, ~35 hour transit.**
 
-Boann's own gravity well barely matters against that transfer cost: escape velocity is only 464 m/s (from 0.02g, [Cosmology §4.1](Cosmology.md#4.1)), versus the interorbital transfer's ~3.16 km/s — local escape is only ~15% of the mission total, the inverse of Lugh's situation, where local escape dominates. This makes splitting Boann's route into a lander-plus-tug pair pure overhead: there's no altitude regime around Boann deep enough for staging to buy anything (a 50 km parking orbit's circular velocity, ~314 m/s, is barely below surface orbital velocity itself, ~328 m/s). **A single Boann Shuttle flies the entire route, surface to Safford dock — no separate orbit-to-orbit vessel** ([§1.3](#1.3)).
+Boann's own gravity well barely matters against that transfer cost: escape velocity is only 464 m/s (from 0.02g, [Cosmology §4.3](Cosmology.md#4.3)), versus the interorbital transfer's ~3.16 km/s — local escape is only ~15% of the mission total, the inverse of Lugh's situation, where local escape dominates. This makes splitting Boann's route into a lander-plus-tug pair pure overhead: there's no altitude regime around Boann deep enough for staging to buy anything (a 50 km parking orbit's circular velocity, ~314 m/s, is barely below surface orbital velocity itself, ~328 m/s). **A single Boann Shuttle flies the entire route, surface to Safford dock — no separate orbit-to-orbit vessel** ([§1.3](#1.3)).
 
 Combining Boann's escape burn with transfer injection via the Oberth effect (most efficient deep in the well): launch ΔV ≈ √(464² + 1,676²) ≈ 1,740 m/s; arrival/circularization burn ≈ 1,488 m/s; **total ≈ 3,230 m/s.** At H2/LOX Isp ≈ 450s: mass ratio e^(3230/4413) ≈ 1.98, or **~49% propellant fraction** — an entirely ordinary single-stage budget.
 
@@ -119,7 +119,7 @@ Built for high cargo throughput rather than defense: open ground, likely multipl
 
 ### Boann: landing infrastructure
 
-Boann has no coastlines and no open ocean — its surface is ice sheet throughout, and its "dry land" is the network of paved surface facilities built atop that ice near the borehole settlement ([Cosmology §4.1](Cosmology.md#4.1)). A propulsive hydrogen-oxygen landing here requires an engineered, heat-resistant, blast-diverted pad built directly into the reinforced ice/paved surface, since an unprepared site risks uncontrolled melt-through or cracking under landing-plume thermal and pressure loading. This gives Boann a small number of fixed, known, heavily fortified landing points rather than Lugh's more open, distributed exposure — defenders don't need to cover a whole region, just deny the handful of points that are the only physical way in.
+Boann has no coastlines and no open ocean — its surface is ice sheet throughout, and its "dry land" is the network of paved surface facilities built atop that ice near the borehole settlement ([Cosmology §4.3](Cosmology.md#4.3)). A propulsive hydrogen-oxygen landing here requires an engineered, heat-resistant, blast-diverted pad built directly into the reinforced ice/paved surface, since an unprepared site risks uncontrolled melt-through or cracking under landing-plume thermal and pressure loading. This gives Boann a small number of fixed, known, heavily fortified landing points rather than Lugh's more open, distributed exposure — defenders don't need to cover a whole region, just deny the handful of points that are the only physical way in.
 
 ### War mechanics: no ship-to-ship combat
 
@@ -130,7 +130,7 @@ The war is therefore fought entirely as a **ground/landing-zone conflict**, stru
 <a name="1.4"></a>
 ## 1.4 The Enlil System Vehicle Fleet
 
-Ereshkigal has no atmosphere — locked canon, and a real physical consequence rather than a convenient assumption: the same red-giant expansion and subsequent intense post-formation UV/X-ray flux from Enlil A's exposed core ([Cosmology §4.3](Cosmology.md#4.3)) that shredded and polluted the original planets would already have stripped or photoionized away anything Ereshkigal might once have held. This shapes every part of the system below: no gliding entry anywhere in this system, unlike Lugh — everything is fully propulsive.
+Ereshkigal has no atmosphere — locked canon, and a real physical consequence rather than a convenient assumption: the same red-giant expansion and subsequent intense post-formation UV/X-ray flux from Enlil A's exposed core ([Cosmology §6.1](Cosmology.md#6.1)) that shredded and polluted the original planets would already have stripped or photoionized away anything Ereshkigal might once have held. This shapes every part of the system below: no gliding entry anywhere in this system, unlike Lugh — everything is fully propulsive.
 
 **Naming convention**, following [§1.2](#1.2)'s precedent: dry Farfield designators, kept as bare acronyms in most cases rather than given colloquial names — the exception being the cargo pod, where real mass-driver engineering terminology (dating to Gerard O'Neill's original 1970s concept) already supplies an authentic, unpretentious term:
 
@@ -153,7 +153,7 @@ Cranking up a fusion torch's thrust for a surface launch was considered and rule
 
 ### Cargo and crew: separate systems, separate physics
 
-**Mass driver — cargo only (Farfield MD-C, "a bucket").** Already established for bulk export (robotic dayside quarrying → mass-driver export, [Cosmology §4.3](Cosmology.md#4.3)), and now doing double duty launching unmanned propellant tanks (Farfield MD-T) to the orbital depot (below). Since cargo tolerates far higher g than any human passenger, a track injecting a bucket at close to Ereshkigal's own orbital velocity (6.20 km/s) only needs to run a few km to ~20 km, depending on the structural g-loading accepted (3.9 km at 500g; 19.6 km at 100g) — dramatically shorter than anything crew-rated.
+**Mass driver — cargo only (Farfield MD-C, "a bucket").** Already established for bulk export (robotic dayside quarrying → mass-driver export, [Cosmology §6.1](Cosmology.md#6.1)), and now doing double duty launching unmanned propellant tanks (Farfield MD-T) to the orbital depot (below). Since cargo tolerates far higher g than any human passenger, a track injecting a bucket at close to Ereshkigal's own orbital velocity (6.20 km/s) only needs to run a few km to ~20 km, depending on the structural g-loading accepted (3.9 km at 500g; 19.6 km at 100g) — dramatically shorter than anything crew-rated.
 
 **Crew — no mass-driver assist, ever.** Real g-tolerance data rules this out cleanly: untrained civilians, even in the most favorable reclined "eyeballs-in" orientation, top out around 3–4g sustained for a few seconds; sustained 6–8g for the 30+ seconds a useful launch-assist track would require is well outside what's safe for a population that includes children, the elderly, and anyone with a cardiovascular condition. Even backing off to a genuinely civilian-safe 2–3g only buys a few hundred m/s of assist against tens of kilometers of track — not worth compromising the cargo system's efficiency to accommodate. **Crew shuttles fly on rocket propulsion alone**, full stop. Ereshkigal is a place people don't leave casually — leaving is expensive and rare, a genuine, lived hardship distinct from (and harsher than) Boann's rotational-tour constraint.
 
