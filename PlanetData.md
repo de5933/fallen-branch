@@ -1,7 +1,17 @@
 # Nova Reach Network — Stars & Planets Data Grid
  
 *Companion reference to the Worldbuilding Bible. Values pulled directly from the SpaceEngine addon configs where established; other fields are computed from real physics; anything neither established nor cleanly computable is marked **TBD** rather than invented.*
- 
+
+## Contents
+
+- [Methodology & assumptions](#methodology)
+- [Nova Reach System](#nova-reach)
+- [Danu System](#danu)
+- [Obatala System](#obatala)
+- [Enlil System](#enlil)
+- [Summary: comm delay from Safford, settled worlds only](#comm-delay-summary)
+
+<a name="methodology"></a>
 ## Methodology & assumptions
  
 - **Mass / Radius / Semi-major axis / Eccentricity**: taken directly from the current SpaceEngine addon scripts (single source of truth — matches what's actually in-game).
@@ -16,6 +26,7 @@ Units: stellar mass/radius in solar units (M☉/R☉); planetary mass/radius in 
  
 ---
  
+<a name="nova-reach"></a>
 ## Nova Reach System
  
 **Safford station population (bible-established): ≈25,000–35,000** (largest in the network, hosts all three branch mouths)
@@ -29,6 +40,7 @@ Units: stellar mass/radius in solar units (M☉/R☉); planetary mass/radius in 
  
 ---
  
+<a name="danu"></a>
 ## Danu System
  
 **Safford Danu station population (bible-established): 150 rotational crew** (short arc-module, 66.1 m arc/33.9°, network-standard 111.8 m/2.000 rpm/0.5g design — Nova Reach personnel, not counted toward Danu's population)
@@ -58,6 +70,7 @@ Units: stellar mass/radius in solar units (M☉/R☉); planetary mass/radius in 
 
 ---
  
+<a name="obatala"></a>
 ## Obatala System
  
 **Safford Obatala station population (bible-established): 90 rotational crew** (short arc-module, 39.7 m arc/20.3°, network-standard 111.8 m/2.000 rpm/0.5g design — Nova Reach personnel, not counted toward Obatala's population). Sited on a minor moon co-orbital with Olokun, Phobos/Deimos-style — see Olokun's row below and [Cosmology §5.2](Cosmology.md#5.2).
@@ -78,6 +91,7 @@ Units: stellar mass/radius in solar units (M☉/R☉); planetary mass/radius in 
  
 ---
  
+<a name="enlil"></a>
 ## Enlil System
  
 **Safford Enlil station population (bible-established): 50 rotational crew** (short arc-module, 22.0 m arc/11.3°, network-standard 111.8 m/2.000 rpm/0.5g design — Nova Reach personnel, not counted toward Ereshkigal's population)
@@ -92,6 +106,7 @@ Units: stellar mass/radius in solar units (M☉/R☉); planetary mass/radius in 
  
 ---
  
+<a name="comm-delay-summary"></a>
 ## Summary: comm delay from Safford, settled worlds only
  
 | World | System | One-way delay | Round-trip delay |
