@@ -23,7 +23,7 @@ Understanding why each system survives and how they leverage resources:
 - Lugh agriculture: The primary agricultural hub for Danu, using perpetual-sunset mirrors and imported or local water to simulate Earth-like day/night cycles. Far more productive than Boann.
 - Boann water & agriculture: Danu's subsurface ocean moon produces water and a secondary supply of crops, supplementing Lugh's larger terminator-zone greenhouse output.
 - Phosphorus: Ereshkigal in Enlil's system. Essential for fertilizer; can be recycled but with losses. Both Danu and Obatala depend on Enlil's exports.
-- Hydrocarbons and pressure-vessel materials: Olokun (methane/ethane seas) in Obatala. Cheaper extraction than synthesis elsewhere; valuable for industry and rockets. Post-collapse, Olokun also becomes a Nova Reach-funded hydroponic food source (imported belt ice + sunlamp power), developed specifically to reduce dependence on Danu ([Cosmology §4.2](Cosmology.md#4.2)).
+- Hydrocarbons and pressure-vessel materials: Olokun (methane/ethane seas) in Obatala. Cheaper extraction than synthesis elsewhere; valuable for industry and rockets. Post-collapse, Olokun also becomes a Nova Reach-funded hydroponic food source (imported belt ice + sunlamp power), developed specifically to reduce dependence on Danu ([Cosmology §5](Cosmology.md#5)).
 - Gate infrastructure: Sat-48 is physically owned and controlled by Nova Reach. All inter-system trade passes through Nova Reach's territory, giving them veto power over shipments.
 <a name="2.2"></a>
 ## 2.2 Danu's Path to Independence
@@ -40,5 +40,5 @@ Understanding why each system survives and how they leverage resources:
 - Unable to conquer Danu, focuses on consolidating the Farfield Technocratic Zone:
 - Maintains gate control: all trade between Danu and Enlil/Obatala must pass through Sat-48, giving Nova Reach leverage
 - Trelium leverage: controls the fuel supply for all conventional space operations
-- Develops Obatala agriculture: invests heavily in Olokun's hydroponic buildout specifically (imported ice, expanded sunlamp power grid, all held as direct Nova Reach assets, [Cosmology §4.2](Cosmology.md#4.2)) to reduce dependence on Danu's food; Yemoja's own agriculture remains locally autonomous rather than a Nova Reach investment target
+- Develops Obatala agriculture: invests heavily in Olokun's hydroponic buildout specifically (imported ice, expanded sunlamp power grid, all held as direct Nova Reach assets, [Cosmology §5](Cosmology.md#5)) to reduce dependence on Danu's food; Yemoja's own agriculture remains locally autonomous rather than a Nova Reach investment target
 - Result: Stable but incomplete dominance; Danu remains an independent but isolated rival
