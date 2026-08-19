@@ -2,6 +2,14 @@
 
 *Each file numbers its own sections independently starting at §1. Cross-references elsewhere in the bible take the form `[File §X.Y](File.md#X.Y)`, naming the target file before the section number.*
 
+## Contents
+
+- [1 Extraction pipeline (Nova Reach, sequential)](#1)
+- [2. Post-Collapse Resource Economics](#2)
+  - [2.1 Critical Resources](#2.1)
+  - [2.2 Danu's Path to Independence](#2.2)
+  - [2.3 Nova Reach's Consolidation Strategy](#2.3)
+
 <a name="1"></a>
 ## 1 Extraction pipeline (Nova Reach, sequential)
  
