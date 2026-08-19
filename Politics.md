@@ -2,6 +2,23 @@
 
 *Each file numbers its own sections independently starting at §1. Cross-references elsewhere in the bible take the form `[File §X.Y](File.md#X.Y)`, naming the target file before the section number.*
 
+## Contents
+
+- [1. Farfield Interstellar](#1)
+- [2 Power nodes (network-wide, post-severance relevance)](#2)
+- [3 Post-severance dynamics (established direction, not yet detailed)](#3)
+- [4. Post-Collapse Governance Structures](#4)
+  - [4.1 Emergent Local Leadership, Safford's Isolation, and the Negotiation Period](#4.1)
+  - [4.2 The Danu Democratic Republic](#4.2)
+  - [4.3 The Farfield Technocratic Zone](#4.3)
+  - [4.4 Enlil (within Farfield Technocratic Zone)](#4.4)
+  - [4.5 Obatala (within Farfield Technocratic Zone)](#4.5)
+  - [4.6 The Political Division: Two Space Nations](#4.6)
+- [5. Communication Delay & the Structure of Post-Collapse Authority](#5)
+  - [5.1 Pre-collapse stratification](#5.1)
+  - [5.2 The severance and the collapse of central coordination](#5.2)
+  - [5.3 Why the post-collapse governance structures stick](#5.3)
+
 <a name="1"></a>
 # 1. Farfield Interstellar
  
