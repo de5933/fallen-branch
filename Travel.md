@@ -2,6 +2,14 @@
 
 *Each file numbers its own sections independently starting at §1. Cross-references elsewhere in the bible take the form `[File §X.Y](File.md#X.Y)`, naming the target file before the section number.*
 
+## Contents
+
+- [1. Propulsion & Interplanetary Transit](#1)
+  - [1.1 Interplanetary transit times](#1.1)
+  - [1.2 The Danu Vehicle Fleet](#1.2)
+  - [1.3 War-Era Vehicle Architecture (Nova Reach–Danu conflict)](#1.3)
+  - [1.4 The Enlil System Vehicle Fleet](#1.4)
+
 <a name="1"></a>
 # 1. Propulsion & Interplanetary Transit
  
