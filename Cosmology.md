@@ -74,6 +74,11 @@ Chained together: 0.10 × 0.0011 × 0.04 ≈ 5×10⁻⁶ — call it, very rough
 
 **Combined odds a single seed is ever fully usable end to end:** since the near mouth is deliberately engineered to ~100% by choice of harvesting site, the far mouth's ~1-in-100,000-to-a-million figure sets the overall odds almost entirely on its own. This is the quantitative backbone under "most seeds are discarded after Stage 1" ([§2](#2)): Stage 1 exists specifically because this number is so brutal that a dedicated, cheap peek-and-discard step is the only economical way to find the rare hits, rather than gambling everything on Stage 3 directly.
  
+<a name="2.3"></a>
+## 2.3 No Native Extraterrestrial Life — Locked Principle
+
+None of the four systems' worlds — settled, uninhabited, or merely catalogued — harbor native extraterrestrial life of any kind, biological or otherwise. This holds across the entire setting, for every world discussed anywhere in the bible, past, present, and future. Any apparent hook toward alien biology (e.g. Boann's hydrothermal vent chemistry, [Infrastructure §3](Infrastructure.md#3)) should be read as purely abiotic geochemistry — real mineral/hydrothermal processes that happen to resemble the conditions life exploits on Earth, not evidence of, or groundwork for, actual organisms. This is a deliberate genre choice: the story's stakes stay grounded in physics, engineering, corporate politics, and human survival, not first-contact or astrobiology, and it should be treated as a standing constraint to check future worldbuilding against rather than a one-off note.
+
 <a name="3"></a>
 # 3. Nova Reach — the Root Colony
  
