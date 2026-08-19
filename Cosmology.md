@@ -2,6 +2,37 @@
 
 *Each file numbers its own sections independently starting at §1. Cross-references elsewhere in the bible take the form `[File §X.Y](File.md#X.Y)`, naming the target file before the section number.*
 
+## Contents
+
+- [1. Setting-Wide Principles](#1)
+  - [1.1 No Native Extraterrestrial Life — Locked Principle](#1.1)
+  - [1.2 Host Galaxies](#1.2)
+- [2. Wormhole Physics](#2)
+  - [2.1 Manufactured Wormholes: A Theoretical Frontier](#2.1)
+  - [2.2 Discovery Method: Staged Inflation, Not Surveying](#2.2)
+  - [2.3 How Inflation Actually Works](#2.3)
+  - [2.4 The Usability Calculation: Near Mouth vs. Far Mouth](#2.4)
+  - [2.5 The Severance Event](#2.5)
+  - [2.6 Failure Mode: Unified](#2.6)
+- [3. Nova Reach System](#3)
+  - [3.1 Goibniu](#3.1)
+  - [3.2 Sat-48 / Safford Nova Reach](#3.2)
+- [4. Danu System — Irish mythology](#4)
+  - [4.1 Lugh (Danu c)](#4.1)
+  - [4.2 Mannannán (Danu e)](#4.2)
+  - [4.3 Boann (Mannannán I)](#4.3)
+  - [4.4 Safford Danu](#4.4)
+  - [4.5 Minor and Uncatalogued Bodies](#4.5)
+- [5. Obatala System — Yoruba mythology](#5)
+  - [5.1 Yemoja (Obatala c)](#5.1)
+  - [5.2 Olokun (Obatala g)](#5.2)
+  - [5.3 Safford Obatala](#5.3)
+  - [5.4 Minor and Uncatalogued Bodies](#5.4)
+- [6. Enlil System — Mesopotamian mythology](#6)
+  - [6.1 Ereshkigal (Enlil A b)](#6.1)
+  - [6.2 Safford Enlil](#6.2)
+  - [6.3 Debris Ring and Minor Bodies](#6.3)
+
 <a name="1"></a>
 # 1. Setting-Wide Principles
 
