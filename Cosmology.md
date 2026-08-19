@@ -259,3 +259,22 @@ Airless and tidally locked directly around the white dwarf. At ~0.0125 AU with E
 ## 7.6 Yemoja
 
 See [§4.2](#4.2) — Yemoja's sky and landscape are folded into its full geology/ocean-chemistry/settlement writeup there rather than repeated here.
+
+<a name="7.7"></a>
+## 7.7 The View From Orbit
+
+*Full-disc approach views — what a ship or capsule sees closing in, before it ever gets to a station viewport or a ground-level sky.*
+
+**Goibniu.** A hazy, deep blue-tinted giant with slowly shifting cloud bands, girdled by its thin ring ([§3](#3): inner ~99,100 km / outer ~113,800 km) as a fine, sharp line rather than a broad sweep. Tiny artificial specks nearby mark Sat-39, Sat-48, and Structure 4's frozen, unfinished skeleton ([Infrastructure §2.1](Infrastructure.md#2.1)) — visibly artificial clutter against an otherwise untouched giant.
+
+**Mannannán.** The dramatic one: strong banding, a bold Saturn-like ring system sweeping wide across the disc (inner 84,636.3 km / outer 148,067.9 km), with Boann and Safford Danu visible nearby as small moons threading the ring plane.
+
+**Lugh.** The classic eyeball-world silhouette. A bright, pale-hazed dayside hemisphere (thick CO2 reflecting hard) meets a sharp terminator; beyond it, a dark, frozen nightside dominated by a great antistellar ice cap. The habitable terminator ring shows as a thin band between the two extremes — scattered mirror-array glints and settlement lights tracing the line where people actually live. Sparse cratering and visible volcanic features mark the young, pale yellow-green (peridot-toned) terrain even from orbit; occasional pale dust-storm streaks cross the dayside.
+
+**Boann.** Bright white-grey ice, smoothed and refrozen by tidal flexing rather than heavily cratered — closer to Europa than to a dead moon. Fracture lines web the surface where tidal stress cracks the shell, some showing faint tan/reddish staining along the cracks from non-ice material welling up from below. No visible surface structures — everything is under the ice.
+
+**Olokun.** Essentially featureless from orbit: a smooth, hazy orange-tan globe, Titan-style, with the dense methane/ethane atmosphere hiding every surface detail. At most, the faintest tonal variation hints at sea versus permafrost coast beneath the haze. No extraction platforms visible — the haze swallows everything.
+
+**Yemoja.** A pale grey-white globe wrapped in permanent, uniform overcast — no polar caps, no sharp terminator (it isn't tidally locked, [§4.2](#4.2)), just faint latitudinal banding in the cloud deck from Coriolis effects at its ~30-hour rotation. Calmer and smoother-looking than Earth's cloud patterns, consistent with the world's "oppressive calm" character — no visible storm systems, no surface visible anywhere.
+
+**Ereshkigal.** A stark, knife-edge contrast: a blazingly lit, heavily cratered dayside (phosphorus-rich rock giving it a faint pale yellow-green cast) scarred by robotic quarrying and the long linear gash of the mass-driver track, against a nightside so black it nearly vanishes against space — no atmosphere to soften the line between them at all. Enlil A's debris ring is sometimes visible as a faint arc in the background sky.
