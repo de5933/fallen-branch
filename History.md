@@ -1,5 +1,17 @@
 # History
 
+## Contents
+
+- [1. Premise](#1)
+- [2 The Collapse in Real Time](#2)
+- [3. The Path to Stalemate: The Military Arc](#3)
+  - [3.1 Phase 1: Conservative Leadership (Days 1–58 post-collapse)](#3.1)
+  - [3.2 Phase 2: Aggressive Leadership and Military Escalation](#3.2)
+  - [3.3 Phase 3: Negotiated Peace (from Year 95)](#3.3)
+- [4. Technological Reconstruction](#4)
+  - [4.1 The Long Rebuild](#4.1)
+  - [4.2 The Frozen Archive](#4.2)
+
 <a name="1"></a>
 # 1. Premise
  
