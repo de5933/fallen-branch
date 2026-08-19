@@ -2,6 +2,20 @@
 
 *Each file numbers its own sections independently starting at §1. Cross-references elsewhere in the bible take the form `[File §X.Y](File.md#X.Y)`, naming the target file before the section number.*
 
+## Contents
+
+- [1 Passenger & Cargo Transit: The Counterweighted Twin-Train System](#1)
+- [2. The Sat-# Station Naming Convention](#2)
+  - [2.1 Station Architecture: Anchors, Bridge, and Habitat Tiers](#2.1)
+  - [2.2 Safford as Company Town: Daily Life and Education](#2.2)
+- [3 Stations](#3)
+- [4 Target Mass by Wormhole](#4)
+- [5. Communication Delays](#5)
+- [6. Post-Collapse Electronics](#6)
+  - [6.1 Material Sourcing and the Rare-Earth Wall](#6.1)
+  - [6.2 Fabrication Tier](#6.2)
+  - [6.3 Display Evolution](#6.3)
+
 <a name="1"></a>
 ## 1 Passenger & Cargo Transit: The Counterweighted Twin-Train System
  
