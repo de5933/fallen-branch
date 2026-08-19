@@ -2,6 +2,13 @@
 
 *Each file numbers its own sections independently starting at §1. Cross-references elsewhere in the bible take the form `[File §X.Y](File.md#X.Y)`, naming the target file before the section number.*
 
+## Contents
+
+- [1 Historical colonist strata](#1)
+- [2 Three ideological groups post-founding](#2)
+- [3 Labor classes (Nova Reach extraction pipeline)](#3)
+- [4 Post-Collapse Software and Information Culture](#4)
+
 <a name="1"></a>
 ## 1 Historical colonist strata
  
