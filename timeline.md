@@ -2,6 +2,13 @@
 
 *All events currently established in the Worldbuilding Bible ([README.md](./README.md) and its topic files), in chronological order. Years are relative to Nova Reach's founding (Year 0). Ranges reflect the bible's own uncertainty, not missing research. This file has no internal section numbering of its own — references to it from other files link to the whole file rather than a specific anchor.*
 
+## Contents
+
+- [Master Timeline](#timeline)
+- [Open dating questions](#open-dating-questions)
+
+<a name="timeline"></a>
+
 | Year / Range | Event | Details | Bible Ref. |
 |---|---|---|---|
 | ~Year -15 | Intra-Sol gate program begins | Farfield proves gate technology on safe, nearby Sol-system targets over roughly a decade and a half, before risking a full expansion aimed at an unknown, unreachable-by-any-other-means destination. | — |
@@ -33,6 +40,7 @@
 | Undated (background physics, pre-story, cosmic timescale) | Ongoing raw-seed loss channel | Stellar cores, supernova remnants, and magnetar magnetospheres occasionally destroy raw primordial seeds outright via violent charge-exchange, invisibly thinning the surviving seed population over cosmic time. No bearing on the story's timeline. | [Cosmology §2](Cosmology.md#2) |
 | Sequel/epilogue-horizon (well beyond this story's timeline) | Manufactured wormholes and the Chronology Protection test | Multiple fundamental breakthroughs beyond Sat-48-era engineering eventually make *manufacturing* a wormhole mouth (rather than harvesting a primordial one) possible. The first attempt to give a manufactured pair's mouths diverging velocity/gravitational histories (the first real shot at a closed timelike curve) is answered by vacuum-fluctuation runaway destroying the throat before causality violation becomes possible — confirming Hawking's Chronology Protection Conjecture at the cost of a destroyed lab and research team. Forward-looking lore only; not intended to be dramatized on-page in the current novel. | [Cosmology §2.1](Cosmology.md#2.1) |
 
+<a name="open-dating-questions"></a>
 ## Open dating questions
 
 - Exact triggering mechanism/date detail for Sat-39's collapse beyond "Year 92" is not yet decided as canon (a chronic mass-imbalance theory exists but is explicitly unconfirmed in-universe).
