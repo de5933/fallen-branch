@@ -32,5 +32,5 @@
 - Confirm paraffin (vs. another phase-change material) as the final choice for adgun heatsink cartridges ([Technology §4](Technology.md#4)) — leaned toward but not explicitly re-confirmed as the last word.
 - Decide the exact physical siting of Safford's two adgun units and each settlement's single unit ([Technology §4](Technology.md#4)) — relevant to staging a Safford riot scene or the Lugh landing.
 - Decide which additional non-lethal options, if any, Farfield security fields alongside adguns ([Technology §4](Technology.md#4)): acoustic hailing/dispersal devices (LRAD-style, plausible complement for open areas vs. adguns for close-quarters corridors/airlocks), riot foam, and tear gas/chemical irritants were all discussed as plausible inventory but none is locked.
-- Decide whether powered cargo exoskeletons (plausible given spin-gravity/low-g cargo handling needs) appear as improvised heavy gear for Danu's resistance fighters ([Technology §4](Technology.md#4)) — flagged as a strong, grounded visual, not yet locked as canon.
+
 
