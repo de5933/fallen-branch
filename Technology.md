@@ -17,6 +17,9 @@
 - [5. Technological Reconstruction Timeline](#5)
   - [5.1 The Long Rebuild](#5.1)
   - [5.2 The Frozen Archive](#5.2)
+- [6. Pre-Collapse Computing Substrate and AI](#6)
+  - [6.1 Computing Substrate: Evolutionary, Not Revolutionary](#6.1)
+  - [6.2 Farfield AI: Capability and Architecture](#6.2)
 
 <a name="1"></a>
 # 1. Propulsion & Vehicle Engineering
@@ -248,3 +251,35 @@ See [§2](#2) above for the material and technical detail behind each stage, and
 At collapse, Nova Reach's local LLM inference infrastructure — a Farfield corporate asset, hosted at Nova Reach for latency reasons rather than owned by the colony itself — is stranded with whatever model weights happened to be cached at Year 92, permanently unable to retrain or update. Farfield's ownership of everything in the colonies ([Politics §4.1](Politics.md#4.1)) makes its post-collapse status a matter of practical control rather than settled law: whoever can physically reach and maintain the hardware effectively owns it now, whatever the org chart used to say.
 
 No single administration ever makes a clean decision to preserve or dismantle it. Instead, across Phases 1 through 3 and beyond ([History §3](History.md#3)), the data center is worn down by a slow, piecemeal cannibalization — a rack pulled here for a life-support board, a memory module scavenged there for a failing gate-control system, each individual decision a reasonable emergency triage call, never an official policy. What survives by the time indigenous chip fabrication matures ([§5.1](#5.1) above) is a degraded, patched wreck running on a fraction of its original hardware — not dead, not whole, kept alive mostly by whoever still has the swarm-control expertise ([Infrastructure §2.2](Infrastructure.md#2.2)) to run something that distributed and resource-starved at all.
+
+<a name="6"></a>
+# 6. Pre-Collapse Computing Substrate and AI
+
+*Everything in this section describes Year 92 baseline technology — what existed, and was lost, at the moment of collapse. It is the "before" picture that makes [§5.1](#5.1)'s reconstruction arc and [§5.2](#5.2)'s Frozen Archive read as a genuine fall rather than a lateral move.*
+
+<a name="6.1"></a>
+## 6.1 Computing Substrate: Evolutionary, Not Revolutionary
+
+Peak pre-collapse computing is 178 years of continuous engineering refinement on physical principles already understood in the early 21st century — not a leap to some fundamentally different substrate. Consistent with the network's supply-chain-dependency material picture ([§2.1](#2.1) above), mainstream Farfield computing at Year 92 runs on:
+
+- **Full 3D monolithic integration** — the endpoint of chiplet/die-stacking approaches already underway in the 21st century, taken to maturity rather than invented from nothing.
+- **Silicon photonics for interconnect** — optical rather than electrical signaling for chip-to-chip and on-die communication, mainstream by Year 92 rather than the commercial-datacenter-niche technology it is at the setting's real-world starting point. This matters practically as much as narratively: photonic interconnect sheds far less waste heat than electrical signaling at equivalent bandwidth, a genuine engineering advantage on stations and ships where heat rejection is always at a premium.
+- **Neuromorphic/analog accelerators** — dedicated non-von-Neumann hardware purpose-built for the inference workloads AI ([§6.2](#6.2) below) actually runs, distinct from general-purpose compute rather than an application running on it.
+- **Narrow-purpose quantum co-processors** — not general-purpose quantum computers, which remain commercially impractical even after 178 years, but specialized systems for the narrow class of problems quantum hardware is actually suited to: optimization and quantum-chemistry-style simulation. The one significant in-universe application is **quantum-assisted modeling in wormhole-seed viability characterization** ([Cosmology §2.4](Cosmology.md#2.4)) — a small number of these systems exist, concentrated at Nova Reach, supporting the wormhole engineers' threading-field response work ([Culture §3](Culture.md#3)).
+
+**What this costs post-collapse.** Photonic interconnect, neuromorphic accelerators, and especially the quantum co-processors sit well beyond the reconstruction arc's achievable ceiling ([§2.2](#2.2) above) — they depend on fabrication and materials infrastructure ([§2.1](#2.1)) far deeper than contact/proximity photolithography can ever reach, not merely on the rare-earth dopants already walled off. These aren't degraded by the collapse; they're gone outright, with no reconstruction path at any stage of [§5.1](#5.1)'s timeline. This is the concrete, physical reason the "sacred legacy code" culture ([Culture §4](Culture.md#4)) is more than sentimental: some of that inherited software was written assuming hardware acceleration nobody will ever be able to build again, forcing the lean, low-density-hardware-native toolchain to be a genuine reinvention rather than a simple port.
+
+<a name="6.2"></a>
+## 6.2 Farfield AI: Capability and Architecture
+
+**Capability.** Farfield's peak pre-collapse AI is cross-domain and general-reasoning-adjacent — genuinely useful judgment across varied problem types, not a narrow single-purpose tool — but bounded and non-sentient. It's advanced enough to be a real subject of dispute among colonists (a natural flashpoint given the labor anxieties already present in Safford's culture, [Culture §2](Culture.md#2)) and just capable enough to be unsettling to people who work alongside it daily, without ever crossing into anything the story treats as actual general intelligence.
+
+**Architecture: hybrid, three-tier, mapped directly onto the network's existing comm-delay stratification** ([§6.1](#6.1) above's photonic/neuromorphic hardware; [Infrastructure §5](Infrastructure.md#5) for the underlying delay figures):
+
+- **Nova Reach central data center** — the training tier. The "big" model lives here; this is the facility that becomes the Frozen Archive after collapse ([§5.2](#5.2) above).
+- **Branch-system Safford stations** — receive updated model weights via the near-instant gate-to-gate fiber threading ([Cosmology §2](Cosmology.md#2)) and run local inference for the fast-coupled bodies orbiting alongside them (Boann, Olokun, Ereshkigal — all under ~35 sec comm delay from their Safford, [Infrastructure §5](Infrastructure.md#5)).
+- **Slow-coupled surface colonies** (Lugh, Yemoja) — cannot lean on Safford's AI in real time any more than they can lean on Safford's human administrators across a 49-minute-plus one-way delay. Each runs its own local inference hardware on model weights that are current as of the last successful sync, meaning meaningfully staler than what a fast-coupled body sees, and progressively staler still as the interval since last contact grows.
+
+This isn't a separate mechanic bolted onto the political independence arc — it's the same lag-driven autonomy already established for governance ([Politics](Politics.md)), expressed in a second system. Lugh and Yemoja were already operating on local human judgment before the collapse; local AI judgment, running on its own increasingly dated snapshot of the network's collective intelligence, was already part of that same independence, not a new consequence of severance.
+
+**The fiber link itself is not permanent** ([Infrastructure §5](Infrastructure.md#5), fiber degradation) — meaning the "near-instant" weight-sync this architecture depends on is itself a slowly wasting asset post-collapse, compounding the branch stations' own hardware cannibalization ([§5.2](#5.2) above) with a second, independent failure mode in the pipe connecting them to Nova Reach at all.
