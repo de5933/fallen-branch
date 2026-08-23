@@ -6,9 +6,10 @@
 |---|---|
 | [`Cosmology.md`](./Cosmology.md) | Wormhole physics theory, seed discovery, star systems, planets, moons, geology, host galaxies |
 | [`Infrastructure.md`](./Infrastructure.md) | Wormhole transit mechanics, Safford stations, settlement architecture per world, communication delay figures, gate-failure specs |
+| [`Technology.md`](./Technology.md) | Propulsion & vehicle engineering, post-collapse electronics, battery chemistry, arms & equipment, technological-reconstruction timeline |
 | [`Economy.md`](./Economy.md) | Extraction pipeline, critical resources, imports/exports, post-collapse economic strategy |
-| [`Travel.md`](./Travel.md) | Propulsion, interplanetary transit times, vehicle fleets |
-| [`History.md`](./History.md) | Premise, the Severance Event's real-time collapse, the post-collapse military arc |
+| [`Travel.md`](./Travel.md) | Interplanetary transit times by route |
+| [`History.md`](./History.md) | Premise, the Severance Event's real-time collapse, the post-collapse military arc, Earth backstory |
 | [`Culture.md`](./Culture.md) | Colonist strata, ideological groups, labor classes, Lugh's culture and belief system |
 | [`People.md`](./People.md) | Named individuals (currently: Nova Reach's three phase leaders) |
 | [`Politics.md`](./Politics.md) | Farfield Interstellar, post-severance power structures, post-collapse governance, comm-delay-driven authority |
