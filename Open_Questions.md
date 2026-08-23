@@ -32,5 +32,7 @@
 - Confirm paraffin (vs. another phase-change material) as the final choice for adgun heatsink cartridges ([Technology §4](Technology.md#4)) — leaned toward but not explicitly re-confirmed as the last word.
 - Decide the exact physical siting of Safford's two adgun units and each settlement's single unit ([Technology §4](Technology.md#4)) — relevant to staging a Safford riot scene or the Lugh landing.
 - Decide which additional non-lethal options, if any, Farfield security fields alongside adguns ([Technology §4](Technology.md#4)): acoustic hailing/dispersal devices (LRAD-style, plausible complement for open areas vs. adguns for close-quarters corridors/airlocks), riot foam, and tear gas/chemical irritants were all discussed as plausible inventory but none is locked.
+- Lock an exact lifetime cumulative low-g exposure limit for Boann workers ([Infrastructure §3](Infrastructure.md#3), Boann subsection) — mechanism (recovery doesn't fully reverse each tour's cost, implying a real career ceiling) is locked; whether it's a hard numeric cap or case-by-case medical judgment is not.
+- Determine Boann's Trelium fuel sourcing ([Infrastructure §3](Infrastructure.md#3), Boann subsection): whether the stationary reactor draws locally from Mannannán the way Nova Reach draws from Goibniu, or is entirely import-dependent — a real economic-dependency question bearing on Boann's already-established structural weakness ([Politics §4.1](Politics.md#4.1)).
 
 
