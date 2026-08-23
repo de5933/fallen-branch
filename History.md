@@ -10,15 +10,12 @@
   - [3.1 Phase 1: Conservative Leadership (Days 1–58 post-collapse)](#3.1)
   - [3.2 Phase 2: Aggressive Leadership and Military Escalation](#3.2)
   - [3.3 Phase 3: Negotiated Peace (from Year 95)](#3.3)
-  - [3.4 Arms and Equipment](#3.4)
-- [4. Technological Reconstruction](#4)
-  - [4.1 The Long Rebuild](#4.1)
-  - [4.2 The Frozen Archive](#4.2)
-- [5. Earth: The Road to Nova Reach](#5)
-  - [5.1 Divergence and the Second Space Race (1970s–1991)](#5.1)
-  - [5.2 America's Costly Bet (1970s–1990s)](#5.2)
-  - [5.3 Boom and Consolidation (1990s–2012)](#5.3)
-  - [5.4 Two Waves of Colonists](#5.4)
+  - [3.4 Vehicles and Landing Tactics](#3.4)
+- [4. Earth: The Road to Nova Reach](#4)
+  - [4.1 Divergence and the Second Space Race (1970s–1991)](#4.1)
+  - [4.2 America's Costly Bet (1970s–1990s)](#4.2)
+  - [4.3 Boom and Consolidation (1990s–2012)](#4.3)
+  - [4.4 Two Waves of Colonists](#4.4)
 
 <a name="1"></a>
 # 1. Premise
@@ -57,7 +54,7 @@ Narrative implications: the collapse itself is a sudden event at both mouths sim
 <a name="3"></a>
 # 3. The Path to Stalemate: The Military Arc
  
-The transition from post-collapse chaos to two-entity equilibrium unfolds through three leadership phases in Nova Reach. See [Politics §5](Politics.md#5) for how comm-delay geography ([Infrastructure §5](Infrastructure.md#5)) mechanically underlies each phase below, rather than resulting purely from personality or ideology. See [People §1](People.md#1) for full biographical detail on all three phase leaders (Deschamps, Castellane, Okafor-Lindqvist).
+The transition from post-collapse chaos to two-entity equilibrium unfolds through three leadership phases in Nova Reach. See [Politics §5](Politics.md#5) for how comm-delay geography ([Infrastructure §5](Infrastructure.md#5)) mechanically underlies each phase below, rather than resulting purely from personality or ideology. See [People §1](People.md#1) for full biographical detail on all three phase leaders (Deschamps, Castellane, Okafor-Lindqvist). See [Technology §4](Technology.md#4) for the weapons and protective equipment carried by both sides.
  
 <a name="3.1"></a>
 ## 3.1 Phase 1: Conservative Leadership (Days 1–58 post-collapse)
@@ -77,11 +74,11 @@ The transition from post-collapse chaos to two-entity equilibrium unfolds throug
 - **Deschamps was assassinated by a Nova Reach hardliner acting alone** — not a Danu sympathizer, as loyalist propaganda would later claim, but a furious member of the domestic pro-retribution faction ([§3.1](#3.1)) who viewed Deschamps's restraint, and the turned-back envoy mission that followed it, as a betrayal of Nova Reach's own humiliated people.
 - **Ingrid Castellane had no foreknowledge of the assassination and no connection to the assassin beyond shared ideological grievance.** The assassination is not intended as a power grab by her or her allies — it is an act of individual rage that she did not order, plan, or anticipate.
 - **She moved swiftly afterward**, using her existing command of Safford's only armed force to seize continuity of operations before any rival could organize a response, publicly framing the killing as proof that appeasement had failed and that only strength would hold the network together: "Look, diplomacy failed. Danu is sabotaging us. We need strong leadership now."
-- Nova Reach mobilizes hastily: recruits civilian security forces, arms them poorly, launches military incursions into Danu
+- Nova Reach mobilizes hastily: recruits civilian security forces, arms them poorly ([Technology §4](Technology.md#4)), launches military incursions into Danu
 - Danu's defenders (engineers, maintenance crews, hazard workers) fight on home turf with superior knowledge and improvised weapons
 - Multiple clashes occur; Nova Reach suffers costly defeats against Danu's defensive strategy
 - Danu's field commanders at Lugh are, by this point, already operating on local authority by necessity ([Politics §5](Politics.md#5)) — orders and clarifications from Nova Reach arrive an hour or more out of date, so ambiguous directives read as hostile intent on both sides.
-- **Castellane's rule lasts roughly three years (Day 58 of Year 92 through Year 95).** The Safford–Lugh transit itself (~54–57 days one-way, [Travel §1.1](Travel.md#1.1)) bottlenecks every incursion cycle — mobilization, transit, engagement, retreat, and reassessment each eat months before a next attempt is even possible — so "repeated costly defeats" plays out as a genuine multi-year grind rather than a rapid collapse of will.
+- **Castellane's rule lasts roughly three years (Day 58 of Year 92 through Year 95).** The Safford–Lugh transit itself (~54–57 days one-way, [Travel §1](Travel.md#1)) bottlenecks every incursion cycle — mobilization, transit, engagement, retreat, and reassessment each eat months before a next attempt is even possible — so "repeated costly defeats" plays out as a genuine multi-year grind rather than a rapid collapse of will.
  
 <a name="3.3"></a>
 ## 3.3 Phase 3: Negotiated Peace (from Year 95)
@@ -92,75 +89,55 @@ The transition from post-collapse chaos to two-entity equilibrium unfolds throug
 - Nova Reach focuses on consolidating control over Enlil and Obatala and developing Obatala's agriculture as an alternative to Danu's food supply
 
 <a name="3.4"></a>
-## 3.4 Arms and Equipment
+## 3.4 Vehicles and Landing Tactics
 
-Nova Reach never developed a pre-collapse military industry ([§1](#1)), so the weapons and protective gear that see use during the Military Arc are either sealed pre-collapse contingency stock or civilian/industrial equipment pressed into an unintended role — nothing is purpose-built for war.
+Consistent with [Infrastructure §1](Infrastructure.md#1)'s hard ceiling — no hull ever transits a gate, and nothing built in one system can fly to another — Farfield's interplanetary cargo (and, during the war, troop) logistics draw directly on the established vehicle fleet ([Technology §1.2](Technology.md#1.2)), not a separate wartime design. See [Technology §4](Technology.md#4) for the arms and non-lethal equipment carried during these operations.
 
-- **No coilguns, railguns, or handheld anti-personnel lasers exist anywhere in the colonies.** The power-density gap between what a portable EM or laser weapon needs and what even mature 2104 battery chemistry can deliver is roughly an order of magnitude ([Infrastructure §7](Infrastructure.md#7)) — too wide to close plausibly, so Farfield never fields them even if someone, somewhere, is theoretically researching the underlying physics.
-- **Chemical-propellant firearms are the only lethal weapons in the network.** Pre-collapse, they exist solely within Farfield security/law-enforcement channels — a sealed contingency stockpile held against civil unrest rather than routine equipment, consistent with the network's purely civilian economic character ([§1](#1)). Conventional cased-propellant ammunition also stores reliably for decades with minimal upkeep, unlike anything capacitor- or battery-dependent, which is part of why it was the chosen contingency technology in the first place.
-- **Distribution is heavily asymmetric.** Nearly all firearms in the network sit in Nova Reach, inside Farfield's stockpile. Danu fields no standing firearms of its own: its defenders rely on improvised weapons, repurposed engineering and agricultural tools, and superior knowledge of home terrain ([§3.2](#3.2)). What guns Danu's fighters do carry come from raiding the Nova Reach security stash during the fighting.
-- **Adguns — shoulder-mounted, Active Denial System-style directed-energy crowd-control weapons — are standard Farfield security equipment**, adapted rather than newly invented:
-  - The emitter is gyrotron-based (vacuum-tube, magnetic-confinement RF generation) rather than solid-state, since high-power solid-state millimeter-wave emitters depend on gallium- and rare-earth-doped semiconductors the colonies will never have access to ([Infrastructure §6.1](Infrastructure.md#6.1)). Gyrotrons are already native to Farfield's fusion-reactor engineering base (electron cyclotron resonance heating), so adguns are a repurposed spinoff of existing civilian reactor technology rather than a dedicated weapons program.
-  - A 95 GHz millimeter-wave beam heats only the outermost fraction of a millimeter of skin, producing pain within seconds and driving anyone struck off target well before real injury — non-lethal by design, and it does not damage nearby electronics.
-  - Units are rare and infrastructure-tethered rather than battery-portable: two at Safford, one per major settlement elsewhere, wired into station or settlement power. Baseline gyrotron efficiency (roughly 30–40% electron-to-RF, the rest waste heat) is managed with ejectable, sealed phase-change-material heatsink cartridges rather than a plumbed coolant loop — the same principle real spacesuit portable life-support systems use to solve an identical cooling problem. A sealed, non-venting cartridge was chosen over open water-ice sublimation specifically to avoid condensation and fogging inside enclosed station and settlement environments. The only external connection an adgun needs is its power cable; thermal load is handled entirely by swapping spent cartridges for fresh ones.
-  - The beam is blocked by simple materials — a sheet of plywood, a mattress — and attenuated by rain, fog, and humidity, giving Danu's agricultural world genuine, non-exotic countermeasures its people would plausibly have on hand.
-- **No militarized body-armor industry ever existed.** The strongest candidate for Farfield security's protective gear is armor derived from repurposed micrometeoroid/debris-shielding materials science — the same physics underlying ship-hull shielding — civilian/spacecraft-derived protection rather than a purpose-built military design.
+- **Lugh front — split architecture.** The Interplanetary Transfer Vessel makes the long accelerate-coast-decelerate haul between Safford and Lugh parking orbit and never enters atmosphere; the Lugh Spaceplane ([Technology §1.2](Technology.md#1.2)) shuttles cargo and, during the war, troops between Lugh's surface and that parking orbit, handing off via orbital rendezvous. This split gives every Lugh incursion an unavoidable, highly visible orbital loiter phase — the transfer vessel sits exposed in parking orbit while its spaceplane is down on the surface — a predictable rhythm Danu's defenders can plan incursion response around.
+- **Boann front — single-vessel architecture, no loiter phase.** The Boann Shuttle flies the complete route, surface to Safford dock, with no intermediate parking-orbit vessel at all ([Technology §1.2](Technology.md#1.2)) — Boann's shallow gravity well and short co-orbital hop to Safford make a lander/tug split pure overhead rather than an efficiency gain. Tactically, this means Nova Reach incursions against Boann lack the exposed loiter window that defines the Lugh front: no transfer vessel sits waiting in orbit for defenders to target or time a response around. Whether this makes a Boann incursion harder to detect coming, or simply removes one specific vulnerability while leaving others (the shuttle's own slow, unavoidable final approach, [Technology §1.2](Technology.md#1.2)) intact, is worth developing further if Boann ever gets its own dedicated incursion scene.
 
-See [Open Questions](Open_Questions.md) for equipment details not yet locked as canon, including armor material specifics, adgun unit siting at Safford and each settlement, other non-lethal options under consideration (acoustic hailing/dispersal devices, riot foam, chemical irritants), and powered cargo exoskeletons as a possible visual for Danu's improvised resistance.
+### Lugh: landing infrastructure
+
+Built for high cargo throughput rather than defense: open ground, likely multiple pads/runway capacity, positioned near processing and storage facilities so harvested crops can move quickly from field to orbit. Tactically exposed — clean, unobstructed sightlines for defenders on slightly elevated ground or nearby structures, with nowhere for a landing party to take cover once down. A gliding shuttle-style landing (if confirmed) implies an actual runway with real approach/rollout margin, a larger and harder-to-seal target than a compact pad, but one that also exposes an inbound vehicle during a fast, low, hard-to-evade rollout.
+
+### Boann: landing infrastructure
+
+Boann has no coastlines and no open ocean — its surface is ice sheet throughout, and its "dry land" is the network of paved surface facilities built atop that ice near the borehole settlement ([Cosmology §4.3](Cosmology.md#4.3)). A propulsive hydrogen-oxygen landing here requires an engineered, heat-resistant, blast-diverted pad built directly into the reinforced ice/paved surface, since an unprepared site risks uncontrolled melt-through or cracking under landing-plume thermal and pressure loading. This gives Boann a small number of fixed, known, heavily fortified landing points rather than Lugh's more open, distributed exposure — defenders don't need to cover a whole region, just deny the handful of points that are the only physical way in.
+
+### War mechanics: no ship-to-ship combat
+
+Neither side possesses anything resembling a warship. Nova Reach's forces are a company security apparatus ([People §1](People.md#1), Castellane) improvising combat capability onto vehicles and personnel built for policing, not war; Danu has no space-based force at all. Orbital closing speeds are far too high for conventional projectile weapons to be effective at any range beyond point-blank/boarding distance, so there is no meaningful space combat in this conflict — a mounted gun is, at best, an improvised close-range boarding or intimidation weapon, not a warship's armament. **Safford itself is never attacked by anyone**: as the sole gate infrastructure connecting all four systems, an attack on it would unite every faction, Danu included, against the attacker, since Danu needs the gates as much as Nova Reach does.
+
+The war is therefore fought entirely as a **ground/landing-zone conflict**, structurally similar to an opposed amphibious landing with no landing-craft doctrine on the attacker's side: Castellane's forces arrive via slow, unarmed transports with an unavoidable, visible final descent, and Danu's defenders don't need ships or orbital assets at all — they only need to make the small number of physical landing points (above) lethal with prepared fields of fire and repurposed equipment.
 
 <a name="4"></a>
-# 4. Technological Reconstruction
-
-<a name="4.1"></a>
-## 4.1 The Long Rebuild
-
-Pre-collapse, all cutting-edge electronics were finished goods shipped from Earth through Sat-39 — no colony ever needed or built native fabrication capacity, since duplicating Earth's fabrication supply chain locally was never remotely cost-effective ([Infrastructure §6](Infrastructure.md#6)). The Severance Event doesn't just cut off new chips; it strands the network with whatever finished stock and spare parts happened to be on-hand or already in the pipeline at Year 92, with no path to more.
-
-What follows is roughly a century of bootstrapped reconstruction, not a single recovery:
-
-- **Years 92–~110, Scramble.** Pure triage: salvaged boards, passive-component repair, no new active electronics built at all.
-- **Years ~110–140, Vacuum tube resurgence.** The first genuinely new (not salvaged) active components since the collapse — tubes need glassblowing and vacuum sealing, nothing from the fabrication supply chain that died with Sat-39.
-- **Years ~140–170, Discrete transistors.** Hand-built, not integrated, once local doping and crystal-growing processes mature.
-- **Years ~170–200, First indigenous integrated circuits.** Contact/proximity photolithography stood up as real infrastructure — a genuinely dated, celebrated milestone: the day the colonies could build their own chips again, not merely patch old ones.
-- **Years 200+, Maturation.** Yield and scale improve; color-capable displays move from prototype to common availability ([Infrastructure §6.3](Infrastructure.md#6.3)).
-
-See [Infrastructure §6](Infrastructure.md#6) for the material and technical detail behind each stage, and [Culture §4](Culture.md#4) for the software culture this constraint produced.
-
-<a name="4.2"></a>
-## 4.2 The Frozen Archive
-
-At collapse, Nova Reach's local LLM inference infrastructure — a Farfield corporate asset, hosted at Nova Reach for latency reasons rather than owned by the colony itself — is stranded with whatever model weights happened to be cached at Year 92, permanently unable to retrain or update. Farfield's ownership of everything in the colonies ([Politics §4.1](Politics.md#4.1)) makes its post-collapse status a matter of practical control rather than settled law: whoever can physically reach and maintain the hardware effectively owns it now, whatever the org chart used to say.
-
-No single administration ever makes a clean decision to preserve or dismantle it. Instead, across Phases 1 through 3 and beyond, the data center is worn down by a slow, piecemeal cannibalization — a rack pulled here for a life-support board, a memory module scavenged there for a failing gate-control system, each individual decision a reasonable emergency triage call, never an official policy. What survives by the time indigenous chip fabrication matures ([§4.1](#4.1) above) is a degraded, patched wreck running on a fraction of its original hardware — not dead, not whole, kept alive mostly by whoever still has the swarm-control expertise ([Infrastructure §2.2](Infrastructure.md#2.2)) to run something that distributed and resource-starved at all.
-
-<a name="5"></a>
-# 5. Earth: The Road to Nova Reach
+# 4. Earth: The Road to Nova Reach
 
 Nova Reach's Year 0 corresponds to **2012** on Earth's calendar; the Severance Event (internal Year 92) corresponds to **2104**. The point of divergence from real-world history is the 1970s, when wormhole theory — built on the B-SKR fermionic framework — is confirmed and the first gate is stabilized. Everything below is the roughly forty-year gap between that divergence and Nova Reach's founding, establishing why the corporation that founds Nova Reach behaves the way it does.
 
-<a name="5.1"></a>
-## 5.1 Divergence and the Second Space Race (1970s–1991)
+<a name="4.1"></a>
+## 4.1 Divergence and the Second Space Race (1970s–1991)
 
 Both the United States and the USSR race to develop wormhole technology starting in the 1970s, extending Cold War logic directly into space. Both sides mine the easiest, closest sources first — asteroids and other inner-system bodies — before eventually reaching Saturn's rings, the ultimate cash crop for seed-harvesting ([Cosmology §2.2](Cosmology.md#2.2)). The rings are large enough that both superpowers mine in parallel without direct conflict, building separate wormhole networks side by side rather than competing for the same territory.
 
 The USSR ultimately cannot sustain this second space race. Wormhole technology demands precision engineering and continuous investment on top of the economic strain the Soviet system was already under, and the effort collapses along with the state in 1991, as in real history. Any Soviet wormhole infrastructure by that point is abandoned or absorbed in the aftermath. (Whether any element of that Soviet network survives as a distinct story element — rather than simply vanishing from the setting's relevant history — is not yet locked as canon; see [Open Questions](Open_Questions.md).)
 
-<a name="5.2"></a>
-## 5.2 America's Costly Bet (1970s–1990s)
+<a name="4.2"></a>
+## 4.2 America's Costly Bet (1970s–1990s)
 
 The United States can sustain the second space race, but only at real cost: massive upfront investment through the 1970s and 80s — government contracts, private equity, heavy debt — against a long, uncertain payoff period, straining the economy along the way.
 
 By the 1990s, seed harvesting starts yielding real, usable resources. The investment thesis validates, profits materialize, and the early corporate and government contractors who took the risk become rich and politically powerful.
 
-<a name="5.3"></a>
-## 5.3 Boom and Consolidation (1990s–2012)
+<a name="4.3"></a>
+## 4.3 Boom and Consolidation (1990s–2012)
 
 By the 2000s, a genuine economic boom follows — wormhole-derived resources supercharge entire sectors of the economy — but the gains consolidate into a corporate oligopoly rather than spreading broadly. Government deregulates to "encourage growth," labor protections erode, and safety standards weaken.
 
 By 2012, the year of Nova Reach's founding, the United States is economically strong and effectively unipolar on wormhole technology, but has become a more corporatized, less worker-friendly, less regulated version of itself relative to the real world's 2012. This is the direct root of Farfield's corporate culture: not abstract or cartoonish evil, but the logical extension of ordinary 2000s–2010s American corporate practice — amoral efficiency, cost-cutting, externalized risk, carried forward and intensified for another ninety years. It is the same culture that lets Sat-39 deteriorate through deferred maintenance and leaves its on-duty techs overworked and unequipped for the crisis that ultimately collapses it ([§2.1](#2.1)).
 
-<a name="5.4"></a>
-## 5.4 Two Waves of Colonists
+<a name="4.4"></a>
+## 4.4 Two Waves of Colonists
 
 The economic history above produces two distinct colonist psychologies, corresponding to the first- and second-wave migration pattern already established elsewhere in the bible ([Culture §1](Culture.md#1)):
 
