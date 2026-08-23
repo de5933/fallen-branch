@@ -8,6 +8,7 @@
 - [2. The Sat-# Station Naming Convention](#2)
   - [2.1 Station Architecture: Anchors, Bridge, and Habitat Tiers](#2.1)
   - [2.2 Safford as Company Town: Daily Life and Education](#2.2)
+  - [2.3 Post-Severance Gate Safeguards](#2.3)
 - [3 Stations](#3)
 - [4 Target Mass by Wormhole](#4)
 - [5. Communication Delays](#5)
@@ -215,6 +216,13 @@ Structural inequality persists underneath the meritocratic surface: administrato
 
 **The generational fault line this creates:** engineering-track children, needing broader intellectual development for genuinely difficult technical work, end up with the most (if still curated) exposure to history and rigorous reasoning — occasionally enough to start asking real questions. Labor-track children, systematically kept from the same intellectual tools, feel the unfairness of the system viscerally (watching engineer children get more of everything) without the historical or philosophical vocabulary to frame it as *systemic* rather than personal. That produces a particular flavor of resentment: inarticulate, decades-deep, and — once the system that was holding it in check disappears at Year 92 — dangerous.
 
+<a name="2.3"></a>
+## 2.3 Post-Severance Gate Safeguards
+
+Sat-39's collapse ([History §2.1](History.md#2.1)) is, on the Nova Reach side, ultimately attributed to compounding mismanagement and deferred maintenance rather than any flaw in the underlying gate design. In direct response, wormhole engineers across Nova Reach and every branch colony overhaul their techniques, regulations, and safeguards in the years that follow: tighter tuning tolerances, more frequent inspection and audit cycles, and stricter escalation procedures the moment telemetry drifts from baseline — closing exactly the kind of slow, easy-to-miss failure mode described in [§1](#1) above (a residual mass mismatch that "only surfaces when someone finally audits a gate's mass against its logged baseline and finds it's wandered").
+
+This is now a **permanent, locked rule for the setting going forward**: any gate failure occurring after the Severance Event must be the result of deliberate sabotage, never negligence or accident. Wormhole engineers ([Culture §3](Culture.md#3)) become, in effect, the network's conscience-keepers post-collapse — the professional guardrails standing between stability and a second catastrophe, and a natural source of institutional authority and moral weight in any post-collapse story beat that touches gate operations.
+
 <a name="3"></a>
 ## 3 Stations
  
@@ -224,7 +232,7 @@ Structural inequality persists underneath the meritocratic surface: administrato
 | Sat-39 Nova Reach | — (unlikely to matter narratively; see below) | Nova Reach-side segment of the same two-mouth structure, sited on its own dedicated minor moon of Goibniu — a separate physical station from Sat-48 entirely, not a wing of it ([§2](#2)'s naming convention covers one continuous structure per wormhole, not per system). This pairing (Sat-39 Sol / Sat-39 Nova Reach) is physically separate from Sat-48 by design — a corporate risk-quarantine decision so a single gate's failure can't sever every downstream colony at once. This is the gate that collapses in the eventual severance event (see [Cosmology §2.5](Cosmology.md#2.5)); because both segments share one mass ([Cosmology §2.6](Cosmology.md#2.6)), both fail simultaneously, but Sat-48 — structurally unconnected — is unaffected either way. |
 | Sat-48 | Safford | The highly-connected hub, built two-anchor/bridge style per [§2.1](#2.1): three individually sealed gate chambers (one per branch mouth) clustered at the gate anchor, connected by bridge to a large-tier habitat anchor whose axial ring-stack is the biggest spin structure in the network. The habitat anchor's non-rotating hub also hosts the wing's Trelium refining/storage facilities, drone-control centers, and the system's single power plant — which, via the shared power/water/air/comms lines threaded through every wormhole mouth ([§2](#2)), supplies all four Safford wings network-wide. Both anchors sit on one of Goibniu's dwarf moons, outside its ring system. |
  
-*Sat-39 Sol's fate at collapse is unknown and unknowable in-universe ([Cosmology §2.5](Cosmology.md#2.5)) — the failure occurs on the far side of the gate from Nova Reach's perspective. Sat-39 Nova Reach's fate is a live dramatic question rather than a certainty: whether it survives depends on whether hazard crews and wormhole engineers can redirect the resulting black hole onto a safe escape trajectory before the terminal burst ([History §2](History.md#2)). Sat-48 drifted to "Safford" through casual phonetic erosion over the colony's history.*
+*Sat-39 Sol's fate at collapse is unknown and unknowable in-universe ([Cosmology §2.5](Cosmology.md#2.5)) — the failure occurs on the far side of the gate from Nova Reach's perspective. Sat-39 Nova Reach's fate is a live dramatic question rather than a certainty: whether it survives depends on whether hazard crews and wormhole engineers can redirect the resulting black hole onto a safe escape trajectory before the terminal burst ([History §2.2](History.md#2.2)). Sat-48 drifted to "Safford" through casual phonetic erosion over the colony's history.*
  
 ### Safford Station (Sat-48 Danu)
  
