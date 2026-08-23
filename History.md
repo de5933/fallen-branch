@@ -3,7 +3,9 @@
 ## Contents
 
 - [1. Premise](#1)
-- [2 The Collapse in Real Time](#2)
+- [2. The Severance Event](#2)
+  - [2.1 Cause of the Collapse](#2.1)
+  - [2.2 The Collapse in Real Time](#2.2)
 - [3. The Path to Stalemate: The Military Arc](#3)
   - [3.1 Phase 1: Conservative Leadership (Days 1–58 post-collapse)](#3.1)
   - [3.2 Phase 2: Aggressive Leadership and Military Escalation](#3.2)
@@ -11,6 +13,11 @@
 - [4. Technological Reconstruction](#4)
   - [4.1 The Long Rebuild](#4.1)
   - [4.2 The Frozen Archive](#4.2)
+- [5. Earth: The Road to Nova Reach](#5)
+  - [5.1 Divergence and the Second Space Race (1970s–1991)](#5.1)
+  - [5.2 America's Costly Bet (1970s–1990s)](#5.2)
+  - [5.3 Boom and Consolidation (1990s–2012)](#5.3)
+  - [5.4 Two Waves of Colonists](#5.4)
 
 <a name="1"></a>
 # 1. Premise
@@ -18,7 +25,19 @@
 A hard science-fiction novel set in a corporate wormhole colony network founded by Earth corporations. Colonists travel and communicate only via wormhole gates. The central premise: a branch of the network becomes permanently severed from Earth and the rest of the network when a gate collapses. The severed colonies must survive in isolation.
  
 <a name="2"></a>
-## 2 The Collapse in Real Time
+## 2. The Severance Event
+
+<a name="2.1"></a>
+### 2.1 Cause of the Collapse
+
+The prevailing theory on the Nova Reach side — never provable, since the evidence dies with the collapsed mouth — is mundane rather than dramatic: **mismanagement and deferred maintenance at Sat-39, not sabotage or design failure.** Equipment at the gate was poorly configured and had been allowed to fall into disrepair without correction. Several small problems, none individually dangerous, compounded together; when they began interacting, the on-duty technicians weren't equipped to handle the escalating situation in real time, lost control of the gate, and it collapsed.
+
+Because the triggering event occurs on the Sol side ([Cosmology §2.5](Cosmology.md#2.5)) and no data survives a mouth's collapse, this can never be confirmed as fact in-universe — it remains a permanent, load-bearing mystery rather than a solved backstory. Different factions project their own blame onto it, and the disagreement itself is part of the post-collapse political texture: administrators tend to blame the on-duty techs for inattention; techs blame administrators for understaffing and deferred maintenance budgets; a minority suspect an undetected design flaw in the gate itself; a smaller minority suspect sabotage nobody has ever been able to prove. Nova Reach's chronic Sol-to-colony trade imbalance during the early ramp-up years ([Infrastructure §4](Infrastructure.md#4)) is sometimes cited as a contributing structural stressor underneath the maintenance failure, but this too is unconfirmed rather than established fact.
+
+**Locked consequence, going forward:** in direct response to the Severance, wormhole engineers across Nova Reach and every branch colony overhauled their techniques, regulations, and safeguards. Gates are watched more closely, tuned more precisely, and maintained far more rigorously than the pre-collapse standard that let Sat-39 deteriorate. This is now a permanent rule for the setting: **any gate failure from this point forward in the timeline must result from deliberate sabotage — never negligence or accident again.** Wormhole engineers become, in effect, the setting's conscience-keepers: the guardrails standing between stability and a second catastrophe. See [Infrastructure §2.3](Infrastructure.md#2.3) for the safeguard overhaul itself.
+
+<a name="2.2"></a>
+### 2.2 The Collapse in Real Time
 
 At ~30,000 t ([Infrastructure §4](Infrastructure.md#4)), Sat-39's evaporation runs **~26 days** (τ ≈ 8.4×10⁻¹⁷ × M³ seconds), releasing on the order of **2.7×10²⁴ J** total (E = Mc²) — but heavily backloaded rather than a steady burn, since Hawking power climbs as the black hole shrinks. The first week releases only ~10% of the total; the final 1% of the mass (~300 t) goes in the last couple of seconds, in a genuinely violent terminal gamma burst. Everything before that point is a slow, monitorable fade — consistent with the evacuation-time design margin built into every gate's target mass ([Cosmology §2.6](Cosmology.md#2.6)).
 
@@ -95,3 +114,37 @@ See [Infrastructure §6](Infrastructure.md#6) for the material and technical det
 At collapse, Nova Reach's local LLM inference infrastructure — a Farfield corporate asset, hosted at Nova Reach for latency reasons rather than owned by the colony itself — is stranded with whatever model weights happened to be cached at Year 92, permanently unable to retrain or update. Farfield's ownership of everything in the colonies ([Politics §4.1](Politics.md#4.1)) makes its post-collapse status a matter of practical control rather than settled law: whoever can physically reach and maintain the hardware effectively owns it now, whatever the org chart used to say.
 
 No single administration ever makes a clean decision to preserve or dismantle it. Instead, across Phases 1 through 3 and beyond, the data center is worn down by a slow, piecemeal cannibalization — a rack pulled here for a life-support board, a memory module scavenged there for a failing gate-control system, each individual decision a reasonable emergency triage call, never an official policy. What survives by the time indigenous chip fabrication matures ([§4.1](#4.1) above) is a degraded, patched wreck running on a fraction of its original hardware — not dead, not whole, kept alive mostly by whoever still has the swarm-control expertise ([Infrastructure §2.2](Infrastructure.md#2.2)) to run something that distributed and resource-starved at all.
+
+<a name="5"></a>
+# 5. Earth: The Road to Nova Reach
+
+Nova Reach's Year 0 corresponds to **2012** on Earth's calendar; the Severance Event (internal Year 92) corresponds to **2104**. The point of divergence from real-world history is the 1970s, when wormhole theory — built on the B-SKR fermionic framework — is confirmed and the first gate is stabilized. Everything below is the roughly forty-year gap between that divergence and Nova Reach's founding, establishing why the corporation that founds Nova Reach behaves the way it does.
+
+<a name="5.1"></a>
+## 5.1 Divergence and the Second Space Race (1970s–1991)
+
+Both the United States and the USSR race to develop wormhole technology starting in the 1970s, extending Cold War logic directly into space. Both sides mine the easiest, closest sources first — asteroids and other inner-system bodies — before eventually reaching Saturn's rings, the ultimate cash crop for seed-harvesting ([Cosmology §2.2](Cosmology.md#2.2)). The rings are large enough that both superpowers mine in parallel without direct conflict, building separate wormhole networks side by side rather than competing for the same territory.
+
+The USSR ultimately cannot sustain this second space race. Wormhole technology demands precision engineering and continuous investment on top of the economic strain the Soviet system was already under, and the effort collapses along with the state in 1991, as in real history. Any Soviet wormhole infrastructure by that point is abandoned or absorbed in the aftermath. (Whether any element of that Soviet network survives as a distinct story element — rather than simply vanishing from the setting's relevant history — is not yet locked as canon; see [Open Questions](Open_Questions.md).)
+
+<a name="5.2"></a>
+## 5.2 America's Costly Bet (1970s–1990s)
+
+The United States can sustain the second space race, but only at real cost: massive upfront investment through the 1970s and 80s — government contracts, private equity, heavy debt — against a long, uncertain payoff period, straining the economy along the way.
+
+By the 1990s, seed harvesting starts yielding real, usable resources. The investment thesis validates, profits materialize, and the early corporate and government contractors who took the risk become rich and politically powerful.
+
+<a name="5.3"></a>
+## 5.3 Boom and Consolidation (1990s–2012)
+
+By the 2000s, a genuine economic boom follows — wormhole-derived resources supercharge entire sectors of the economy — but the gains consolidate into a corporate oligopoly rather than spreading broadly. Government deregulates to "encourage growth," labor protections erode, and safety standards weaken.
+
+By 2012, the year of Nova Reach's founding, the United States is economically strong and effectively unipolar on wormhole technology, but has become a more corporatized, less worker-friendly, less regulated version of itself relative to the real world's 2012. This is the direct root of Farfield's corporate culture: not abstract or cartoonish evil, but the logical extension of ordinary 2000s–2010s American corporate practice — amoral efficiency, cost-cutting, externalized risk, carried forward and intensified for another ninety years. It is the same culture that lets Sat-39 deteriorate through deferred maintenance and leaves its on-duty techs overworked and unequipped for the crisis that ultimately collapses it ([§2.1](#2.1)).
+
+<a name="5.4"></a>
+## 5.4 Two Waves of Colonists
+
+The economic history above produces two distinct colonist psychologies, corresponding to the first- and second-wave migration pattern already established elsewhere in the bible ([Culture §1](Culture.md#1)):
+
+- **First-wave idealists (Year 0 / 2012)** are leaving an America that is already more corporatized than they would like, and buy into a "frontier" narrative that in practice is corporate efficiency extended into space rather than a genuine break from it.
+- **Second-wave pragmatists (~Year 5–10)** arrive later specifically because conditions on Earth continue to worsen — wage stagnation, job insecurity, eroding protections — after word of real colony conditions reaches Earth. Unlike the first wave, they know exactly what they are signing up for.
