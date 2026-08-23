@@ -10,6 +10,7 @@
   - [3.1 Phase 1: Conservative Leadership (Days 1–58 post-collapse)](#3.1)
   - [3.2 Phase 2: Aggressive Leadership and Military Escalation](#3.2)
   - [3.3 Phase 3: Negotiated Peace (from Year 95)](#3.3)
+  - [3.4 Arms and Equipment](#3.4)
 - [4. Technological Reconstruction](#4)
   - [4.1 The Long Rebuild](#4.1)
   - [4.2 The Frozen Archive](#4.2)
@@ -89,6 +90,23 @@ The transition from post-collapse chaos to two-entity equilibrium unfolds throug
 - Okafor-Lindqvist takes over, willing to accept Danu's independence as the cost of stability
 - Formal recognition: Danu is declared independent. The two entities establish borders and minimal trade relations.
 - Nova Reach focuses on consolidating control over Enlil and Obatala and developing Obatala's agriculture as an alternative to Danu's food supply
+
+<a name="3.4"></a>
+## 3.4 Arms and Equipment
+
+Nova Reach never developed a pre-collapse military industry ([§1](#1)), so the weapons and protective gear that see use during the Military Arc are either sealed pre-collapse contingency stock or civilian/industrial equipment pressed into an unintended role — nothing is purpose-built for war.
+
+- **No coilguns, railguns, or handheld anti-personnel lasers exist anywhere in the colonies.** The power-density gap between what a portable EM or laser weapon needs and what even mature 2104 battery chemistry can deliver is roughly an order of magnitude ([Infrastructure §7](Infrastructure.md#7)) — too wide to close plausibly, so Farfield never fields them even if someone, somewhere, is theoretically researching the underlying physics.
+- **Chemical-propellant firearms are the only lethal weapons in the network.** Pre-collapse, they exist solely within Farfield security/law-enforcement channels — a sealed contingency stockpile held against civil unrest rather than routine equipment, consistent with the network's purely civilian economic character ([§1](#1)). Conventional cased-propellant ammunition also stores reliably for decades with minimal upkeep, unlike anything capacitor- or battery-dependent, which is part of why it was the chosen contingency technology in the first place.
+- **Distribution is heavily asymmetric.** Nearly all firearms in the network sit in Nova Reach, inside Farfield's stockpile. Danu fields no standing firearms of its own: its defenders rely on improvised weapons, repurposed engineering and agricultural tools, and superior knowledge of home terrain ([§3.2](#3.2)). What guns Danu's fighters do carry come from raiding the Nova Reach security stash during the fighting.
+- **Adguns — shoulder-mounted, Active Denial System-style directed-energy crowd-control weapons — are standard Farfield security equipment**, adapted rather than newly invented:
+  - The emitter is gyrotron-based (vacuum-tube, magnetic-confinement RF generation) rather than solid-state, since high-power solid-state millimeter-wave emitters depend on gallium- and rare-earth-doped semiconductors the colonies will never have access to ([Infrastructure §6.1](Infrastructure.md#6.1)). Gyrotrons are already native to Farfield's fusion-reactor engineering base (electron cyclotron resonance heating), so adguns are a repurposed spinoff of existing civilian reactor technology rather than a dedicated weapons program.
+  - A 95 GHz millimeter-wave beam heats only the outermost fraction of a millimeter of skin, producing pain within seconds and driving anyone struck off target well before real injury — non-lethal by design, and it does not damage nearby electronics.
+  - Units are rare and infrastructure-tethered rather than battery-portable: two at Safford, one per major settlement elsewhere, wired into station or settlement power. Baseline gyrotron efficiency (roughly 30–40% electron-to-RF, the rest waste heat) is managed with ejectable, sealed phase-change-material heatsink cartridges rather than a plumbed coolant loop — the same principle real spacesuit portable life-support systems use to solve an identical cooling problem. A sealed, non-venting cartridge was chosen over open water-ice sublimation specifically to avoid condensation and fogging inside enclosed station and settlement environments. The only external connection an adgun needs is its power cable; thermal load is handled entirely by swapping spent cartridges for fresh ones.
+  - The beam is blocked by simple materials — a sheet of plywood, a mattress — and attenuated by rain, fog, and humidity, giving Danu's agricultural world genuine, non-exotic countermeasures its people would plausibly have on hand.
+- **No militarized body-armor industry ever existed.** The strongest candidate for Farfield security's protective gear is armor derived from repurposed micrometeoroid/debris-shielding materials science — the same physics underlying ship-hull shielding — civilian/spacecraft-derived protection rather than a purpose-built military design.
+
+See [Open Questions](Open_Questions.md) for equipment details not yet locked as canon, including armor material specifics, adgun unit siting at Safford and each settlement, other non-lethal options under consideration (acoustic hailing/dispersal devices, riot foam, chemical irritants), and powered cargo exoskeletons as a possible visual for Danu's improvised resistance.
 
 <a name="4"></a>
 # 4. Technological Reconstruction
