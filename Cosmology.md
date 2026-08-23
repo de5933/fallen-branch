@@ -128,7 +128,7 @@ Chained together: 0.10 × 0.0011 × 0.04 ≈ 5×10⁻⁶ — call it, very rough
 <a name="2.5"></a>
 ## 2.5 The Severance Event
 
-The triggering cause originates specifically on the Sol side (Sat-39 Sol). Cause unknown and unknowable in-universe (the failure occurs on the far side of the gate from Nova Reach's perspective, or the initiating event is otherwise never determined). Because both segments of Sat-39 share one mass ([§2.6](#2.6), [History §2](History.md#2)), both convert to black holes at once, each with a mass equal to the mass of the gate mouth it replaced, per local conservation of mass.
+The triggering cause originates specifically on the Sol side (Sat-39 Sol), and is never confirmable in-universe — the evidence dies with the collapsed mouth, and the failure occurs on the far side of the gate from Nova Reach's perspective. The prevailing (unprovable) theory on the Nova Reach side is mundane rather than dramatic: compounding mismanagement and deferred maintenance overwhelming the on-duty technicians in real time, not sabotage or design failure — see [History §2.1](History.md#2.1) for the full account and the factional blame it generates. Because both segments of Sat-39 share one mass ([§2.6](#2.6), [History §2.2](History.md#2.2)), both convert to black holes at once, each with a mass equal to the mass of the gate mouth it replaced, per local conservation of mass.
 
 <a name="2.6"></a>
 ## 2.6 Failure Mode: Unified
