@@ -16,6 +16,7 @@
   - [6.1 Material Sourcing and the Rare-Earth Wall](#6.1)
   - [6.2 Fabrication Tier](#6.2)
   - [6.3 Display Evolution](#6.3)
+- [7. Energy Storage: The Battery Chemistry Ceiling](#7)
 
 <a name="1"></a>
 ## 1 Passenger & Cargo Transit: The Counterweighted Twin-Train System
@@ -352,3 +353,13 @@ Monochrome CRT is the universal baseline throughout reconstruction — glass, va
 - **Field-sequential color** (a single monochrome tube behind a spinning red/green/blue filter wheel, synced to frame rate — the same principle used on the real Apollo lunar rover's color camera) is the earliest color technology available: mechanical, maintenance-heavy, and the first luxury/prestige display, reserved for administrators and critical control rooms in the same texture as Safford's stratified food service ([§2.2](#2.2) above).
 - **Three-phosphor color CRTs**, using pre-rare-earth phosphor chemistry (cadmium-based reds, zinc-sulfide-family greens and blues — the same chemistry real Earth color television used before the rare-earth generation of phosphors), spend decades in prototype and pilot-scale development before becoming reliable and cheap enough to displace field-sequential displays as the common standard.
 - Throughout this entire period, data formats and protocols ([Culture §4](Culture.md#4)) preserve full color information losslessly even while displays remain monochrome or field-sequential — a deliberate act of institutional hope that color hardware will eventually be common again. The eventual arrival of cheap three-phosphor displays means old archives and images are finally seen in true color for the first time by anyone still alive to see them.
+
+<a name="7"></a>
+# 7. Energy Storage: The Battery Chemistry Ceiling
+
+Pre-collapse battery technology matures across 178 years (Earth's Space Age origins through Year 92/2104) but never leaps outside real chemical bond-energy limits — three-ish generations of engineering refinement on chemistries already understood in the 21st century, not a sci-fi jump.
+
+- **Baseline**: mature solid-state lithium-sulfur (or a comparable chemistry) delivering roughly 600–900 Wh/kg by 2104 — about triple 21st-century Li-ion's practical ~250–300 Wh/kg, and still well short of lithium-sulfur's theoretical ~2,600 Wh/kg or lithium-air's theoretical ~3,505 Wh/kg ceilings, both of which remain impractical for the same real-world reasons they do today.
+- **No conflict with the gallium/rare-earth-absence rule** ([§6.1](#6.1)): battery cathode chemistries (sulfur, lithium, nickel, manganese, sodium, zinc, aluminum) are a wholly separate material family from the banned compound-semiconductor lineage, so battery technology is free to mature on its own track even where chip fabrication is permanently walled off.
+- **A locked asymmetry**: lithium-air chemistry needs ambient atmospheric oxidant to reach its best energy density, so it's only genuinely viable on atmosphere-bearing worlds such as Lugh. Vacuum environments — stations, ships — would have to carry their own oxidant reservoir, eating the weight advantage entirely. Planetary-surface and station/ship equipment plausibly run on different battery chemistries as a direct physical consequence, not an arbitrary setting choice.
+- **This ceiling is why coilguns, railguns, and handheld anti-personnel lasers stay vetoed even at Year 92's battery tech** ([History §3.4](History.md#3.4)): even a full tripling of energy density over today's batteries falls well short of the roughly order-of-magnitude gap those weapons need closed to be safely portable.
