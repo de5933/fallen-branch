@@ -83,13 +83,13 @@ At the Yemoja-route ship's locked 0.00959g continuous acceleration, applied to L
 | Radiator | 10.2 t | 2,039 m², 2,000 K — essentially unchanged, since thrust (and therefore jet power) is nearly identical at the same acceleration and ship mass |
 | Tankage | 18.3 t | ~8% of propellant mass |
 | Spine structure | 29.5 t | Booms + hub structure |
-| Hab pod | 65 t | Identical to Yemoja design — twin-boom parallel-pod, 4 m⌀×30 m, crew of 8 |
+| Hab pod | 53.45 t | Identical to Yemoja design — twin-boom parallel-pod, 4 m⌀×24.67 m, sleeper-train cabin layout, crew of 8 |
 | Engine + shadow shield | 30 t | At hub, r=0 |
-| **Cargo** | **142.4 t** | Higher than Yemoja's 100 t — the "free" benefit of reusing a ship sized for a longer route on a shorter one |
+| **Cargo** | **153.95 t** | Higher than Yemoja's 111.55 t — the "free" benefit of reusing a ship sized for a longer route on a shorter one |
 
 Never enters atmosphere; operates exclusively between Safford and Lugh parking orbit, exchanging cargo with Lugh Spaceplanes via orbital rendezvous.
 
-**Fleet-size implication.** 142.4 t cargo capacity per vessel is well below the previous design's 2,500 t figure — matching Danu's established ~22,500 t/yr export demand ([History §3.4](History.md#3.4)) now requires a much larger fleet than the previously stated 5–6 vessels. Flagged for revisit — either the fleet size grows substantially, or the demand figure itself needs reconsideration now that the underlying ship design has changed.
+**Fleet-size implication.** 153.95 t cargo capacity per vessel is well below the previous design's 2,500 t figure — matching Danu's established ~22,500 t/yr export demand ([History §3.4](History.md#3.4)) now requires a much larger fleet than the previously stated 5–6 vessels. Flagged for revisit — either the fleet size grows substantially, or the demand figure itself needs reconsideration now that the underlying ship design has changed.
 
 ### ITV Artificial Gravity: Axial Spin-Gravity Architecture
 
@@ -102,11 +102,11 @@ Shares the Yemoja-route ITV's architecture in full ([§1.4](#1.4)/[§1.4.1](#1.4
 | Figure | Value |
 |---|---|
 | Hab boom radius | 12.4 m (shared with Yemoja design) |
-| Cargo boom radius | 5.66 m (solved from balance: 65 t hab × 12.4 m = 142.4 t cargo × r) |
-| Moment of inertia (simplified 2-point model) | 1.456×10⁷ kg·m² |
-| Angular momentum at 6 rpm | 9.15×10⁶ kg·m²/s |
-| RCS propellant, 4 transitions (hydrazine, ~2,158 m/s ve) | ~1.37 t, ~1.64 t with 20% margin |
-| As fraction of total ship mass | ~0.3% — trivial against the propellant budget |
+| Cargo boom radius | 4.31 m (solved from balance: 53.45 t hab × 12.4 m = 153.95 t cargo × r) |
+| Moment of inertia (simplified 2-point model) | 1.107×10⁷ kg·m² |
+| Angular momentum at 6 rpm | 6.96×10⁶ kg·m²/s |
+| RCS propellant, 4 transitions (hydrazine, ~2,158 m/s ve) | ~1.04 t, ~1.25 t with 20% margin |
+| As fraction of total ship mass | ~0.2% — trivial against the propellant budget |
 
 *Historical note: the reference geometry table and flywheel-rejection analysis originally in this section (5,000 t class sizing, 14.6 m reactor arm, 27 m total spine, ~28 t spin-propellant figures) assumed the old accelerate-coast-decelerate ship design and short-burn spin-up/down cycle. Superseded by the above; retained nowhere else in the bible.*
 
@@ -126,7 +126,7 @@ Combining Boann's escape burn with transfer injection via the Oberth effect (mos
 |---|---|---|---|---|---|
 | Lugh Surface Aircraft | Farfield A-6 | Terminator city ↔ satellite settlements | Electric only | N/A (no staging) | ~30% lower energy/km than Earth-equivalent; ~3.7× payload/wing-area at matched speed |
 | Lugh Spaceplane | AOTS / Farfield Skyreach (TAV) | Lugh surface ↔ Lugh parking orbit | Electric (low-speed climb) + H2/LOX (high-speed climb, vacuum insertion, reentry reserve) | Yes — ~79% propellant fraction, ~20% dry-mass target | Reentry: 2.5× Earth column mass, same scale height, 6.53 km/s to shed |
-| Interplanetary Transfer Vessel | ITV | Lugh parking orbit ↔ Safford | Trelium fusion torch | Yes — 43.7% propellant fraction | 573.9 km/s ΔV, 70.6 days; ~524 t class; ~142.4 t cargo; continuous-thrust brachistochrone, axial spin-gravity at 6 rpm (shares Yemoja-route design, [§1.4](#1.4)) |
+| Interplanetary Transfer Vessel | ITV | Lugh parking orbit ↔ Safford | Trelium fusion torch | Yes — 43.7% propellant fraction | 573.9 km/s ΔV, 70.6 days; ~524 t class; ~153.95 t cargo; continuous-thrust brachistochrone, axial spin-gravity at 6 rpm (shares Yemoja-route design, [§1.4](#1.4)) |
 | Boann Shuttle | Farfield PDV-1 | Boann surface ↔ Safford (direct, no parking-orbit handoff) | H2/LOX | Yes — ~49% propellant fraction | ~3.23 km/s total ΔV; ~35 hr transit; escape velocity only 464 m/s |
 
 <a name="1.3"></a>
@@ -216,7 +216,7 @@ Yemoja's distance from Safford Obatala (co-orbital with Olokun, [Cosmology §5.3
 
 **Radiators.** Refractory-metal liquid-droplet type, operating at **2,000 K** — near the credible upper edge of real liquid-droplet radiator literature (vs. generic solid-panel designs around 1,250 K), chosen specifically because radiated power scales with T⁴, making this the single most effective lever against radiator size. Areal density 5 kg/m². Total radiator area **2,039 m²**, total mass **10.2 t**, split as two mirror-image panels mounted 90° off the hab/cargo boom line (self-balancing pair, so radiator mass does not factor into the primary hab/cargo spin balance). Panel shape (flat, in the radial-axial plane, facing tangentially) and exact split left as a modeling-stage decision — not load-bearing to the mass budget either way.
 
-**Mass budget (~524 t class vessel, 100 t cargo capacity):**
+**Mass budget (~524 t class vessel, 111.55 t cargo capacity):**
 
 | Component | Mass | Notes |
 | --- | --- | --- |
@@ -225,32 +225,34 @@ Yemoja's distance from Safford Obatala (co-orbital with Olokun, [Cosmology §5.3
 | Radiator | 10.2 t | 2,039 m² total, 2,000 K, split panels |
 | Tankage | ~21.8 t | ~8% of propellant mass |
 | Spine structure | ~25.2 t | Booms + hub structure |
-| Hab pod | 65 t | See below |
+| Hab pod | 53.45 t | See below — sleeper-train cabin arrangement shortened the pod from 30 m to 24.67 m |
 | Engine + shadow shield | 30 t | At hub, r=0 |
-| **Cargo** | **100 t** | Target figure — deliberately set to keep radiator size manageable; see fleet-size implication below |
+| **Cargo** | **111.55 t** | Absorbs the 11.55 t saved by the shorter hab pod |
 
-**Layout.** Engine and shadow shield sit at the hub (r=0), spin axis coincident with thrust axis. Propellant tanks (doping water, D₂, He-3, RCS) sit on-axis, fore/aft of the hub — mass that depletes over the trip contributes nothing to spin balance regardless of how much remains, and the tanks get short, simple feed lines to the engine. Cargo and radiator panels sit on booms offset from the hub, at fixed radius, providing spin balance against the hab pod on its own boom (see [§1.4.1](#1.4.1) below for hab-pod-specific geometry). Boom radii: hab boom 12.4 m (locked for consistency with hab-interior artificial-gravity design below); cargo boom ~8.06 m, solved from the balance condition (cargo mass alone, radiator panels excluded since they're mounted as a self-balancing pair off the boom line).
+**Layout.** Engine and shadow shield sit at the hub (r=0), spin axis coincident with thrust axis. Propellant tanks (doping water, D₂, He-3, RCS) sit on-axis, fore/aft of the hub — mass that depletes over the trip contributes nothing to spin balance regardless of how much remains, and the tanks get short, simple feed lines to the engine. Cargo and radiator panels sit on booms offset from the hub, at fixed radius, providing spin balance against the hab pod on its own boom (see [§1.4.1](#1.4.1) below for hab-pod-specific geometry). Boom radii: hab boom 12.4 m (locked for consistency with hab-interior artificial-gravity design below); cargo boom ~5.94 m, solved from the balance condition (cargo mass alone, radiator panels excluded since they're mounted as a self-balancing pair off the boom line).
 
-**RCS and the mid-course flip.** Because the engine sits on the spin axis, a continuous burn imparts no gyroscopic precession — but reorienting 180° at the trajectory's midpoint (accelerate → decelerate) does fight the ship's own angular momentum if attempted while spinning. Resolved as **despin → flip → respin** at the midpoint (plus spin-up at departure and despin at arrival — four transitions total), rather than adding a second, reverse-facing engine at the hub, which was considered and rejected as unnecessary added engineering and a second radioactive-exhaust source to shield against. RCS propellant (hydrazine monopropellant, ~2,158 m/s exhaust velocity) sized from ship moment of inertia (~1.59×10⁷ kg·m² at 6 rpm, simplified two-point hab/counterweight model): **~1.49 t for four transitions, ~1.79 t with 20% margin** — negligible against the total mass budget.
+**RCS and the mid-course flip.** Because the engine sits on the spin axis, a continuous burn imparts no gyroscopic precession — but reorienting 180° at the trajectory's midpoint (accelerate → decelerate) does fight the ship's own angular momentum if attempted while spinning. Resolved as **despin → flip → respin** at the midpoint (plus spin-up at departure and despin at arrival — four transitions total), rather than adding a second, reverse-facing engine at the hub, which was considered and rejected as unnecessary added engineering and a second radioactive-exhaust source to shield against. RCS propellant (hydrazine monopropellant, ~2,158 m/s exhaust velocity) sized from ship moment of inertia (~1.22×10⁷ kg·m² at 6 rpm, simplified two-point hab/counterweight model): **~1.14 t for four transitions, ~1.37 t with 20% margin** — negligible against the total mass budget.
 
-**Fleet-size implication.** 100 t cargo capacity per vessel is a small fraction of the Danu-route ITV's 2,500 t figure ([§1.2](#1.2) above) — matching any meaningful Obatala trade demand will require either a much larger fleet than Danu's 5–6 vessels, or a smaller per-route demand figure than Danu's 22,500 t/yr. Obatala's actual export/import demand figure is not yet locked; see [Open Questions](Open_Questions.md).
+**Fleet-size implication.** 111.55 t cargo capacity per vessel is a small fraction of the Danu-route ITV's 2,500 t figure ([§1.2](#1.2) above) — matching any meaningful Obatala trade demand will require either a much larger fleet than Danu's 5–6 vessels, or a smaller per-route demand figure than Danu's 22,500 t/yr. Obatala's actual export/import demand figure is not yet locked; see [Open Questions](Open_Questions.md).
 
 <a name="1.4.1"></a>
 ### 1.4.1 Hab Pod: Twin-Boom Parallel-Pod Architecture
 
 The Yemoja-route ITV's crew module uses a different geometry than a simple radial tower, resolved from a real engineering constraint: gravity depends only on radius from the spin axis (g = ω²r), not on axial position, so a module extended *axially* (parallel to the spin/thrust axis) at fixed radius gets exactly uniform gravity along its whole length — no curvature underfoot (unlike a tangential arc, structurally incompatible with a rigid radial spine) and no gravity gradient (unlike a radially-stacked tower).
 
-**Geometry:** straight cylindrical pod, ~4 m diameter × 30 m long, mounted on a boom at fixed r = 12.4 m (giving 0.5g at 6 rpm), its own long axis running parallel to the ship's spin/thrust axis. Floor is the outboard wall throughout the pod's length.
+**Geometry:** straight cylindrical pod, ~4 m diameter × 24.67 m long, mounted on a boom at fixed r = 12.4 m (giving 0.5g at 6 rpm), its own long axis running parallel to the ship's spin/thrust axis. Floor is the outboard wall throughout the pod's length.
 
-**Interior layout, hub-end to outboard tip** (60 m² total floor, ~2 m usable width + 1 m corridor running the full length):
+**Interior layout, hub-end to outboard tip** (60 m² total floor):
 
 | Zone | Length | Notes |
 | --- | --- | --- |
 | Bridge/access + airlock (Captain, Pilot, First Officer, Comms Officer) | 4.0 m | Boom-proximal end — shortest path to the boom/hub, EVA equipment stored here |
 | Medbay (Medic) | 2.5 m | Adjacent to bridge end — fast access in an emergency |
 | Galley + mess | 5.0 m | Mid-pod — the crew's one shared social space |
-| 8 private cabins (identical size, no rank-based variation) | 16.0 m (2.0 m each) | Outboard half — quietest section |
+| 8 private cabins (identical size, no rank-based variation) | 10.67 m | Sleeper-train arrangement — see below |
 | Heads ×2 | 2.5 m | Split between mid-pod and outboard end |
+
+**Cabin section: sleeper-train arrangement, not single-row.** Rather than stacking all 8 cabins end-to-end along one side of a corridor (the original layout, which needed 16.0 m and left the pod's far side unused per axial slice), the corridor runs centered down the pod's middle (1 m wide) with cabins flanking both sides — 1.5 m wide each, using the full 4 m diameter rather than half of it. Each cabin is still 4 m² (1.5 m × 2.67 m), same as before, just reshaped; two cabins share each of four axial slots (2.67 m per slot) rather than eight cabins occupying eight single-side slots. This uses the tube's full cross-section for private space instead of leaving one side to a bare wall, cutting the cabin section from 16.0 m to 10.67 m and the whole pod from 30 m to 24.67 m.
 
 Crew complement: Captain, Pilot, First Officer, Chief Engineer, Engineer ×2, Comms Officer, Medic (8 total).
 
