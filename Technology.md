@@ -29,9 +29,9 @@
 <a name="1.1"></a>
 ## 1.1 Fusion Torch Drive: Network Standard
 
-Farfield's standard in-system drive is a Trelium-fueled fusion torch, doped beyond a conservative baseline to a defensible "mid-range" spec: exhaust velocity of roughly 1,000–1,500 km/s. Ships fly an accelerate–coast–decelerate profile — high-thrust burns at departure and arrival bracketing a long ballistic coast — rather than a continuous-thrust torchship burn. This is deliberately a middle ground: far faster than a fuel-optimal Hohmann transfer, and far cheaper in propellant than sustained constant acceleration.
+Farfield's standard in-system drive is a Trelium-fueled fusion torch, doped beyond a conservative baseline to a defensible "mid-range" spec: exhaust velocity of roughly 1,000–1,500 km/s. **Long-haul routes fly a continuous-thrust brachistochrone profile** — accelerate the first half of the trip, flip at the midpoint, decelerate the second half, no coast phase — rather than the accelerate-coast-decelerate profile originally assumed here. The short-burn alternative was evaluated and found not to close: reproducing a multi-hundred-km/s delta-v budget in a burn lasting hours to days demands radiator areas in the tens of square kilometers regardless of ship mass, a hard physical wall rather than an engineering-margin problem ([§1.4](#1.4)). Continuous thrust spreads the same total delta-v over weeks to months, dropping peak power by roughly two orders of magnitude and making the radiator problem tractable.
 
-Standard mission budget: roughly 350–400 km/s total delta-v (split between departure and arrival burns), giving a propellant mass ratio around 1.3–1.4x at the stated exhaust velocities — i.e., only 25–30% of a ship's mass is propellant, comfortably realistic. See [Travel §1](Travel.md#1) for the resulting transit times per route.
+Mission budget is now route-specific rather than one fixed figure, since it falls out of each route's actual distance and a chosen transit-time cap rather than a single network-wide constant: see [§1.2](#1.2) (Danu/Lugh) and [§1.4](#1.4) (Obatala/Yemoja) for locked figures, and [Travel §1](Travel.md#1) for the resulting transit times per route.
 
 Ships never transit a gate — the throat is sized for people and freight only, never hulls ([Infrastructure §1](Infrastructure.md#1)). Every torch-drive vessel is built, fueled, and scrapped entirely within its home system; nothing built in one system can ever fly to another. This is a hard physical ceiling, not a policy — it holds equally before and after the severance, and it means Danu's post-independence propulsion shift (see [Economy §2](Economy.md#2)) was always a matter of developing local technical knowledge rather than replacing stranded Nova Reach hardware, since no such hardware could ever have crossed to begin with.
 
@@ -70,30 +70,45 @@ Surface-to-orbit-and-back transport, handing off cargo to the Interplanetary Tra
 
 ### Interplanetary Transfer Vessel (ITV) — Trelium fusion torch
 
-Unchanged in kind from the network-standard drive ([§1.1](#1.1) above): makes the full Safford↔Lugh haul (5.85 AU, ~54–57 days one-way) at 350–400 km/s total ΔV, 25–30% propellant mass fraction — comfortable margin, no staging benefit. Reference sizing: ~5,000 t class vessel (~2,500 t cargo capacity), 5–6 vessel fleet covering Danu's ~22,500 t/yr export demand with margin for maintenance and wartime repurposing ([History §3.4](History.md#3.4)). Never enters atmosphere; operates exclusively between Safford and Lugh parking orbit, exchanging cargo with Lugh Spaceplanes via orbital rendezvous.
+**Reuses the Obatala-route Yemoja ITV architecture wholesale** ([§1.4](#1.4)/[§1.4.1](#1.4.1)) rather than a separate design — continuous-thrust brachistochrone trajectory, doped Trelium torch run continuously (not the older accelerate-coast-decelerate short-burn profile this section originally specified), same twin-boom parallel-pod hab geometry, same propulsion/radiator/propellant scheme. This supersedes the original 350–400 km/s / 54–57 day / 5,000 t figures below, which assumed a short-burn profile since shown not to close for any long-haul route at reasonable radiator size ([§1.4](#1.4)).
+
+At the Yemoja-route ship's locked 0.00959g continuous acceleration, applied to Lugh's shorter 5.85 AU one-way distance: **70.6 days transit, 573.9 km/s total ΔV** (vs. Yemoja's 90 days / 732 km/s) — genuinely cheaper in both time and propellant, since it's the same engine and hull carrying less total delta-v over a shorter haul.
+
+**Mass budget (~524 t class vessel, identical to the Yemoja design):**
+
+| Component | Mass | Notes |
+| --- | --- | --- |
+| Propellant (doping water) | 229.0 t | 43.7% propellant fraction (vs. Yemoja's 51.9% — shorter route needs less) |
+| Propellant (D + He-3 fusion fuel) | ~0.5 t | Scales down slightly from Yemoja's 0.63 t (shorter burn duration) |
+| Radiator | 10.2 t | 2,039 m², 2,000 K — essentially unchanged, since thrust (and therefore jet power) is nearly identical at the same acceleration and ship mass |
+| Tankage | 18.3 t | ~8% of propellant mass |
+| Spine structure | 29.5 t | Booms + hub structure |
+| Hab pod | 65 t | Identical to Yemoja design — twin-boom parallel-pod, 4 m⌀×30 m, crew of 8 |
+| Engine + shadow shield | 30 t | At hub, r=0 |
+| **Cargo** | **142.4 t** | Higher than Yemoja's 100 t — the "free" benefit of reusing a ship sized for a longer route on a shorter one |
+
+Never enters atmosphere; operates exclusively between Safford and Lugh parking orbit, exchanging cargo with Lugh Spaceplanes via orbital rendezvous.
+
+**Fleet-size implication.** 142.4 t cargo capacity per vessel is well below the previous design's 2,500 t figure — matching Danu's established ~22,500 t/yr export demand ([History §3.4](History.md#3.4)) now requires a much larger fleet than the previously stated 5–6 vessels. Flagged for revisit — either the fleet size grows substantially, or the demand figure itself needs reconsideration now that the underlying ship design has changed.
 
 ### ITV Artificial Gravity: Axial Spin-Gravity Architecture
 
-At 54–57 days one-way, the Lugh-route ITV's coast phase is long enough for real zero-g deconditioning (bone/muscle loss) to matter — this crossing, and the longer Obatala-route Yemoja crossing once its transit time is recomputed ([Travel §1](Travel.md#1), Open Questions), are the network's only hauls that clear that bar. Short hops — Boann Shuttle (~35 hr), Safford OTO/Enlil variant (~32.6 hr, [§1.3](#1.3)) — stay well under a week, where zero-g exposure is real-world well-tolerated even by untrained civilians; no spin-gravity architecture is fitted to those hulls.
+Shares the Yemoja-route ITV's architecture in full ([§1.4](#1.4)/[§1.4.1](#1.4.1)): axial spin, spin axis = thrust axis, engine and shadow shield at the hub (r=0), hab pod on a boom at fixed r=12.4 m (0.5g at 6 rpm), cargo on a counterweight boom at fixed radius, propellant tanks on-axis fore/aft of the hub. **Spin rate: 6 rpm — locked**, same rationale as before (fastest rate still passenger-tolerable-with-adaptation).
 
-**Geometry: axial spin, spin axis = thrust axis.** The ITV is a rigid spine with the hab/cargo module on one arm and the reactor/drive/radiator module on the other, counterbalanced about a single gimbaled engine mounted at the hub — the center of rotation. This differs from a classic "tumbling pigeon" (spin axis perpendicular to the ship's length, engine off-axis) in one deliberate way: because the engine sits exactly on the spin axis, its thrust vector is unaffected by rotation. A burn along the ship's own axis — which is nearly the entire 350–400 km/s ΔV budget, since the accelerate-coast-decelerate profile ([§1.1](#1.1)) is two axial burns bracketing an unpowered coast — imparts no gyroscopic precession and needs no rotation-synced firing. Only fine, off-axis trajectory corrections require phased firing timed to the spin, a much smaller version of the problem a fully off-axis engine would have for every burn.
+**Four spin transitions, not two.** Because this is a continuous-thrust profile with a mid-course flip (accelerate first half, decelerate second half), and the engine sits on the spin axis (making a 180° reorientation while spinning a genuine gyroscopic problem), the ship must despin before the midpoint flip and respin afterward — in addition to spin-up at departure and despin at arrival. This supersedes the single spin-up/spin-down cycle assumed under the old short-burn profile below. RCS thrusters mounted at the hab pod's own radius (best available lever arm) handle all four transitions; a flywheel was considered and rejected on the same grounds as before — rim speed scales explosively as radius shrinks, making RCS the simpler solution at this spin rate.
 
-**Spin-up and spin-down: paired tangential RCS, no flywheel.** The ship spins up once after undocking and spins down once before docking, using tangential RCS thrusters mounted at both the hab end and the reactor end, fired as a torque couple (equal and opposite, same rotational sense) so the maneuver imparts no net translation. A compact flywheel was considered and rejected on the same physical grounds [Infrastructure §2.1](Infrastructure.md#2.1) already used to reject one for the Nova Reach habitat ring: canceling a rotating structure's angular momentum with a small on-axis wheel demands a rim speed that scales explosively as the structure's own radius shrinks (radius ∝ 1/ω² to hold gravity fixed, so the ship's angular momentum scales as roughly 1/ω³) — workable only in the 7.5–10 rpm range this design deliberately avoids for comfort reasons (below), and requiring an implausibly massive or fast wheel at any gentler spin rate. RCS avoids this because its lever arm is the ship's own long spine, not a compact hub wheel — the mechanism the flywheel needed to make small, RCS gets to keep large.
-
-**Spin rate: 6 rpm — locked.** Selected as the fastest rate the source research still class as passenger-tolerable-with-adaptation rather than crew-only: multi-day adaptation required, some susceptible individuals will have real difficulty, but it is not disqualifying for ordinary colonists and administrators making the crossing, unlike the 7.5–10 rpm band above it.
-
-Reference geometry and cost, using the ITV's established ~5,000 t class sizing (hab/cargo arm 2,700 t, reactor/drive/radiators/propellant arm 2,300 t — this split is a working assumption, not yet locked; see Open Questions):
+**Lugh-specific geometry** (cargo mass differs from Yemoja's, so the counterweight boom radius and moment of inertia differ too — everything else is shared):
 
 | Figure | Value |
 |---|---|
-| Hab arm radius | 12.4 m |
-| Reactor arm radius | 14.6 m |
-| Total spine length | 27.0 m |
-| Angular momentum at 6 rpm | 5.69×10⁸ kg·m²/s |
-| Propellant per spin event (storable, ~3,000 m/s ve) | ~14.1 t |
-| Propellant per spin event (H2/LOX, ~4,400 m/s ve) | ~9.6 t |
-| Propellant per one-way crossing (spin-up + spin-down) | ~28.1 t (storable) / ~19.2 t (H2/LOX) |
-| As fraction of total ship mass | ~0.56% — trivial against the 25–30% transit propellant budget |
+| Hab boom radius | 12.4 m (shared with Yemoja design) |
+| Cargo boom radius | 5.66 m (solved from balance: 65 t hab × 12.4 m = 142.4 t cargo × r) |
+| Moment of inertia (simplified 2-point model) | 1.456×10⁷ kg·m² |
+| Angular momentum at 6 rpm | 9.15×10⁶ kg·m²/s |
+| RCS propellant, 4 transitions (hydrazine, ~2,158 m/s ve) | ~1.37 t, ~1.64 t with 20% margin |
+| As fraction of total ship mass | ~0.3% — trivial against the propellant budget |
+
+*Historical note: the reference geometry table and flywheel-rejection analysis originally in this section (5,000 t class sizing, 14.6 m reactor arm, 27 m total spine, ~28 t spin-propellant figures) assumed the old accelerate-coast-decelerate ship design and short-burn spin-up/down cycle. Superseded by the above; retained nowhere else in the bible.*
 
 ### Boann Shuttle (Farfield PDV-1) — single-stage H2/LOX, full surface-to-Safford route
 
@@ -111,7 +126,7 @@ Combining Boann's escape burn with transfer injection via the Oberth effect (mos
 |---|---|---|---|---|---|
 | Lugh Surface Aircraft | Farfield A-6 | Terminator city ↔ satellite settlements | Electric only | N/A (no staging) | ~30% lower energy/km than Earth-equivalent; ~3.7× payload/wing-area at matched speed |
 | Lugh Spaceplane | AOTS / Farfield Skyreach (TAV) | Lugh surface ↔ Lugh parking orbit | Electric (low-speed climb) + H2/LOX (high-speed climb, vacuum insertion, reentry reserve) | Yes — ~79% propellant fraction, ~20% dry-mass target | Reentry: 2.5× Earth column mass, same scale height, 6.53 km/s to shed |
-| Interplanetary Transfer Vessel | ITV | Lugh parking orbit ↔ Safford | Trelium fusion torch | Yes — 25–30% propellant fraction, comfortable margin | 350–400 km/s ΔV; ~5,000 t class; 5–6 vessel fleet; axial spin-gravity at 6 rpm, ~27 m spine (long-haul routes only, see above) |
+| Interplanetary Transfer Vessel | ITV | Lugh parking orbit ↔ Safford | Trelium fusion torch | Yes — 43.7% propellant fraction | 573.9 km/s ΔV, 70.6 days; ~524 t class; ~142.4 t cargo; continuous-thrust brachistochrone, axial spin-gravity at 6 rpm (shares Yemoja-route design, [§1.4](#1.4)) |
 | Boann Shuttle | Farfield PDV-1 | Boann surface ↔ Safford (direct, no parking-orbit handoff) | H2/LOX | Yes — ~49% propellant fraction | ~3.23 km/s total ΔV; ~35 hr transit; escape velocity only 464 m/s |
 
 <a name="1.3"></a>
