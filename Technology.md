@@ -209,13 +209,15 @@ The Yemoja-route ITV's crew module uses a different geometry than a simple radia
 
 | Zone | Length | Notes |
 | --- | --- | --- |
-| Bridge/access (Captain, Pilot, First Officer, Comms Officer) | 4.0 m | Hub end — shortest path to spine, docking, evac |
+| Bridge/access + airlock (Captain, Pilot, First Officer, Comms Officer) | 4.0 m | Boom-proximal end — shortest path to the boom/hub, EVA equipment stored here |
 | Medbay (Medic) | 2.5 m | Adjacent to bridge end — fast access in an emergency |
 | Galley + mess | 5.0 m | Mid-pod — the crew's one shared social space |
-| 8 private cabins (Chief Engineer, Engineer ×2, remaining crew) | 16.0 m (2.0 m each) | Outboard half — quietest section |
+| 8 private cabins (identical size, no rank-based variation) | 16.0 m (2.0 m each) | Outboard half — quietest section |
 | Heads ×2 | 2.5 m | Split between mid-pod and outboard end |
 
 Crew complement: Captain, Pilot, First Officer, Chief Engineer, Engineer ×2, Comms Officer, Medic (8 total).
+
+**Airlock and docking.** The airlock sits directly on the hab pod itself, at the boom-proximal end (the same end as bridge/access), rather than at the hub — placing it where the ship's structural and power/data connections already concentrate, and where EVA equipment is closest to the crew's living space. This only works because docking never happens while the ship is spinning: standard procedure is to despin, shut down the main drive, and complete final approach on RCS thrusters alone, docking with the airlock stationary like any conventional spacecraft hull. This is consistent with the four spin transitions already locked for the mission profile (spin-up at departure, despin/flip/respin at midcourse, despin at arrival) — pre-departure and arrival docking both fall naturally within an already-stationary window, and no separate non-rotating docking structure (e.g. at the hub) is needed.
 
 **Continuous-thrust gravity interaction:** during the 90-day burn, the ship's own 0.00959g of axial thrust combines with 0.5g of radial spin gravity as a vector sum, producing a net "down" vector tilted just **1.1° off pure-radial** — within the range building codes treat as functionally level (under ~1.19°), so no deck slanting or other correction is needed. Confirms the hab pod's artificial-gravity design is unaffected by the continuous-thrust trajectory profile.
 
