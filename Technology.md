@@ -147,7 +147,29 @@ Ereshkigal has no atmosphere — locked canon, and a real physical consequence r
 
 Physical separation between Safford Enlil and Ereshkigal is the shortest branch-station pairing in the network (~0.035 AU) — naively this looks like Boann's cheap short hop. It isn't, because both bodies orbit deep in a white dwarf's gravity well. Enlil A packs 0.62 M☉ into an Earth-sized sphere; circular orbital velocity (√(GM/r)) at Ereshkigal's 0.015 AU works out to **191.5 km/s**, and at Safford's 0.05 AU to **104.9 km/s** — the same physics that gives real Mercury (0.39 AU from the Sun) its 47.9 km/s orbital speed, taken further. A Hohmann transfer between the two costs **~79.7 km/s total ΔV**, with a transit time of **~32.6 hours (1.4 days)** — consistent with, and a good validation of, the bible's existing "under 2 days" figure ([Travel §1](Travel.md#1)).
 
-That ΔV is an order of magnitude beyond any chemical shuttle, so **this route runs on a leaner ITV variant** (trelium fusion torch, same class as Danu's, scaled down), not a small local craft. Because 79.7 km/s is well under the network-standard 350–400 km/s budget, the propellant fraction is trivial (~6% at mid-range exhaust velocity) — a fast, lean hull built for a short, violent hop deep in a well, rather than the long-haul Lugh-route configuration.
+**This route reuses the Obatala/Danu ITV architecture ([§1.4](#1.4)/[§1.4.1](#1.4.1)) scaled down, rather than a distinct "lean hull" concept** — a short-burst chemical or unscaled fusion approach was checked and ruled out on the same radiator-physics grounds that shaped the long-haul ships: even at this route's much smaller 79.7 km/s ΔV, a short burn (hours, not spread across most of the transit) demands radiator area wildly out of proportion to a ~100 t hull. Chemical propulsion doesn't help either — 79.7 km/s against ~4.5 km/s chemical exhaust velocity gives a mass ratio near 5×10⁷, i.e. essentially all-propellant.
+
+**Locked design: ~100 t class vessel, 48-hour total transit (24 hr continuous burn each way), 300 km/s exhaust velocity, 0.094g acceleration, 6 rpm spin-gravity.** Despite the short trip, spin gravity was judged worth the added complexity at this duration (overriding the "under a week doesn't need it" heuristic below — a deliberate comfort-priority call, not a technical requirement). Reuses the twin-boom parallel-pod hab architecture, engine-at-hub geometry, on-axis depleting-propellant placement, and four-transition RCS spin schedule from [§1.4](#1.4)/[§1.4.1](#1.4.1) wholesale, just resized.
+
+**Mass budget:**
+
+| Component | Mass | Dimensions |
+| --- | --- | --- |
+| Propellant (doping water) | 23.29 t | Cylindrical tank, 2 m ⌀ × 7.41 m, on-axis |
+| Propellant (D + He-3 fusion fuel) | 7.83 kg | D₂: 0.33 m ⌀ sphere; He-3: 0.53 m ⌀ sphere — negligible mass, tiny tanks |
+| RCS propellant (hydrazine, 4 transitions) | 0.18 t | 0.69 m ⌀ sphere |
+| Radiator | 5.72 t | 1,144 m² total, 2,000 K — see panel geometry below |
+| Hab pod | 8.46 t | 2.5 m ⌀ × 10 m, boom-mounted at r=12.4 m (same 0.5g/6 rpm standard as the long-haul ships) |
+| Engine + shadow shield | 15 t | At hub, r=0 |
+| Tankage | 1.87 t | |
+| Spine structure | 7.67 t | Hab boom (12.4 m) + cargo boom (2.77 m) |
+| **Cargo** | **37.95 t** | Cylindrical module, 2.5 m ⌀ × 12.9 m (at working 600 kg/m³ bulk density — placeholder, see Open Questions) |
+
+**Hab pod interior.** Given the 2-day duration, this doesn't subdivide into the long-haul pods' room-by-room layout — one shared compartment (console/bunks combined) plus a head, closer to a real short-duration crewed capsule (Soyuz, Dragon) than the Yemoja/Lugh design's dedicated bridge/medbay/galley/cabins. Crew: Pilot and Engineer only (2 total) — see crew-role reasoning below.
+
+**Radiator geometry: 3 panels distributed radially around the spine, tapering at the tail end to stay within the engine's shadow-shield cone.** Each panel: 381.3 m², radial height 10 m at the wide (nose-ward) end, tapering to zero over the aft-most 10 m as it approaches the shield — total panel length ~43.1 m, assuming a 45° shadow-cone half-angle (illustrative; exact shield radius/standoff not locked, see Open Questions). The cone widens moving away from the shield (tail), so panels are narrowest near the engine and widest toward the nose.
+
+**Counterweight boom radius: 2.77 m** — cargo (37.95 t) balancing the hab pod (8.46 t at r=12.4 m) sits much closer to the hub than the long-haul ships' counterweight booms, since cargo mass so heavily outweighs the hab pod here.
 
 ### Why fusion propulsion can't handle Ereshkigal's surface launch
 
