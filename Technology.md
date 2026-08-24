@@ -8,6 +8,8 @@
   - [1.1 Fusion Torch Drive: Network Standard](#1.1)
   - [1.2 The Danu Vehicle Fleet](#1.2)
   - [1.3 The Enlil System Vehicle Fleet](#1.3)
+  - [1.4 The Obatala Vehicle Fleet: Yemoja-Route ITV](#1.4)
+    - [1.4.1 Hab Pod: Twin-Boom Parallel-Pod Architecture](#1.4.1)
 - [2. Post-Collapse Electronics](#2)
   - [2.1 Material Sourcing and the Rare-Earth Wall](#2.1)
   - [2.2 Fabrication Tier](#2.2)
@@ -163,6 +165,60 @@ Neither the ascent nor the descent tank is recovered or reused. **Ascent tanks**
 **Descent tanks** are dropped near the end of final approach, close to the surface. They do not survive intact: a hard, uncontrolled impact on Ereshkigal's near-Earth 0.95g surface tears an empty aluminum tank apart rather than leaving salvageable structure. This turns out not to matter economically — **the same molten regolith electrolysis process already running continuously to supply the settlement's breathing oxygen produces surplus aluminum as an unavoidable byproduct**, so fresh tank stock is cheap relative to any recovery effort. Tanks are treated as consumable, not precious; propellant and structure both flow from the same ongoing life-support-driven industrial process, and there's no separate "propellant industry" or "tank-recycling industry" to speak of — just one shared resource loop that happens to feed both breathing air and rocket fuel.
 
 *Naming for the Ereshkigal fleet (see table above): Farfield PDV-2 (crew launcher), Farfield MD-C / "a bucket" (cargo), Farfield MD-T (propellant tank), and Safford OTO (the Enlil ITV variant).*
+
+<a name="1.4"></a>
+## 1.4 The Obatala Vehicle Fleet: Yemoja-Route ITV
+
+Yemoja's distance from Safford Obatala (co-orbital with Olokun, [Cosmology §5.3](Cosmology.md#5.3)) — ~9.05–9.95 AU — put it well outside the network-standard 350–400 km/s ΔV budget ([§1.1](#1.1) above), which was sized for the much shorter Danu haul. Reworking the trajectory and vehicle from first principles for this route surfaced a genuinely different design than the Lugh-route ITV, not just a rescaled copy.
+
+**Trajectory.** Modeled as a continuous-thrust brachistochrone (accelerate first half, flip, decelerate second half) rather than the Danu route's short-burn-plus-coast profile — a real architectural difference, not a scaled parameter. Distance used: ~9.51 AU chord, assuming a representative 90° orbital phase angle between Safford and Yemoja at departure. Transit time capped at **90 days**, yielding a required continuous acceleration of **0.00959g** and total **ΔV of 732 km/s**. Local departure/arrival gravity-well spiral phases (Safford's orbit around Olokun; Yemoja orbital insertion) were checked explicitly and found small — combined under 24 hours against the 90-day transit — because the ship's thrust substantially exceeds local gravity at the assumed parking-orbit radii; safe to treat the brachistochrone as unperturbed by local-body gravity for trajectory purposes.
+
+**Why continuous thrust, not short burns.** A short, high-thrust burn profile (matching the Danu route's style) was evaluated first and rejected: reproducing this route's ΔV in a burn lasting hours to a few days requires radiator areas in the tens of square kilometers, regardless of ship mass — a hard physical wall, not an engineering-margin problem (waste heat scales with mass flow while radiator capacity only scales with area × T⁴). Spreading the same total ΔV over a continuous 90-day burn instead drops peak jet power by roughly two orders of magnitude, making the radiator problem tractable. This is a deliberate, load-bearing design choice: **the Yemoja-route ITV cannot use a short-burn profile at any reasonable ship mass.**
+
+**Propulsion.** Doped Trelium fusion torch, run continuously rather than in short bursts — same underlying tech as the network standard ([§1.1](#1.1)), operated differently. Exhaust velocity **1,000 km/s** via bulk-propellant doping (see Propellant below), giving a 51.9% propellant mass fraction. Waste-heat fraction asserted at **15%** — a deliberate improvement over the 20% generic reference-design baseline (Atomic Rockets / Discovery II-class studies), representing Farfield's magnetic-nozzle engineering as somewhat more efficient than a generic baseline. *Flagged as an asserted canon choice, not derived from first principles — worth revisiting if a harder engineering justification is wanted later.*
+
+**Radiators.** Refractory-metal liquid-droplet type, operating at **2,000 K** — near the credible upper edge of real liquid-droplet radiator literature (vs. generic solid-panel designs around 1,250 K), chosen specifically because radiated power scales with T⁴, making this the single most effective lever against radiator size. Areal density 5 kg/m². Total radiator area **2,039 m²**, total mass **10.2 t**, split as two mirror-image panels mounted 90° off the hab/cargo boom line (self-balancing pair, so radiator mass does not factor into the primary hab/cargo spin balance). Panel shape (flat, in the radial-axial plane, facing tangentially) and exact split left as a modeling-stage decision — not load-bearing to the mass budget either way.
+
+**Mass budget (~524 t class vessel, 100 t cargo capacity):**
+
+| Component | Mass | Notes |
+| --- | --- | --- |
+| Propellant (doping/working fluid: water) | 271.6 t | Bulk propellant injected downstream of the fusion reaction to lower effective exhaust velocity and raise thrust |
+| Propellant (D + He-3 fusion fuel) | ~0.63 t | Negligible against total propellant — fusion's energy density means fuel mass is essentially a rounding error next to the doping propellant |
+| Radiator | 10.2 t | 2,039 m² total, 2,000 K, split panels |
+| Tankage | ~21.8 t | ~8% of propellant mass |
+| Spine structure | ~25.2 t | Booms + hub structure |
+| Hab pod | 65 t | See below |
+| Engine + shadow shield | 30 t | At hub, r=0 |
+| **Cargo** | **100 t** | Target figure — deliberately set to keep radiator size manageable; see fleet-size implication below |
+
+**Layout.** Engine and shadow shield sit at the hub (r=0), spin axis coincident with thrust axis. Propellant tanks (doping water, D₂, He-3, RCS) sit on-axis, fore/aft of the hub — mass that depletes over the trip contributes nothing to spin balance regardless of how much remains, and the tanks get short, simple feed lines to the engine. Cargo and radiator panels sit on booms offset from the hub, at fixed radius, providing spin balance against the hab pod on its own boom (see [§1.4.1](#1.4.1) below for hab-pod-specific geometry). Boom radii: hab boom 12.4 m (locked for consistency with hab-interior artificial-gravity design below); cargo boom ~8.06 m, solved from the balance condition (cargo mass alone, radiator panels excluded since they're mounted as a self-balancing pair off the boom line).
+
+**RCS and the mid-course flip.** Because the engine sits on the spin axis, a continuous burn imparts no gyroscopic precession — but reorienting 180° at the trajectory's midpoint (accelerate → decelerate) does fight the ship's own angular momentum if attempted while spinning. Resolved as **despin → flip → respin** at the midpoint (plus spin-up at departure and despin at arrival — four transitions total), rather than adding a second, reverse-facing engine at the hub, which was considered and rejected as unnecessary added engineering and a second radioactive-exhaust source to shield against. RCS propellant (hydrazine monopropellant, ~2,158 m/s exhaust velocity) sized from ship moment of inertia (~1.59×10⁷ kg·m² at 6 rpm, simplified two-point hab/counterweight model): **~1.49 t for four transitions, ~1.79 t with 20% margin** — negligible against the total mass budget.
+
+**Fleet-size implication.** 100 t cargo capacity per vessel is a small fraction of the Danu-route ITV's 2,500 t figure ([§1.2](#1.2) above) — matching any meaningful Obatala trade demand will require either a much larger fleet than Danu's 5–6 vessels, or a smaller per-route demand figure than Danu's 22,500 t/yr. Obatala's actual export/import demand figure is not yet locked; see [Open Questions](Open_Questions.md).
+
+<a name="1.4.1"></a>
+### 1.4.1 Hab Pod: Twin-Boom Parallel-Pod Architecture
+
+The Yemoja-route ITV's crew module uses a different geometry than a simple radial tower, resolved from a real engineering constraint: gravity depends only on radius from the spin axis (g = ω²r), not on axial position, so a module extended *axially* (parallel to the spin/thrust axis) at fixed radius gets exactly uniform gravity along its whole length — no curvature underfoot (unlike a tangential arc, structurally incompatible with a rigid radial spine) and no gravity gradient (unlike a radially-stacked tower).
+
+**Geometry:** straight cylindrical pod, ~4 m diameter × 30 m long, mounted on a boom at fixed r = 12.4 m (giving 0.5g at 6 rpm), its own long axis running parallel to the ship's spin/thrust axis. Floor is the outboard wall throughout the pod's length.
+
+**Interior layout, hub-end to outboard tip** (60 m² total floor, ~2 m usable width + 1 m corridor running the full length):
+
+| Zone | Length | Notes |
+| --- | --- | --- |
+| Bridge/access (Captain, Pilot, First Officer, Comms Officer) | 4.0 m | Hub end — shortest path to spine, docking, evac |
+| Medbay (Medic) | 2.5 m | Adjacent to bridge end — fast access in an emergency |
+| Galley + mess | 5.0 m | Mid-pod — the crew's one shared social space |
+| 8 private cabins (Chief Engineer, Engineer ×2, remaining crew) | 16.0 m (2.0 m each) | Outboard half — quietest section |
+| Heads ×2 | 2.5 m | Split between mid-pod and outboard end |
+
+Crew complement: Captain, Pilot, First Officer, Chief Engineer, Engineer ×2, Comms Officer, Medic (8 total).
+
+**Continuous-thrust gravity interaction:** during the 90-day burn, the ship's own 0.00959g of axial thrust combines with 0.5g of radial spin gravity as a vector sum, producing a net "down" vector tilted just **1.1° off pure-radial** — within the range building codes treat as functionally level (under ~1.19°), so no deck slanting or other correction is needed. Confirms the hab pod's artificial-gravity design is unaffected by the continuous-thrust trajectory profile.
+
 
 <a name="2"></a>
 # 2. Post-Collapse Electronics
