@@ -8,6 +8,7 @@
 - [2 Three ideological groups post-founding](#2)
 - [3 Labor classes (Nova Reach extraction pipeline)](#3)
 - [4 Post-Collapse Software and Information Culture](#4)
+- [5 Demonyms](#5)
 
 <a name="1"></a>
 ## 1 Historical colonist strata
@@ -44,6 +45,22 @@ Three constant material facts of life on Lugh — the slowness of its light, the
 
 **Underneath all of this: a quiet, specific resentment of being unseen.** Lugh feeds the 25,000–35,000 people on Safford, and by rights that should command real respect — but the people eating that food never meet the people who grew it, thanks to distance and a corporate culture that treats Lugh as a resource line item rather than a place with a name and a face. This is a different flavor of grievance from Safford's own direct, felt corporate control ([Infrastructure §2.2](Infrastructure.md#2.2)) — less about being controlled, more about being taken for granted by people who have never once watched the light shift across a twenty-two-day cycle, or checked a neighbor's seal before stepping outside.
 
+### Boann: Culture and Belief
+
+Where Lugh's culture is shaped by sudden, mechanical death and self-reliance, Boann's is shaped by the opposite: an environment that feels safer day-to-day than anywhere else in the network, concealing a slow, one-way biological trap that most residents don't fully understand until it's already closed. The physiology behind this — Boann's 0.02g, the ~2-year cumulative adult threshold, and the categorically different case of children raised there from birth — is established in [PlanetData §Danu](PlanetData.md#danu); this section is the culture built on top of it.
+
+**The danger is leaving, not staying — which inverts every other colony's risk logic.** Nowhere else in the network is 0.02g itself lethal or even uncomfortable; there's no seal check, no vacuum two meters away. Boann reads, moment to moment, as the gentlest posting in Farfield's network. The actual hazard is invisible, cumulative, and only becomes real the day someone tries to go home. This produces a strange, delayed-fuse relationship with risk — nobody flinches at the environment itself, but there's a quiet, shared unease around timelines: how long has it been, how long is too long.
+
+**"Promotion" is the load-bearing lie, and it's a Purdue-style concealment, not a cartoonish one.** Farfield doesn't tell people Boann is dangerous — it tells them they're advancing. Long-term Boann postings are pitched and genuinely experienced as elite, low-stress, prestige assignments: better quarters, easier duty cycles, a status bump back on Safford paperwork. The corporate language never says "irreversible" — it says "specialized," "adapted," "suited for continued deployment." Workers accumulate the two-year threshold the way someone accumulates seniority, without ever being handed the number that matters.
+
+**Two-year adults and lifetime children are not the same population, and they know it.** Adults who crossed the threshold made a choice, even an uninformed one — there's a person to be angry at, a decision point to replay. Children born and raised on Boann never had a threshold to cross; their bodies were built for 0.02g from the first cell division, with no memory of ever being otherwise. This creates a real fault line within Boann itself: an adult population that still, quietly, mourns Safford, and a native-born generation that finds the very idea of "home gravity" being 0.5g faintly absurd — Safford is the strange place, not Boann.
+
+**Movement culture is genuinely its own thing, not just "microgravity but managed."** At 0.02g, walking in the Earth-normal sense barely exists — propulsion is push-off-and-glide, and children raised there develop a fluency and grace at it that reads as almost aquatic or aerial to a visitor. This plausibly becomes a real aesthetic: dance, sport, and art built around controlled drift and rebound rather than footfall, in the same way Lugh built a culture around wind. A first-generation adult who still remembers walking on Safford and a Boann-born teenager watching them stump around post-return-therapy in a brace experience the same motion as, respectively, a lost skill and a foreign one.
+
+**The medical mitigation is real, partial, and permanently visible — which makes it a marker, not a fix.** Bisphosphonate/centrifuge/compression-garment protocols let a determined adult survive a transfer back to 0.5g, but the skeletal deficit never fully closes. Boann-return workers on Safford are identifiable on sight — careful gait, visible bracing, a permanently lighter build — the same way a Luish pilot's squint or a hazard-crew member's scarring marks them elsewhere. Unlike those markers, this one carries no pride; it reads as damage, which is exactly what Farfield's framing was built to prevent anyone from calling it.
+
+**The resentment, when it surfaces, is aimed at the story more than the place.** Boann's version of Lugh's "unseen" grievance isn't neglect — it's being sold a promotion that was actually a one-way door, and finding out only once the door is shut. That anger has nowhere obvious to land, since no single person lied outright — every document technically told the truth, just never all of it in the same paragraph. This makes Boann's disillusionment quieter and more corrosive than Lugh's, closer to how a Purdue patient's anger curdles once they understand what "non-habit-forming" actually meant.
+
 <a name="4"></a>
 ## 4 Post-Collapse Software and Information Culture
 
@@ -60,3 +77,22 @@ The pre-collapse assumption that hardware always improves — already an establi
 **A distributed, swarm-native computing paradigm.** Given locally-fabbed chips are individually weak, and given Safford's drone-operations education track already trains systems thinking and swarm-behavior control theory ([Infrastructure §2.2](Infrastructure.md#2.2)), the culture's dominant paradigm becomes coordinating many small, cheap processors rather than building toward one powerful machine — a genuinely new invention shaped by necessity, not a retro throwback to pre-collapse computing.
 
 **Color as institutional hope.** Even through the long decades when displays are monochrome or, at best, field-sequential ([Technology §2.3](Technology.md#2.3)), the network's data formats preserve full color information losslessly rather than discarding it — a deliberate act of faith that color-capable hardware will eventually be common again. When three-phosphor color displays finally do reach ordinary people, old archives and images are seen in true color for the first time by anyone still alive to see them.
+
+<a name="5"></a>
+## 5 Demonyms
+
+Place/institution names stay bare (e.g. "Safford station," "Danu system," "Boann's ice shell"); person and culture references take the suffixed form below.
+
+| Location | Noun (person) | Adjective |
+|---|---|---|
+| Nova Reach (system/root) | Novan | Novan |
+| Safford (any station) | Saffordite | Safford (bare) |
+| Danu (system, post-independence) | Danaan | Danu (places/institutions) / Danaan (people/culture) |
+| Lugh | Luan | Luish |
+| Boann | Boannite | Boann (places) / Boannite (people/culture) |
+| Obatala (Technocratic Zone) | Obatalan | Obatalan |
+| Yemoja | Yemojan | Yemojan |
+| Olokun | Olokunite | Olokunite |
+| Ereshkigal | Ereshkigali | Ereshkigali |
+
+*"Danaan" deliberately echoes the Tuatha Dé Danann ("people of the goddess Danu") — a real mythological fit rather than an invented coinage. "Obatalan" is kept flatter by contrast: Obatala is a corporate Technocratic Zone, not an independent nation, and has no equivalent grassroots identity built up yet.*
