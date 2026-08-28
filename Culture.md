@@ -7,8 +7,14 @@
 - [1 Historical colonist strata](#1)
 - [2 Three ideological groups post-founding](#2)
 - [3 Labor classes (Nova Reach extraction pipeline)](#3)
-- [4 Post-Collapse Software and Information Culture](#4)
-- [5 Demonyms](#5)
+- [4 Per-World Culture and Belief](#4)
+  - [4.1 Lugh](#4.1)
+  - [4.2 Boann](#4.2)
+  - [4.3 Olokun](#4.3)
+  - [4.4 Yemoja](#4.4)
+  - [4.5 Ereshkigal](#4.5)
+- [5 Post-Collapse Software and Information Culture](#5)
+- [6 Demonyms](#6)
 
 <a name="1"></a>
 ## 1 Historical colonist strata
@@ -29,7 +35,11 @@
 - Maintenance/retrieval technicians — smaller, specialized trade; physically service and recover malfunctioning drones.
 - Wormhole inspectors/engineers — rare, physics-literate specialists who judge seed viability by charge-to-mass ratio and threading-field response, and who stabilize/expand viable seeds into gates. Irreplaceable; the only people who can repair or create gates. Enormous post-collapse leverage.
 - Hazard/maintenance crews — present on every station network-wide. EVA/vacuum work, gate machinery tuning, emergency response. Tradesperson culture, tight-knit, informal experience-based hierarchy, high status despite blue-collar pay. Likely present (dead, or heroic) at the moment any given gate fails — natural candidates for post-collapse mythology.
-### Lugh: Culture and Belief
+<a name="4"></a>
+## 4 Per-World Culture and Belief
+
+<a name="4.1"></a>
+### 4.1 Lugh
 
 Three constant material facts of life on Lugh — the slowness of its light, the routine closeness of a fast, mechanical death just outside a dome, and decades of practiced self-governance — shape a culture that reads as distinct from anywhere else in the network, Safford included.
 
@@ -47,7 +57,7 @@ Three constant material facts of life on Lugh — the slowness of its light, the
 
 **0.70g plausibly grows things taller and spindlier than their Earth-normal counterparts** — less structural rigidity needed to hold a stem's own weight against gravity (a real botanical principle, though the specific magnitude is reasonable extrapolation rather than measured physics). That cuts directly against Lugh's own weather: tall, thin growth is more wind-vulnerable, not less, so real dome-agriculture practice plausibly means windbreak geometry oriented against terminator-driven gusts and generations of selective breeding toward sturdier local cultivars — the same "wind off the line" literacy already defining Lugh's aviation culture, applied to crops instead of aircraft.
 
-**A real cash-crop irony sits underneath all of this reverence.** Pre-collapse, Farfield's shipping priority runs one direction: the best of Lugh's harvest feeds the 25,000–35,000 people on Safford, since that's the larger, more institutionally important population, and what stays on Lugh is the lower-grade surplus not quite good enough to justify the shipping cost. Farmers who treat their crop with something close to devotion are, in the most literal sense, growing food they rarely eat the best of — framed by Farfield, when it's framed at all, as simple logistics rather than exploitation, the same bland corporate language doing work elsewhere in the network ([Culture, Boann subsection](#3)). This is plausibly one of the first things Lugh's post-collapse leadership changes: once Aoife Kwiatkowski takes over Danu's independent leadership after the Severance ([People §2](People.md#2)), redirecting the best of Lugh's own harvest back to its own people is a small, immediately felt marker of what independence actually means.
+**A real cash-crop irony sits underneath all of this reverence.** Pre-collapse, Farfield's shipping priority runs one direction: the best of Lugh's harvest feeds the 25,000–35,000 people on Safford, since that's the larger, more institutionally important population, and what stays on Lugh is the lower-grade surplus not quite good enough to justify the shipping cost. Farmers who treat their crop with something close to devotion are, in the most literal sense, growing food they rarely eat the best of — framed by Farfield, when it's framed at all, as simple logistics rather than exploitation, the same bland corporate language doing work elsewhere in the network ([§4.2](#4.2)). This is plausibly one of the first things Lugh's post-collapse leadership changes: once Aoife Kwiatkowski takes over Danu's independent leadership after the Severance ([People §2](People.md#2)), redirecting the best of Lugh's own harvest back to its own people is a small, immediately felt marker of what independence actually means.
 
 **The terminator itself is a habitable line between two lethal extremes, not a boundary around a safe interior — and that shape produces its own hazard-driven language.** Stray too far toward the permanent dayside and heat becomes lethal; stray too far toward the permanent nightside and cold does. Living habitably on Lugh means staying on a strip, not inside a shelter — closer to a tightrope than a walled town. This plausibly produces genuine directional taboo baked into everyday language: "toward the day" and "toward the night" as shorthand for danger in either direction, taught to children as concretely as "don't touch the stove," with the terminator strip itself understood as the only safe place in the world by simple definition, not merely the most convenient one.
 
@@ -63,7 +73,8 @@ Three constant material facts of life on Lugh — the slowness of its light, the
 
 **Hairstyles adapted to the hood the way real headwear cultures always do.** Since the harness hood sits over the head rather than through the hair, tall or voluminous styles are impractical — they'd fight the hood for space or get crushed flat every time it's worn, which is most of a Luan's daylight hours. This plausibly pushes Lugh hairstyles toward close-cropped cuts, or braids and buns worn low at the nape rather than high on the crown, both to fit comfortably under the hood and to keep loose hair from tangling in the harness straps. The sliver of hair left visible below the hood's edge becomes a small, genuine site of personal style and display, precisely because it's the one part of a person's head presentation that's actually seen for most of the day.
 
-### Boann: Culture and Belief
+<a name="4.2"></a>
+### 4.2 Boann
 
 Where Lugh's culture is shaped by sudden, mechanical death and self-reliance, Boann's is shaped by the opposite: an environment that feels safer day-to-day than anywhere else in the network, concealing a slow, one-way biological trap that most residents don't fully understand until it's already closed. The physiology behind this — Boann's 0.02g, the ~2-year cumulative adult threshold, and the categorically different case of children raised there from birth — is established in [PlanetData §Danu](PlanetData.md#danu); this section is the culture built on top of it.
 
@@ -93,8 +104,23 @@ Where Lugh's culture is shaped by sudden, mechanical death and self-reliance, Bo
 
 **A borrowed line becomes local scripture, and its meaning is settled, not ambiguous.** The old line "Clear is the water that flows from the Boyne" — inherited, like the moon's name itself, from the Boann myth cycle back on Earth — gets pulled loose from its original context and re-anchored to the ice-water operations the moon is actually named for. Its meaning has settled into something close to *Boann provides*: an acknowledgment that the moon gives freely — water, gentleness, weightlessness — in a network otherwise defined by extraction and cost. It shows up worked into commemorative plaques at the borehole sites, stitched or painted into local craftwork, cited half-ironically by a first-generation worker and completely sincerely by someone Settled or native-born. The line is often shortened in everyday use to just **"Clear is the water"** — worn smooth by repetition the way a longer blessing gets clipped down to its essential phrase over generations of casual use; the full line is reserved for more formal or commemorative contexts.
 
-<a name="4"></a>
-## 4 Post-Collapse Software and Information Culture
+<a name="4.3"></a>
+### 4.3 Olokun
+
+*Not yet developed.* Olokun's economic role (hydrocarbon extraction, then post-collapse agricultural buildout) and physical settlement pattern (anchored harvesting platforms, underground coastal bases, full-pressure EVA suits) are established in [Infrastructure §3](Infrastructure.md#3), but the lived culture built on top of those material facts — how multi-year seasons, permanent EVA risk, and Nova Reach's tight post-collapse ownership actually shape daily life and belief — is an open question (see [Open_Questions.md](Open_Questions.md)).
+
+<a name="4.4"></a>
+### 4.4 Yemoja
+
+*Not yet developed.* Yemoja's post-collapse emergence as Obatala's genuinely autonomous settlement (a consequence of its comm-delay isolation from Safford, [Politics §4.5](Politics.md#4.5)/[§5.1](Politics.md#5.1)) suggests a culture with more room for organic self-governance than Olokun's — closer in spirit to Lugh's independence than to Enlil's subordination — but this hasn't been worked out in any detail yet.
+
+<a name="4.5"></a>
+### 4.5 Ereshkigal
+
+*Not yet developed.* Ereshkigal's settlement design — permanently settled population of 3,000, cut-and-cover construction, deep-nightside siting, offset habitation/industrial/reactor structures — is locked in [Infrastructure §3](Infrastructure.md#3), but the social and cultural texture of daily life there (a small, permanent, single-resource outpost genuinely isolated even by network standards) is still an open question.
+
+<a name="5"></a>
+## 5 Post-Collapse Software and Information Culture
 
 The pre-collapse assumption that hardware always improves — already an established working principle in ITV spin-gravity engineering ([Technology §1.2](Technology.md#1.2)) — breaks for the first time in the network's history after Year 92 ([Technology §5.1](Technology.md#5.1)): hardware stops improving and starts getting scarcer, for roughly a century. Software culture reorganizes itself completely around that reversal.
 
@@ -104,14 +130,14 @@ The pre-collapse assumption that hardware always improves — already an establi
 
 **A new network protocol.** A dense, binary, schema-first data format (structurally closer to Protocol Buffers or CBOR than to text-based formats like JSON or HTML) replaces anything requiring on-the-wire text parsing — every byte and every CPU cycle spent decoding data is a real cost on megahertz-tier hardware, and fixed, pre-agreed schemas let fields go across the wire as raw typed values with no names attached at all.
 
-**Efficiency becomes a form of status**, the same way hazard-crew work is blue-collar but genuinely respected ([§3](#3) above) — a programmer who can shave a routine's power draw or cycle budget isn't just skilled, they're keeping something alive.
+**Efficiency becomes a form of status**, the same way hazard-crew work is blue-collar but genuinely respected ([Culture §3](#3) above) — a programmer who can shave a routine's power draw or cycle budget isn't just skilled, they're keeping something alive.
 
 **A distributed, swarm-native computing paradigm.** Given locally-fabbed chips are individually weak, and given Safford's drone-operations education track already trains systems thinking and swarm-behavior control theory ([Infrastructure §2.2](Infrastructure.md#2.2)), the culture's dominant paradigm becomes coordinating many small, cheap processors rather than building toward one powerful machine — a genuinely new invention shaped by necessity, not a retro throwback to pre-collapse computing.
 
 **Color as institutional hope.** Even through the long decades when displays are monochrome or, at best, field-sequential ([Technology §2.3](Technology.md#2.3)), the network's data formats preserve full color information losslessly rather than discarding it — a deliberate act of faith that color-capable hardware will eventually be common again. When three-phosphor color displays finally do reach ordinary people, old archives and images are seen in true color for the first time by anyone still alive to see them.
 
-<a name="5"></a>
-## 5 Demonyms
+<a name="6"></a>
+## 6 Demonyms
 
 Place/institution names stay bare (e.g. "Safford station," "Danu system," "Boann's ice shell"); person and culture references take the suffixed form below.
 
