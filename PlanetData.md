@@ -21,7 +21,7 @@
 - **Atmospheric pressure**: for the three gas giants, SpaceEngine defines a planet's `Radius` as the 1-bar reference level by convention — so "1 bar (by definition, at stated radius)" is a real fact, not a guess. No pressure has been established for any rocky world **except Lugh**, whose thick cometary-delivered CO2 atmosphere (1.8 bar) is now bible-established (see Worldbuilding Bible discussion) precisely because it's narratively load-bearing — it distinguishes Lugh from Boann, enables surface settlement and low-gravity/thick-air flight, and isn't just decorative.
 - **Atmospheric composition**: only Goibniu has an explicit scripted composition. Everything else is either SpaceEngine-procedural (not fixed in our script) or only described qualitatively in the bible — noted where the bible says something, TBD otherwise.
 - **Comm delay from Safford**: only computed for worlds with an actual settlement the bible discusses coordinating with (Lugh, Yemoja, Olokun, Ereshkigal). Uninhabited/unvisited bodies are marked N/A rather than given a meaningless number.
-- **Population**: only Ereshkigal has a bible-stated number (2,000–4,000, rotational). Everything else is TBD — the bible describes Lugh/Yemoja/Olokun/Boann qualitatively (e.g. "primary agricultural hub") without hard population figures. Station (Safford) populations are noted separately per system since they're bible-established but describe the *station*, not the planet.
+- **Population**: only Ereshkigal has a bible-stated number (3,000, permanently settled — not rotational). Everything else is TBD — the bible describes Lugh/Yemoja/Olokun/Boann qualitatively (e.g. "primary agricultural hub") without hard population figures. Station (Safford) populations are noted separately per system since they're bible-established but describe the *station*, not the planet.
 Units: stellar mass/radius in solar units (M☉/R☉); planetary mass/radius in Earth units (M⊕) and km. Temperatures in Kelvin. Distances in AU.
  
 ---
@@ -100,7 +100,7 @@ Units: stellar mass/radius in solar units (M☉/R☉); planetary mass/radius in 
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | Enlil A | White dwarf (DA4) | 0.62 M☉ | 0.009 R☉ | 2,097,535 m/s² (~213,900× Earth) | 15.32 AU (barycentric) | — | Teff 15,140 K | — | TBD | — | — |
 | Enlil B | K5V star | 0.68 M☉ | 0.701 R☉ | 379.2 m/s² (38.7× Earth) | 14.24 AU (barycentric) | — | Teff 4,390 K | — | TBD | — | — |
-| Enlil Ereshkigal | Phosphorus-rich rocky world | 0.400 M⊕ | 4,142.5 km | 9.29 m/s² (0.95× Earth) | 0.015 AU | TBD | 517.4 K (global avg — permanent day/night split, not uniform) | TBD | 0.85 days / ~20.4 hr (= orbital period, tidally locked) | 0.31–0.56 min (18–34 sec) one-way | **2,000–4,000 (bible-established, rotational)** |
+| Enlil Ereshkigal | Phosphorus-rich rocky world | 0.400 M⊕ | 4,142.5 km | 9.29 m/s² (0.95× Earth) | 0.015 AU | TBD | 517.4 K (global avg — permanent day/night split, not uniform) | TBD | 0.85 days / ~20.4 hr (= orbital period, tidally locked) | 0.31–0.56 min (18–34 sec) one-way | **3,000 (bible-established, permanently settled)** |
  
 *Note: Enlil c/d (rubble remnants) and the debris ring are not true planets, so excluded per your request.*
  
