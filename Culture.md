@@ -125,6 +125,7 @@ Place/institution names stay bare (e.g. "Safford station," "Danu system," "Boann
 | Obatala (Technocratic Zone) | Obatalan | Obatalan |
 | Yemoja | Yemojan | Yemojan |
 | Olokun | Olokunite | Olokunite |
+| Enlil (system) | Enlilite | Enlilite |
 | Ereshkigal | Ereshkigali | Ereshkigali |
 
-*"Danaan" deliberately echoes the Tuatha Dé Danann ("people of the goddess Danu") — a real mythological fit rather than an invented coinage. "Obatalan" is kept flatter by contrast: Obatala is a corporate Technocratic Zone, not an independent nation, and has no equivalent grassroots identity built up yet. "Luan"/"Luish" reflect that the "gh" in Lugh is silent (pronounced roughly "loo") — chosen over the phonetically similar "Loon"/"Loonish" to avoid that word's unrelated real-world connotations.*
+*"Danaan" deliberately echoes the Tuatha Dé Danann ("people of the goddess Danu") — a real mythological fit rather than an invented coinage. "Obatalan" is kept flatter by contrast: Obatala is a corporate Technocratic Zone, not an independent nation, and has no equivalent grassroots identity built up yet. "Luan"/"Luish" reflect that the "gh" in Lugh is silent (pronounced roughly "loo") — chosen over the phonetically similar "Loon"/"Loonish" to avoid that word's unrelated real-world connotations. "Enlilite" takes the "-ite" suffix pattern of real Near-Eastern/Semitic ethnonyms (cf. Israelite, Akkadite) — fitting given Enlil's own Mesopotamian mythological basis, and appropriately modest in scale for a system that, as of Year 92, holds a single ~3,000-person outpost rather than a settled population large enough to have built its own distinct identity.*
