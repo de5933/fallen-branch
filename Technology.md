@@ -313,7 +313,7 @@ Rebuilding from scratch, the colonies find their material base is a genuine mix 
 <a name="2.2"></a>
 ## 2.2 Fabrication Tier
 
-The achievable fabrication ceiling is contact/proximity photolithography — micron-scale features, hand-aligned masks under UV light, no exotic optics — roughly comparable to 1960s–70s Earth chip technology in raw capability, though built with the colonists' full modern theoretical knowledge rather than rediscovered from ignorance. In practice this means low transistor density, clock speeds in the megahertz range, and real, felt latency on compute-heavy tasks — see [Culture §4](Culture.md#4) for the distributed, swarm-native software culture this constraint produced.
+The achievable fabrication ceiling is contact/proximity photolithography — micron-scale features, hand-aligned masks under UV light, no exotic optics — roughly comparable to 1960s–70s Earth chip technology in raw capability, though built with the colonists' full modern theoretical knowledge rather than rediscovered from ignorance. In practice this means low transistor density, clock speeds in the megahertz range, and real, felt latency on compute-heavy tasks — see [Culture §5](Culture.md#5) for the distributed, swarm-native software culture this constraint produced.
 
 Basic wireless communication (radio, short-range data/voice links) is comfortably achievable at this tier, since it depends on antennas, oscillators, and amplifiers rather than dense logic or exotic RF front-end chips. High-bandwidth wireless data at modern speeds is not.
 
@@ -326,7 +326,7 @@ Monochrome CRT is the universal baseline throughout reconstruction — glass, va
 
 - **Field-sequential color** (a single monochrome tube behind a spinning red/green/blue filter wheel, synced to frame rate — the same principle used on the real Apollo lunar rover's color camera) is the earliest color technology available: mechanical, maintenance-heavy, and the first luxury/prestige display, reserved for administrators and critical control rooms in the same texture as Safford's stratified food service ([Infrastructure §2.2](Infrastructure.md#2.2)).
 - **Three-phosphor color CRTs**, using pre-rare-earth phosphor chemistry (cadmium-based reds, zinc-sulfide-family greens and blues — the same chemistry real Earth color television used before the rare-earth generation of phosphors), spend decades in prototype and pilot-scale development before becoming reliable and cheap enough to displace field-sequential displays as the common standard.
-- Throughout this entire period, data formats and protocols ([Culture §4](Culture.md#4)) preserve full color information losslessly even while displays remain monochrome or field-sequential — a deliberate act of institutional hope that color hardware will eventually be common again. The eventual arrival of cheap three-phosphor displays means old archives and images are finally seen in true color for the first time by anyone still alive to see them.
+- Throughout this entire period, data formats and protocols ([Culture §5](Culture.md#5)) preserve full color information losslessly even while displays remain monochrome or field-sequential — a deliberate act of institutional hope that color hardware will eventually be common again. The eventual arrival of cheap three-phosphor displays means old archives and images are finally seen in true color for the first time by anyone still alive to see them.
 
 <a name="3"></a>
 # 3. Energy Storage: The Battery Chemistry Ceiling
@@ -372,7 +372,7 @@ What follows is roughly a century of bootstrapped reconstruction, not a single r
 - **Years ~170–200, First indigenous integrated circuits.** Contact/proximity photolithography stood up as real infrastructure — a genuinely dated, celebrated milestone: the day the colonies could build their own chips again, not merely patch old ones.
 - **Years 200+, Maturation.** Yield and scale improve; color-capable displays move from prototype to common availability ([§2.3](#2.3) above).
 
-See [§2](#2) above for the material and technical detail behind each stage, and [Culture §4](Culture.md#4) for the software culture this constraint produced.
+See [§2](#2) above for the material and technical detail behind each stage, and [Culture §5](Culture.md#5) for the software culture this constraint produced.
 
 <a name="5.2"></a>
 ## 5.2 The Frozen Archive
@@ -396,7 +396,7 @@ Peak pre-collapse computing is 178 years of continuous engineering refinement on
 - **Neuromorphic/analog accelerators** — dedicated non-von-Neumann hardware purpose-built for the inference workloads AI ([§6.2](#6.2) below) actually runs, distinct from general-purpose compute rather than an application running on it.
 - **Narrow-purpose quantum co-processors** — not general-purpose quantum computers, which remain commercially impractical even after 178 years, but specialized systems for the narrow class of problems quantum hardware is actually suited to: optimization and quantum-chemistry-style simulation. The one significant in-universe application is **quantum-assisted modeling in wormhole-seed viability characterization** ([Cosmology §2.4](Cosmology.md#2.4)) — a small number of these systems exist, concentrated at Nova Reach, supporting the wormhole engineers' threading-field response work ([Culture §3](Culture.md#3)).
 
-**What this costs post-collapse.** Photonic interconnect, neuromorphic accelerators, and especially the quantum co-processors sit well beyond the reconstruction arc's achievable ceiling ([§2.2](#2.2) above) — they depend on fabrication and materials infrastructure ([§2.1](#2.1)) far deeper than contact/proximity photolithography can ever reach, not merely on the rare-earth dopants already walled off. These aren't degraded by the collapse; they're gone outright, with no reconstruction path at any stage of [§5.1](#5.1)'s timeline. This is the concrete, physical reason the "sacred legacy code" culture ([Culture §4](Culture.md#4)) is more than sentimental: some of that inherited software was written assuming hardware acceleration nobody will ever be able to build again, forcing the lean, low-density-hardware-native toolchain to be a genuine reinvention rather than a simple port.
+**What this costs post-collapse.** Photonic interconnect, neuromorphic accelerators, and especially the quantum co-processors sit well beyond the reconstruction arc's achievable ceiling ([§2.2](#2.2) above) — they depend on fabrication and materials infrastructure ([§2.1](#2.1)) far deeper than contact/proximity photolithography can ever reach, not merely on the rare-earth dopants already walled off. These aren't degraded by the collapse; they're gone outright, with no reconstruction path at any stage of [§5.1](#5.1)'s timeline. This is the concrete, physical reason the "sacred legacy code" culture ([Culture §5](Culture.md#5)) is more than sentimental: some of that inherited software was written assuming hardware acceleration nobody will ever be able to build again, forcing the lean, low-density-hardware-native toolchain to be a genuine reinvention rather than a simple port.
 
 <a name="6.2"></a>
 ## 6.2 Farfield AI: Capability and Architecture
