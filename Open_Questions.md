@@ -15,7 +15,8 @@
 - Assign any remaining unnamed system(s) or Enlil's second "interesting planet" slot, if desired.
 - Whether/how much of Sat-39's cause ([History §2.1](History.md#2.1): compounding mismanagement and deferred maintenance, in-universe unprovable) to reveal to the reader, and in how much detail, is not yet decided — the theory itself is locked, but its narrative disclosure is a separate open question.
 - Flesh out day-to-day life, culture, and government specifics for Danu, Obatala, and Enlil individually.
-- Map planet surfaces and place colonies — settlement locations, sizes, and layouts on Lugh, Boann, Yemoja, Olokun, and Ereshkigal.
+- Map planet surfaces and place colonies — settlement locations, sizes, and layouts on Lugh, Boann, Yemoja, and Olokun. Ereshkigal's settlement layout is now locked ([Infrastructure §3](Infrastructure.md#3)).
+- Ereshkigal's culture and daily life have not yet been developed (siting, construction, and power/heating are locked; social texture is not).
 - Survival on each planet: what hazards colonists deal with day to day and how each colony's infrastructure addresses them.
 - Local economies: what each colony actually produces, trades, and runs on beyond the network-wide resource chokepoints already established.
 - Medical effects of life on each planet — gravity, radiation, atmosphere, and other environmental factors specific to each world, beyond the general 0.5g station standard already established in [Infrastructure §2.1](Infrastructure.md#2.1).
