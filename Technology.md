@@ -14,6 +14,7 @@
   - [2.1 Material Sourcing and the Rare-Earth Wall](#2.1)
   - [2.2 Fabrication Tier](#2.2)
   - [2.3 Display Evolution](#2.3)
+  - [2.4 The Isolation: CME Vulnerability](#2.4)
 - [3. Energy Storage: The Battery Chemistry Ceiling](#3)
 - [4. Arms and Equipment](#4)
 - [5. Technological Reconstruction Timeline](#5)
@@ -339,6 +340,13 @@ Monochrome CRT is the universal baseline throughout reconstruction — glass, va
 - **Field-sequential color** (a single monochrome tube behind a spinning red/green/blue filter wheel, synced to frame rate — the same principle used on the real Apollo lunar rover's color camera) is the earliest color technology available: mechanical, maintenance-heavy, and the first luxury/prestige display, reserved for administrators and critical control rooms in the same texture as Safford's stratified food service ([Infrastructure §2.2](Infrastructure.md#2.2)).
 - **Three-phosphor color CRTs**, using pre-rare-earth phosphor chemistry (cadmium-based reds, zinc-sulfide-family greens and blues — the same chemistry real Earth color television used before the rare-earth generation of phosphors), spend decades in prototype and pilot-scale development before becoming reliable and cheap enough to displace field-sequential displays as the common standard.
 - Throughout this entire period, data formats and protocols ([Culture §5](Culture.md#5)) preserve full color information losslessly even while displays remain monochrome or field-sequential — a deliberate act of institutional hope that color hardware will eventually be common again. The eventual arrival of cheap three-phosphor displays means old archives and images are finally seen in true color for the first time by anyone still alive to see them.
+
+<a name="2.4"></a>
+## 2.4 The Isolation: CME Vulnerability
+
+Gate targeting/control and long-range comms share a single point of failure: both depend on matched, low-drift, low-noise analog circuitry, which is uniquely vulnerable to the induced surge currents a coronal mass ejection produces. This is what a Year 128 stellar flare and CME from Nova Reach's K-dwarf primary exploits, destroying Safford's control and comms instrumentation in one stroke while leaving cruder systems (life support, structure) and the gate throats themselves — stable per B-SKR physics, independent of any instrumentation — untouched. See [History §4](History.md#4) for the full event and its fifty-one-year aftermath.
+
+Restoring real-time throat-geometry correction requires first-generation indigenous ICs specifically, not merely discrete transistors ([§5.1](#5.1) below) — ordinary Stage 3 discrete components aren't matched or low-drift enough for the job. Nova Reach reaching that milestone by Year 179, near the front edge of the network-wide Stage 4 window ([§5.1](#5.1)), reflects the acceleration described there once reopening the gates became the colony's top national priority, not a change to the general tech ladder itself.
 
 <a name="3"></a>
 # 3. Energy Storage: The Battery Chemistry Ceiling
