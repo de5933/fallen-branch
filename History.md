@@ -11,11 +11,15 @@
   - [3.2 Phase 2: Aggressive Leadership and Military Escalation](#3.2)
   - [3.3 Phase 3: Negotiated Peace (from Year 95)](#3.3)
   - [3.4 Vehicles and Landing Tactics](#3.4)
-- [4. Earth: The Road to Nova Reach](#4)
-  - [4.1 Divergence and the Second Space Race (1970s–1991)](#4.1)
-  - [4.2 America's Costly Bet (1970s–1990s)](#4.2)
-  - [4.3 Boom and Consolidation (1990s–2012)](#4.3)
-  - [4.4 Two Waves of Colonists](#4.4)
+- [4. The Isolation (Year 128–179)](#4)
+  - [4.1 The Flare and the Failure](#4.1)
+  - [4.2 Fifty-One Years of Blackout](#4.2)
+  - [4.3 Resolution and Reunion](#4.3)
+- [5. Earth: The Road to Nova Reach](#5)
+  - [5.1 Divergence and the Second Space Race (1970s–1991)](#5.1)
+  - [5.2 America's Costly Bet (1970s–1990s)](#5.2)
+  - [5.3 Boom and Consolidation (1990s–2012)](#5.3)
+  - [5.4 Two Waves of Colonists](#5.4)
 
 <a name="1"></a>
 # 1. Premise
@@ -111,33 +115,67 @@ Neither side possesses anything resembling a warship. Nova Reach's forces are a 
 The war is therefore fought entirely as a **ground/landing-zone conflict**, structurally similar to an opposed amphibious landing with no landing-craft doctrine on the attacker's side: Castellane's forces arrive via slow, unarmed transports with an unavoidable, visible final descent, and Danu's defenders don't need ships or orbital assets at all — they only need to make the small number of physical landing points (above) lethal with prepared fields of fire and repurposed equipment.
 
 <a name="4"></a>
-# 4. Earth: The Road to Nova Reach
+# 4. The Isolation (Year 128–179)
+
+<a name="4.1"></a>
+## 4.1 The Flare and the Failure
+
+**Cause:** a severe, unpredicted stellar flare and coronal mass ejection from Nova Reach's K-dwarf primary strikes Safford station in Year 128 (36 years after the Severance Event). The star's elevated flare risk was known beforehand; Farfield had assessed it as low enough to skip hardening and shielding for sensitive electronics — a cost decision, not sabotage, and not an engineering oversight anyone could be prosecuted for after the fact.
+
+**Mechanism:** the X-ray/UV flash arrives at light speed, giving no warning. The CME's plasma cloud follows hours later, inducing surge currents that destroy the matched, low-drift, low-noise analog circuitry underlying both gate targeting/control and long-range comms — the same underlying vulnerability accounts for both losses at once. Cruder systems (life support, structure) ride out the surge undamaged.
+
+**The gate throats themselves are undamaged.** This is consistent with the locked rule that only deliberate sabotage can cause a gate failure ([§2.1](#2.1)) — the throats are stable per B-SKR physics ([Cosmology §2](Cosmology.md#2)) independent of Safford's instrumentation, and the CME cloud is far too large and diffuse to pass through a wormhole aperture regardless. What is lost is Nova Reach's ability to *aim, monitor, and communicate* — not the wormholes' physical stability.
+
+**Why every other system's gates keep working:** each branch system's own local control and comms hardware is untouched — only Safford Nova Reach's is fried. But because all inter-system transit and communication routes through Safford ([Infrastructure §1](Infrastructure.md#1)), the loss of Safford's instrumentation is a single point of failure for the entire network, not just for Nova Reach itself.
+
+<a name="4.2"></a>
+## 4.2 Fifty-One Years of Blackout
+
+**Effect:** a total blackout — no transit, no communication — between Nova Reach and all three branch systems (Danu, Obatala, Enlil), and between the branch systems themselves, since all three routes run through Safford. Nobody on any side has a way to know whether the loss is temporary or permanent.
+
+**Transit is still physically possible, but extremely dangerous** — threading a precise aperture blind, with no targeting instrumentation. Safford retains sole approval authority and keeps the gates locked down except for narrowly defined "emergencies": strictly, anything that helps restore gate control itself, such as a colony that can produce the transistors or microcircuits Nova Reach needs. This creates a one-sided power dynamic — Safford holds the only working gates and decides who gets to use them — and real resentment on the branch-system side.
+
+**Stranded travelers:** anyone mid-transit, or simply on the "wrong" side of Safford, when the flare hit is stranded there for the duration of the blackout — potentially decades, aging and integrating into a society not their own before any reunion becomes possible. This is a natural source of characters who belong fully to neither world — for instance, a stranded Nova Reach administrator who later returns home as an envoy after 179.
+
+**Narrative purpose:** roughly fifty-one isolated years let Danu, Obatala, and Enlil diverge culturally, each shaped independently and without Farfield's involvement, before Safford re-establishes contact — a structured device for exploring how each society develops on its own, and for reunion/reintegration stories once contact resumes.
+
+<a name="4.3"></a>
+## 4.3 Resolution and Reunion
+
+**The bottleneck is first-generation indigenous integrated circuits, not merely discrete transistors** — real-time correction of throat geometry needs matched, low-drift analog components that only IC-level fabrication can deliver. This fits the locked post-collapse tech ladder ([Technology §5.1](Technology.md#5.1)): salvage triage → vacuum tubes → discrete transistors → first indigenous ICs → maturation. Gallium and rare-earth dopants remain permanently absent ([Technology §2.1](Technology.md#2.1)), so the fix has to be homegrown silicon, not a shortcut.
+
+**Timeline: Year 128 to Year 179 — fifty-one years.** The end date is chosen so people who lived through the flare as adults can still be alive for the reunions that follow, not derived bottom-up from a fully worked engineering schedule. Pace starts as an ordinary civilizational rebuild, then accelerates through the back half once reopening the gates becomes Nova Reach's top national priority — partially offset by the resources and trade Nova Reach loses by being cut off from the branch systems for the same fifty-one years. The exact intermediate tech-ladder waypoints between 128 and 179 remain open, to be reverse-fit against [Technology §5.1](Technology.md#5.1) later.
+
+**Once gates and comms are restored, Safford sends envoys to re-establish contact** with Danu, Obatala, and Enlil — the reunion beat the fifty-one-year figure was chosen to enable, and the point at which each system's independent Isolation-era development becomes visible to the others for the first time.
+
+<a name="5"></a>
+# 5. Earth: The Road to Nova Reach
 
 Nova Reach's Year 0 corresponds to **2012** on Earth's calendar; the Severance Event (internal Year 92) corresponds to **2104**. The point of divergence from real-world history is the 1970s, when wormhole theory — built on the B-SKR fermionic framework — is confirmed and the first gate is stabilized. Everything below is the roughly forty-year gap between that divergence and Nova Reach's founding, establishing why the corporation that founds Nova Reach behaves the way it does.
 
-<a name="4.1"></a>
-## 4.1 Divergence and the Second Space Race (1970s–1991)
+<a name="5.1"></a>
+## 5.1 Divergence and the Second Space Race (1970s–1991)
 
 Both the United States and the USSR race to develop wormhole technology starting in the 1970s, extending Cold War logic directly into space. Both sides mine the easiest, closest sources first — asteroids and other inner-system bodies — before eventually reaching Saturn's rings, the ultimate cash crop for seed-harvesting ([Cosmology §2.2](Cosmology.md#2.2)). The rings are large enough that both superpowers mine in parallel without direct conflict, building separate wormhole networks side by side rather than competing for the same territory.
 
 The USSR ultimately cannot sustain this second space race. Wormhole technology demands precision engineering and continuous investment on top of the economic strain the Soviet system was already under, and the effort collapses along with the state in 1991, as in real history. Any Soviet wormhole infrastructure by that point is abandoned or absorbed in the aftermath. (Whether any element of that Soviet network survives as a distinct story element — rather than simply vanishing from the setting's relevant history — is not yet locked as canon; see [Open Questions](Open_Questions.md).)
 
-<a name="4.2"></a>
-## 4.2 America's Costly Bet (1970s–1990s)
+<a name="5.2"></a>
+## 5.2 America's Costly Bet (1970s–1990s)
 
 The United States can sustain the second space race, but only at real cost: massive upfront investment through the 1970s and 80s — government contracts, private equity, heavy debt — against a long, uncertain payoff period, straining the economy along the way.
 
 By the 1990s, seed harvesting starts yielding real, usable resources. The investment thesis validates, profits materialize, and the early corporate and government contractors who took the risk become rich and politically powerful.
 
-<a name="4.3"></a>
-## 4.3 Boom and Consolidation (1990s–2012)
+<a name="5.3"></a>
+## 5.3 Boom and Consolidation (1990s–2012)
 
 By the 2000s, a genuine economic boom follows — wormhole-derived resources supercharge entire sectors of the economy — but the gains consolidate into a corporate oligopoly rather than spreading broadly. Government deregulates to "encourage growth," labor protections erode, and safety standards weaken.
 
 By 2012, the year of Nova Reach's founding, the United States is economically strong and effectively unipolar on wormhole technology, but has become a more corporatized, less worker-friendly, less regulated version of itself relative to the real world's 2012. This is the direct root of Farfield's corporate culture: not abstract or cartoonish evil, but the logical extension of ordinary 2000s–2010s American corporate practice — amoral efficiency, cost-cutting, externalized risk, carried forward and intensified for another ninety years. It is the same culture that lets Sat-39 deteriorate through deferred maintenance and leaves its on-duty techs overworked and unequipped for the crisis that ultimately collapses it ([§2.1](#2.1)).
 
-<a name="4.4"></a>
-## 4.4 Two Waves of Colonists
+<a name="5.4"></a>
+## 5.4 Two Waves of Colonists
 
 The economic history above produces two distinct colonist psychologies, corresponding to the first- and second-wave migration pattern already established elsewhere in the bible ([Culture §1](Culture.md#1)):
 
