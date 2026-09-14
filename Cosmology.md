@@ -330,7 +330,7 @@ Named for the orisha of ocean depths and unknowable mystery.
 
 ### Orbital and Physical Data
 
-~9–10 AU, axial tilt ~22° (moderate, Earth-like), orbital eccentricity ~0.15–0.20 (a second, overlapping source of seasonal variation atop the tilt), orbital period ~27–30 years. Surface gravity 0.8g (7.85 m/s²), implying a mass of ~0.69 M⊕ at a 6,200 km radius and a bulk density of ~5,520 kg/m³ — slightly denser than Earth's average, consistent with a differentiated rocky world with a substantial core. Surface temperature ~90 K, held above methane/ethane's freezing point by a dense (~2–5 bar) methane/ethane-dominant atmosphere and orbital placement rather than by proximity alone.
+~9–10 AU, axial tilt ~22° (moderate, Earth-like), orbital eccentricity ~0.15–0.20 (a second, overlapping source of seasonal variation atop the tilt), orbital period ~27–30 years. Surface gravity 0.8g (7.85 m/s²) is the anchor figure, implying a mass of ~0.757 M⊕ at a 6,200 km radius and a bulk density of ~4,528 kg/m³ — less dense than Earth's average, consistent with a rocky world with a smaller metallic core fraction rather than Earth's substantial one. Surface temperature ~90 K, held above methane/ethane's freezing point by a dense (~2–5 bar) methane/ethane-dominant atmosphere and orbital placement rather than by proximity alone. Atmosphere composition is locked at a 70:30 methane:ethane ratio by mole fraction, giving a mean molar mass of 20.25 g/mol and a scale height of 4.71 km.
 
 ### Sky and Landscape
 
@@ -345,18 +345,19 @@ Essentially featureless from orbit: a smooth, hazy orange-tan globe, Titan-style
 
 ### Siting
 
-Co-orbital with Olokun, Phobos/Deimos-style, rather than sited on a dedicated moon of its own — a deliberate departure from the station's original asteroid-belt siting, and the reason Olokun sits in near-instant comm contact with Safford while Yemoja, ~9 AU further out, does not. Full architectural detail lives in [Infrastructure §2.1](Infrastructure.md#2.1).
+Anchored on Aganju, a small captured irregular moon of Olokun ([§5.4](#5.4)), rather than sited directly co-orbital with Olokun itself or on a dedicated moon of its own — a deliberate departure from the station's original asteroid-belt siting. Safford's throat was extracted from the original belt-asteroid discovery body (~2–4 AU, [§5.4](#5.4)) and re-anchored into Aganju rather than towing the whole body, the same logic that leaves Danu's and Enlil's host bodies unnamed "Safford" while Aganju — with actual history behind it — earned a name. This still puts Olokun in near-instant comm contact with Safford while Yemoja, ~9 AU further out, remains isolated. Full architectural detail lives in [Infrastructure §2.1](Infrastructure.md#2.1).
 
 ### View From the Station
 
-No gas giant here — Safford Obatala co-orbits Olokun itself (a terrestrial-scale ocean world, not a giant), Phobos/Deimos-style, so what looms large is a hazy orange-brown sphere at close range rather than a banded giant. The star (G8V–K0V, Teff 5,240K) is dim here — Olokun sits ~9–10 AU out, roughly Saturn's remove from Sol — so it reads as a modest, pale-yellow point. No rings, no companion star. Background: Obatala Galaxy is an Sc spiral — the most "textbook Milky Way" sky of the four, with a bright structured band, visible O/B stars, and pink-tinged HII regions.
+No gas giant here — Safford Obatala orbits Aganju in close orbit around Olokun itself (a terrestrial-scale ocean world, not a giant), so what looms large is a hazy orange-brown sphere at close range rather than a banded giant. The star (G8V–K0V, Teff 5,240K) is dim here — Olokun sits ~9–10 AU out, roughly Saturn's remove from Sol — so it reads as a modest, pale-yellow point. No rings, no companion star. Background: Obatala Galaxy is an Sc spiral — the most "textbook Milky Way" sky of the four, with a bright structured band, visible O/B stars, and pink-tinged HII regions.
 
 <a name="5.4"></a>
 ## 5.4 Minor and Uncatalogued Bodies
 
 - Obatala b — rocky, molten, tidally locked, ~0.1 AU
 - Obatala d, e — unremarkable rocky worlds, ~0.7–1.2 AU
-- Asteroid belt — ~2–4 AU (source of imported ice for Olokun's agriculture)
+- **Aganju** — small captured irregular moon of Olokun, ~10–15 km mean radius, rock/rubble composition. Orbit: semi-major axis 25,000 km, e=0.3 (periapsis ~11,300 km alt / apoapsis ~26,300 km alt), ~12.6 hr period. The eccentricity is a relic of an ancient resonance with a second moon, since ejected — left as background detail, not further developed. Named for the orisha of iron and metallurgy; unlike Danu's and Enlil's host bodies (both left unnamed, simply "Safford"), Aganju has real history: Safford Obatala's throat was extracted from the system's original belt-asteroid discovery body and re-anchored here rather than towing the whole asteroid in. See [§5.3](#5.3) for the station siting.
+- Asteroid belt — ~2–4 AU (source of imported ice for Olokun's agriculture; also Aganju's throat's original discovery site, above)
 - Obatala f — gas giant, ~8 AU. A minor Trelium source at best, nothing like Goibniu's rich helium enrichment ([§3.1](#3.1)) — not presently worth the infrastructure to exploit.
 - Obatala f I, II — minor moons
 
