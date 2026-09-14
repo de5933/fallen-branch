@@ -10,6 +10,7 @@
   - [1.3 The Enlil System Vehicle Fleet](#1.3)
   - [1.4 The Obatala Vehicle Fleet: Yemoja-Route ITV](#1.4)
     - [1.4.1 Hab Pod: Twin-Boom Parallel-Pod Architecture](#1.4.1)
+  - [1.5 The Olokun Vehicle Fleet: Spaceplane and Aganju OTV](#1.5)
 - [2. Post-Collapse Electronics](#2)
   - [2.1 Material Sourcing and the Rare-Earth Wall](#2.1)
   - [2.2 Fabrication Tier](#2.2)
@@ -212,7 +213,7 @@ Neither the ascent nor the descent tank is recovered or reused. **Ascent tanks**
 <a name="1.4"></a>
 ## 1.4 The Obatala Vehicle Fleet: Yemoja-Route ITV
 
-Yemoja's distance from Safford Obatala (co-orbital with Olokun, [Cosmology §5.3](Cosmology.md#5.3)) — ~9.05–9.95 AU — put it well outside the network-standard 350–400 km/s ΔV budget ([§1.1](#1.1) above), which was sized for the much shorter Danu haul. Reworking the trajectory and vehicle from first principles for this route surfaced a genuinely different design than the Lugh-route ITV, not just a rescaled copy.
+Yemoja's distance from Safford Obatala (anchored on Aganju, a captured moon of Olokun, [Cosmology §5.3](Cosmology.md#5.3)) — ~9.05–9.95 AU — put it well outside the network-standard 350–400 km/s ΔV budget ([§1.1](#1.1) above), which was sized for the much shorter Danu haul. Reworking the trajectory and vehicle from first principles for this route surfaced a genuinely different design than the Lugh-route ITV, not just a rescaled copy.
 
 **Trajectory.** Modeled as a continuous-thrust brachistochrone (accelerate first half, flip, decelerate second half) rather than the Danu route's short-burn-plus-coast profile — a real architectural difference, not a scaled parameter. Distance used: ~9.51 AU chord, assuming a representative 90° orbital phase angle between Safford and Yemoja at departure. Transit time capped at **90 days**, yielding a required continuous acceleration of **0.00959g** and total **ΔV of 732 km/s**. Local departure/arrival gravity-well spiral phases (Safford's orbit around Olokun; Yemoja orbital insertion) were checked explicitly and found small — combined under 24 hours against the 90-day transit — because the ship's thrust substantially exceeds local gravity at the assumed parking-orbit radii; safe to treat the brachistochrone as unperturbed by local-body gravity for trajectory purposes.
 
@@ -304,6 +305,23 @@ Corridor runs straight through the bridge's center (1 m wide, same convention as
 - *Heads ×2:* harsh, purely functional lighting; constant audible plumbing/recycling systems, louder than anywhere else onboard. No comfort concession at all.
 
 **Galley table.** Fixed rather than folding — matches real submarine precedent (mess/wardroom tables are typically fixed multi-use furniture, since they double as workspace, not just dining, and re-securing a removable table every use isn't worth the trade), and Farfield's preference for fewer moving parts. At the room's ~3.98 m usable width, a table sized for 8 (~2.4 m × 0.9 m) leaves ~1.5 m clear on each side unoccupied, dropping to a still-passable ~1.1 m each side with the crew seated at meals — comfortable clearance rather than a squeeze. Bench seating folds up against the bulkhead between meals, freeing the room as open gathering space.
+
+<a name="1.5"></a>
+## 1.5 The Olokun Vehicle Fleet: Spaceplane and Aganju OTV
+
+A split-vehicle architecture, locked: a spaceplane handles surface-to-low-orbit and back only, handing cargo off to a separate orbital transfer vehicle for the low-orbit-to-Aganju leg — distinct from the single-vehicle Lugh pattern ([§1.2](#1.2) above) because Olokun's low-orbit-to-Aganju hop is a real, non-trivial burn in its own right rather than a same-vehicle continuation.
+
+### Olokun Spaceplane — hybrid electric/methalox, single-stage reusable, TAV
+
+- **Ascent — two-mode propulsion, one airframe.** Low-altitude climb runs on electric ducted-fan propulsion, staying in the same family as the network's other electric-climb vehicles ([§1.2](#1.2)) — and unusually favorable here: Olokun's dense lower atmosphere gives roughly **9× Earth's payload per unit wing area** at matched airspeed, the best of any world in the network for this stage of flight. The vehicle stages functionally (not physically — same airframe, switched propulsion mode) to a methalox rocket at **~14.1 km altitude** once airspeed and altitude exceed what the fan can efficiently push against, continuing the climb to orbit.
+- **Propellant.** Methane is locally sourced — the same hydrocarbon extraction already supporting Olokun's economy ([Infrastructure §2](Infrastructure.md#2)) — and sits naturally near liquid storage temperature at Olokun's ambient 90 K, removing any need for dedicated methane liquefaction infrastructure. LOX has no local source and must be manufactured or imported, a standing dependency distinct from the fuel side.
+- **Reentry.** Olokun's dense atmosphere (2.5–6× Earth column mass) gives strong aerobraking on descent, shedding a large fraction of orbital velocity before the vehicle needs to rely on structure-taxing active braking — consistent with the gentler-than-Earth reentry environments seen elsewhere in the network's dense-atmosphere worlds ([§1.2](#1.2)).
+
+### Aganju OTV (orbital transfer vehicle) — adapted ITV design
+
+Handles the low-orbit-to-Aganju leg exclusively; never enters atmosphere, exchanging cargo with the Olokun Spaceplane via orbital rendezvous, the same handoff pattern as the Lugh/ITV pairing ([§1.2](#1.2)). Adapted from the existing ITV architecture ([§1.1](#1.1)/[§1.4](#1.4)) rather than designed from scratch. **~3 km/s one-way ΔV — confirmed not cheap:** Aganju's orbit (semi-major axis 25,000 km, e=0.3, [Cosmology §5.4](Cosmology.md#5.4)) is higher and more eccentric than real Phobos/Deimos, so this leg carries a genuine, non-trivial propellant cost rather than the near-free hop a closer or more circular moon would allow.
+
+*Open: official Farfield designators for both vehicles, and a full mass/ΔV budget for the Aganju OTV variant — not yet locked; see [Open Questions](Open_Questions.md).*
 
 
 <a name="2"></a>
