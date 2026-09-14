@@ -36,5 +36,8 @@
 - Lock an exact lifetime cumulative low-g exposure limit for Boann workers ([Infrastructure §3](Infrastructure.md#3), Boann subsection) — now locked at roughly **two years cumulative exposure** as Farfield's internally-tracked (undisclosed) adult threshold; whether it's a hard numeric cap or case-by-case medical judgment beyond that baseline figure remains open.
 - Decide whether the post-collapse AR-glasses repair economy ([Technology §7.3](Technology.md#7.3)) remains a permanently dwindling, non-renewable resource, or whether a cruder indigenous replacement becomes buildable once photolithography returns (Years ~170–200, [Technology §5.1](Technology.md#5.1)).
 - Decide whether the "glasses-off means privacy" gesture ([Technology §7.4](Technology.md#7.4)) persists as inherited cultural habit on independent, post-collapse Danu, where Farfield's specific hardware and monitoring apparatus no longer exist.
+- Re-derive the Olokun Spaceplane's ducted-fan-to-methalox staging altitude ([Technology §1.5](Technology.md#1.5)) now that Olokun's surface temperature/scale height moved from 90 K/4.71 km to 155 K/~8.11 km — the old ~14.1 km figure predates the revision and hasn't been rechecked.
+- Lock Olokun's petrochemical (ethylene/methanol) production tonnage and demand figures ([Infrastructure §2](Infrastructure.md#2), Olokun subsection) — the refining role itself is locked, exact output/economics are not.
+- Develop Olokun's settlement name and detailed layout, and complete Culture §4.3 (material facts and several culture threads are now locked — crush-vessel architecture, oil/tar terminology, 155K/26%-scattered-seas geography, controlled-node hazard psychology — but the section itself isn't yet drafted into Culture.md).
 
 
