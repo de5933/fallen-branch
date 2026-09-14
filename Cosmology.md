@@ -371,7 +371,7 @@ No gas giant here — Safford Obatala orbits Aganju in close orbit around Olokun
 - Obatala b — rocky, molten, tidally locked, ~0.1 AU
 - Obatala d, e — unremarkable rocky worlds, ~0.7–1.2 AU
 - **Aganju** — small captured irregular moon of Olokun, ~10–15 km mean radius, rock/rubble composition. Orbit: semi-major axis 25,000 km, e=0.3 (periapsis ~11,300 km alt / apoapsis ~26,300 km alt), ~12.6 hr period. The eccentricity is a relic of an ancient resonance with a second moon, since ejected — left as background detail, not further developed. Named for the orisha of iron and metallurgy; unlike Danu's and Enlil's host bodies (both left unnamed, simply "Safford"), Aganju has real history: Safford Obatala's throat was extracted from the system's original belt-asteroid discovery body and re-anchored here rather than towing the whole asteroid in. See [§5.3](#5.3) for the station siting.
-- Asteroid belt — ~2–4 AU (source of imported ice for Olokun's agriculture; also Aganju's throat's original discovery site, above)
+- Asteroid belt — ~2–4 AU (Aganju's throat's original discovery site, [§5.3](#5.3); no longer Olokun's water source — local permafrost ice supplies that directly, [Infrastructure §3](Infrastructure.md#3))
 - Obatala f — gas giant, ~8 AU. A minor Trelium source at best, nothing like Goibniu's rich helium enrichment ([§3.1](#3.1)) — not presently worth the infrastructure to exploit.
 - Obatala f I, II — minor moons
 
